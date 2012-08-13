@@ -1,11 +1,11 @@
-title : Blog Title
-tagline: Blog Tagline
+title : DouO's Blog
+tagline: so sad!
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Tiou Lims
+  email : dourokinga@gmail.com
+  github : douo
+  twitter : dourok
+  feedburner : douo
 
 navigation :
   - archive.html

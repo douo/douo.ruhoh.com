@@ -1,0 +1,15 @@
+---
+layout: post
+title: First
+---
+
+``` ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+我是中文
+國家
+
+[wtf](https://google.com)

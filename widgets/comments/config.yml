@@ -1,6 +1,6 @@
-layout : disqus
+layout : my_disqus
 disqus :
-  short_name : douosblog
+  short_name : ruhoh
 livefyre :
   site_id : 123
 intensedebate :

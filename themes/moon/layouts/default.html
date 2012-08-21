@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  {{# page.description }}
+    <meta name="description" content="{{ . }}">
+  {{/ page.description }}
+  {{{ assets }}}
+</head>
+<body>
+
+    <div class="content">
+      {{{ content }}}
+    </div>
+
+  {{{ analytics }}}
+  </body>
+</html>

@@ -2,7 +2,7 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : moon
+theme : twitter
 production_url : http://douo.ruhoh.com
 
 posts:

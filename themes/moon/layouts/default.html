@@ -10,10 +10,18 @@
 </head>
 <body>
 
-    <div class="content">
-      {{{ content }}}
-    </div>
+  <div class="content">
 
+  {{# posts_latest }}
+    <li>
+      <a href="{{url}}">{{title}}</a>
+      {{#tags}}
+      <span class="tag">{{ . }}</span>
+      {{/tags}}
+    </li>
+  {{/ posts_latest }}
+  </ul>
+    </div>
   {{{ analytics }}}
   </body>
 </html>

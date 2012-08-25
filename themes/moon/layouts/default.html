@@ -1,27 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <title>{{ site.title }}</title>
   {{# page.description }}
     <meta name="description" content="{{ . }}">
   {{/ page.description }}
-  {{{ assets }}}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    {{{ assets }}} 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
 </head>
 <body>
-
-  <div class="content">
-
-  {{# posts_latest }}
-    <li>
-      <a href="{{url}}">{{title}}</a>
-      {{#tags}}
-      <span class="tag">{{ . }}</span>
-      {{/tags}}
-    </li>
-  {{/ posts_latest }}
-  </ul>
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span10 offset2 hidden-phone">
+	<header>
+	  <h1>{{ site.title }}</h1>
+	  <blockquote>{{ site.tagline }}</blockquote>
+	</header>
+      </div>
+      <div class="span10 visible-phone">
+	<header>
+	  <h1>{{ site.title }}</h1>
+	  <blockquote>{{ site.tagline }}</blockquote>
+	</header>
+      </div>
     </div>
-  {{{ analytics }}}
+    <div class="row-fluid">
+      <div class="span2">
+	<nav class="nav" id="access">
+          <span class=""><a class="brand" href="/">Home</a></span>
+          <span>
+            {{# site.navigation?to_pages }}
+            {{> pages_list }}
+            {{/ site.navigation?to_pages }}
+          </span>
+       </nav>
+      </div>
+      <div class="span8 content">
+	{{# posts_latest }}
+	<article class="post">
+	  <h2 class="title">
+	    <a href="{{url}}">{{title}}</a>
+	    <span class="date">{{date}}</span>
+	  </h2>
+	  {{{ summary }}}
+	  <div class="more">
+	    <a href="{{url}}" class="btn">更多..</a>
+	  </div>
+
+	  
+	</article>
+	{{/ posts_latest }}
+      </div>
+   </div>
+</div>
+      <footer>
+        <p>&copy; {{ site.author.name }} 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    {{{ google_prettify }}}
+    {{{ analytics }}}
   </body>
 </html>

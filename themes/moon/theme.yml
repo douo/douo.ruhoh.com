@@ -1,9 +1,9 @@
 {
   "stylesheets" : {
     "default" : [
-      "style.css",
       "bootstrap.min.css",
-      "bootstrap-responsive.min.css"
+      "bootstrap-responsive.min.css",
+      "style.css"
     ],
     
     "page" : [

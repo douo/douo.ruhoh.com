@@ -1,0 +1,53 @@
+/* posts index */
+.post > h2.title {
+  position:relative;
+  padding-top:10px;
+  border-top:3px solid #eee;
+  font-size: 1.8em;
+}
+.post > h2.title span.date { 
+  position:absolute;
+  right:0;
+  font-size:0.9em;
+}
+.post > .more {
+  margin:10px 0;
+  text-align:left;
+}
+
+.content {
+    background-color: white;
+    margin: 10px 0px 50px 0px;
+    padding: 10px 20px;
+    moz-border-radius: 5px;
+    webkit-moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px #A8ABAB;
+    -moz-box-shadow: 0px 1px 3px #A8ABAB;
+    box-shadow: 0px 1px 3px #A8ABAB;
+}
+
+nav#access{
+	font-size: 1.1em;
+	text-transform: uppercase;
+	float: left;
+	width: 10em;
+	position: fixed;
+	text-align: right;
+	list-style-type: none;
+}
+nav#access a {
+	display: block;
+	padding: .7em 1em;
+	color: #000000;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	word-break:breakall;
+}
+nav#access a:hover {
+	background-color: #08C;
+	text-decoration: none;
+	color: #f9f9f9;
+	-webkit-transition: color .2s linear;
+}

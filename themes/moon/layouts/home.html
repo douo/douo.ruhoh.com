@@ -1,0 +1,15 @@
+---
+layout : default
+---
+{{# posts_latest }}
+<article class="post">
+<h2 class="title">
+<a href="{{url}}">{{title}}</a>
+<span class="date">{{date}}</span>
+</h2>
+{{{ summary }}}
+<div class="more">
+  <a href="{{url}}" class="btn">更多..</a>
+</div>
+</article>
+{{/ posts_latest }}

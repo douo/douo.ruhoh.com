@@ -6,14 +6,6 @@
       "style.css"
     ],
     
-    "page" : [
-    
-    ],
-    
-    "post" : [
-    
-    ],
-    
     "widgets" : {
 
     }
@@ -23,7 +15,7 @@
   "javascripts" : {
     "default" : [
     "jquery-1.8.0.js",
-    "bootstrap.min.js"
+    "bootstrap.js"
     ]
   }
   

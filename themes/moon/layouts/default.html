@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title }}</title>
+  <title>{{# page.home}}{{/ page.home}}{{^ page.home}}{{page.title}} |
+{{/ page.home}}{{ site.title }}</title>
   {{# page.description }}
     <meta name="description" content="{{ . }}">
   {{/ page.description }}
@@ -30,8 +31,13 @@
     <div class="row-fluid">
       <div class="span10 offset2 hidden-phone">
 	<header>
-	  <h1>{{ site.title }}</h1>
+	{{# page.home}}
+	<h1>{{ site.title }}</h1>
 	  <blockquote>{{ site.tagline }}</blockquote>
+	{{/ page.home}}
+	{{^ page.home}}
+	<h1>{{ page.title }}</h1>
+	{{/ page.home}}
 	</header>
       </div>
       <div class="span10 visible-phone">
@@ -43,30 +49,29 @@
     </div>
     <div class="row-fluid">
       <div class="span2">
-	<nav class="nav" id="access">
-          <span class=""><a class="brand" href="/">Home</a></span>
-          <span>
+	<div class="visible-phone">
+	  	<nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
+
+          <ul>
+	          <li><a class="brand" href="/">Home</a></li>
             {{# site.navigation?to_pages }}
             {{> pages_list }}
             {{/ site.navigation?to_pages }}
-          </span>
+          </ul>
        </nav>
-      </div>
-      <div class="span8 content">
-	{{# posts_latest }}
-	<article class="post">
-	  <h2 class="title">
-	    <a href="{{url}}">{{title}}</a>
-	    <span class="date">{{date}}</span>
-	  </h2>
-	  {{{ summary }}}
-	  <div class="more">
-	    <a href="{{url}}" class="btn">更多..</a>
 	  </div>
+	</div>
+      <div class="span8 content">
+	<nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
 
-	  
-	</article>
-	{{/ posts_latest }}
+          <ul>
+	          <li><a class="brand" href="/">Home</a></li>
+            {{# site.navigation?to_pages }}
+            {{> pages_list }}
+            {{/ site.navigation?to_pages }}
+          </ul>
+       </nav>
+	{{{ content }}}
       </div>
    </div>
 </div>

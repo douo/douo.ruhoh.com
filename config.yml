@@ -6,7 +6,7 @@ theme : moon
 production_url : http://douo.ruhoh.com
 
 posts:
-  permalink: /:categories/:title/
+  permalink: /:year/:month/:day/:filename/
   summary_lines: 20
   latest: 10
 

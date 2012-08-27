@@ -1,8 +1,6 @@
 /* posts index */
 .post > h2.title {
   position:relative;
-  padding-top:10px;
-  border-top:3px solid #eee;
   font-size: 1.8em;
 }
 .post > h2.title span.date { 
@@ -15,7 +13,7 @@
   text-align:left;
 }
 
-.content {
+.post {
     background-color: white;
     margin: 10px 0px 50px 0px;
     padding: 10px 20px;
@@ -45,6 +43,17 @@
 	text-overflow:ellipsis;
 	word-break:breakall;
 }
+
+.moon-nav-list a.next {
+        padding-top: 0;
+	padding-bottom: .5em;
+}
+
+.moon-nav-list a.previous {
+        padding-top: .5em;
+        padding-bottom: 0;
+}
+
 .moon-nav-list a:hover {
 	background-color: #08C;
 	text-decoration: none;
@@ -53,4 +62,16 @@
 }
 .moon-nav-list.affix {
        top: 20px;
+}
+
+.header > h1 {
+    font-size: 2em;
+    line-height: 20px;
+    margin-top: 25px;
+}
+
+.header > blockquote{
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0;
 }

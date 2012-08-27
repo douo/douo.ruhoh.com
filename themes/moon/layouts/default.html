@@ -30,7 +30,7 @@
   <div class="container">
     <div class="row-fluid">
       <div class="span10 offset2 hidden-phone">
-	<header>
+	<header class="header">
 	{{# page.home}}
 	<h1>{{ site.title }}</h1>
 	  <blockquote>{{ site.tagline }}</blockquote>
@@ -50,25 +50,38 @@
     <div class="row-fluid">
       <div class="span2">
 	<div class="visible-phone">
-	  	<nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
-
-          <ul>
-	          <li><a class="brand" href="/">Home</a></li>
-            {{# site.navigation?to_pages }}
-            {{> pages_list }}
-            {{/ site.navigation?to_pages }}
-          </ul>
-       </nav>
-	  </div>
-	</div>
+	  <nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
+            <ul>
+	      <li><a class="brand" href="/">Home</a></li>
+              {{# site.navigation?to_pages }}
+              {{> pages_list }}
+              {{/ site.navigation?to_pages }}
+            </ul>
+          </nav>
+	 </div>
+      </div>
       <div class="span8 content">
 	<nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
-
           <ul>
-	          <li><a class="brand" href="/">Home</a></li>
+	    <li><a class="brand" href="/">Home</a></li>
             {{# site.navigation?to_pages }}
             {{> pages_list }}
             {{/ site.navigation?to_pages }}
+	    <hr />
+	    {{# page?next }}
+	       <li > 
+		 <a class="meta-nav next" href="{{ url }}">
+		   <span>←<br></span>{{ title }}
+		 </a>
+	       </li>
+            {{/ page?next }}
+	    {{# page?previous }}
+	       <li>
+		 <a class="meta-nav previous" href="{{ url }}">
+		   {{ title }}<span><br>→</span>
+		 </a>
+	       </li>
+            {{/ page?previous }}
           </ul>
        </nav>
 	{{{ content }}}

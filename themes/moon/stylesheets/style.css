@@ -54,7 +54,6 @@
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
-    word-break:breakall;
 }
 
 .moon-nav-list a.next {

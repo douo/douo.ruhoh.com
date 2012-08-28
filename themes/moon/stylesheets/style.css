@@ -73,6 +73,15 @@
     color: #f9f9f9;
     -webkit-transition: color .2s linear;
 }
+.moon-nav-list .separate{
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid white;
+}
+
 .moon-nav-list.affix {
     top: 20px;
 }

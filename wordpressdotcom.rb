@@ -1,5 +1,6 @@
 # coding: utf-8
-
+# chcp 65001
+# http://www.rubular.com/r/Fofh6u3NmW
 require 'rubygems'
 require 'hpricot'
 require 'fileutils'
@@ -15,6 +16,10 @@ module Jekyll
       puts "help"
     end
 
+    def self.prepocess(content)
+     
+    end
+    
     def self.process(filename = "wordpress.xml")
       import_count = Hash.new(0)
       doc = Hpricot::XML(File.read(filename))
@@ -74,12 +79,24 @@ module Jekyll
           'postid' => postid,
           'guid'   => guid
         }
+        
+        
+        # 预处理正文
+
+        content = item.at('content:encoded').inner_text
+        
+         reg = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)\](?<content>.*?)(\[\/\k<tag>\])/m
+        if reg.match(content)
+          puts content
+          puts "---------------------------------------------------"
+          puts content.gsub(reg,'<code language="\k<lang>">\k<content></code>')
+        end
 
         FileUtils.mkdir_p "_#{type}s"
         File.open("_#{type}s/#{name}", "w") do |f|
           f.puts header.to_yaml
           f.puts '---'
-          f.puts PandocRuby.convert(item.at('content:encoded').inner_text, :from => :html, :to => :markdown)
+          f.puts PandocRuby.convert(content, :from => :html, :to => :markdown)
         end
 
         import_count[type] += 1

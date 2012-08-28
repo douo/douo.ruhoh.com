@@ -45,8 +45,11 @@
     margin-left: -12em;
     position:fixed;
     text-align: right;
-    list-style-type: none;
 }
+.moon-nav-list ul{
+    list-style:none outside none    
+}
+
 .moon-nav-list a {
     display: block;
     padding: .7em 1em;

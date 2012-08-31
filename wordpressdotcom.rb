@@ -84,24 +84,20 @@ module Jekyll
         # 预处理正文
 
         content = item.at('content:encoded').inner_text
-        
-         reg = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)\](?<content>.*?)(\[\/\k<tag>\])/m
-        if reg.match(content)
-          puts content
-          puts "---------------------------------------------------"
-          puts content.gsub(reg,'<code language="\k<lang>">\k<content></code>')
-        end
-
+        reg1 = /\[(?<tag>cc(?<opti>[a-zA-Z]*)) +(lang="(?<lang>\w+)")\](?<content>.*?)(\[\/\k<tag>\])/m
+        reg = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)\](?<content>.*?)(\[\/\k<tag>\])/m
+        content =  content.gsub(reg,'<pre><code lang="\k<lang>">\k<content></code></pre>')
+        content =  content.gsub(reg1,'<pre><code lang="\k<lang>">\k<content></code></pre>')
         FileUtils.mkdir_p "_#{type}s"
         File.open("_#{type}s/#{name}", "w") do |f|
           f.puts header.to_yaml
           f.puts '---'
           f.puts PandocRuby.convert(content, :from => :html, :to => :markdown)
         end
-
+        
         import_count[type] += 1
       end
-
+      
       import_count.each do |key, value|
         puts "Imported #{value} #{key}s"
       end

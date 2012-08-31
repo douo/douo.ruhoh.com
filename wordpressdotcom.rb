@@ -91,6 +91,7 @@ module Jekyll
         }
 
         content = item.at('content:encoded').inner_text
+
         content = prepocess(content)
         
         FileUtils.mkdir_p "_#{type}s"
@@ -99,10 +100,10 @@ module Jekyll
           f.puts '---'
           f.puts PandocRuby.convert(content, :from => :html, :to => :'markdown')
         end
-
+        
         import_count[type] += 1
       end
-
+      
       import_count.each do |key, value|
         puts "Imported #{value} #{key}s"
       end

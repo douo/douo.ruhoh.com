@@ -7,7 +7,7 @@
     ],
     
     "widgets" : {
-
+      "google_prettify" : "moon.css"
     }
     
   },

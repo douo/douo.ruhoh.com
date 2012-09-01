@@ -1,4 +1,5 @@
 ---
+rich_title: "Categories | <a href=\"archive\">Date</a> | <a href=\"tags\">Tags</a>"
 description:
 ---
 
@@ -9,8 +10,8 @@ description:
 </ul>
 
 {{# categories }}
-  <h2>{{ name }} ({{ count }})</h2>
-  <ul>
+  <h3  class="achive-title show" id="{{name}}-ref" data-toggle="collapse" data-target="#{{name}}">{{ name }} ({{ count }})<b class="caret"></b></h3>
+  <ul id="{{name}}" class="collapse in">
     {{# posts?to_posts }}
       {{> posts_list }}
     {{/ posts?to_posts }}

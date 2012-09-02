@@ -1,13 +1,9 @@
-<h2 data-toggle="collapse" data-target="#{{year}}">{{year}}</h2>
-<div id="{{year}}" class="collapse in">
+
+<h3 class="achive-title show" data-toggle="collapse" data-target="#{{year}}">{{year}}<b class="caret"></b></h3>
+<ul id="{{year}}" class="collapse in">
 {{#months}}
-	<h3 data-toggle="collapse" data-target="#{{year}}-{{month}}">
-	{{month}}
-	</h3>
-  <ul id="{{year}}-{{month}}" class="collapse in">
   {{#posts?to_posts}}
-    <li><span>{{date}}</span> &raquo; <a href="{{url}}">{{title}}</a></li>
+	{{> posts_list}}
   {{/posts?to_posts}}
-  </ul>
 {{/months}}
-</div>
+  </ul>

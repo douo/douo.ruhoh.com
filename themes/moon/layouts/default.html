@@ -31,12 +31,18 @@
     <div class="row-fluid">
       <div class="span10 offset2 hidden-phone">
 	<header class="header">
-	{{# page.home}}
+	  {{# page.home}}
 	<h1>{{ site.title }}</h1>
 	  <blockquote>{{ site.tagline }}</blockquote>
 	{{/ page.home}}
 	{{^ page.home}}
-	<h1>{{ page.title }}</h1>
+	  {{! rich_title 扩展标题，支持html tag 主要用来显示 achive 那几个页面}}
+	  {{# page.rich_title}}
+	  <h1>{{{ page.rich_title }}}</h1>
+	  {{/page.rich_title}}
+	  {{^ page.rich_title}}
+	  <h1>{{ page.title }}</h1>
+	  {{/page.rich_title}}
 	{{/ page.home}}
 	</header>
       </div>

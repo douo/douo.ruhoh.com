@@ -3,6 +3,11 @@ layout : default
 ---
 {{# posts_latest }}
 <article class="post">
+<ul class="category-label">
+{{# categories?to_categories }}
+<li><a href="{{url}}" class="{{name}}">{{ name }}</a></li>
+{{/ categories?to_categories}}
+</ul>
 <h2 class="title">
 <a href="{{url}}">{{title}}</a>
 <span class="date">{{date}}</span>

@@ -146,3 +146,50 @@
   border:1px solid #4C964D;
   color:#FFF;
 }
+
+.category-label {
+    position:relative;
+    float: right;
+    list-style-type: none;
+    top: -11px;
+}
+.category-label a{
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -ms-border-bottom-left-radius: 5px;
+    -o-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -ms-border-bottom-right-radius: 5px;
+    -o-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #EEE;
+    color: #3A87AD;
+    padding: 3px 6px;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    text-transform: capitalize;
+}
+.category-label li{
+    float: left;
+    margin-right: 10px;
+}
+.category-label .life{
+    background-color:#5bb75b;
+}
+.category-label .coder{
+    background-color:#3A87AD;
+}
+.category-label .otaku{
+
+}
+.category {
+    text-transform: capitalize;
+}

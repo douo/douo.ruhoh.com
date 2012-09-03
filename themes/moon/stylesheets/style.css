@@ -23,6 +23,7 @@
     -webkit-box-shadow: 0px 1px 3px #A8ABAB;
     -moz-box-shadow: 0px 1px 3px #A8ABAB;
     box-shadow: 0px 1px 3px #A8ABAB;
+    line-height:1.8em;
 }
 
 .post img{
@@ -165,7 +166,6 @@
     -o-border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background: #EEE;
-    color: #3A87AD;
     padding: 3px 6px;
     font-size: 11.844px;
     font-weight: bold;
@@ -174,7 +174,6 @@
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     white-space: nowrap;
     vertical-align: baseline;
-    background-color: #999;
     text-transform: capitalize;
 }
 .category-label li{
@@ -188,8 +187,29 @@
     background-color:#3A87AD;
 }
 .category-label .otaku{
-
+    background-color: #999;
 }
 .category {
     text-transform: capitalize;
+}
+
+
+.footer{
+    margin-top:3.5em;
+    margin-bottom:-0.7em
+}
+.footer >.date {
+    position:relative;
+    float: right;
+    top:-1.4em;
+    font-size:1.2em
+}
+
+.jiathis_style{
+    position:relative;
+    float: right;
+}
+
+.statement > .license{
+    float:right;
 }

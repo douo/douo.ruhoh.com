@@ -7,7 +7,7 @@ production_url : http://douo.ruhoh.com
 
 posts:
   permalink: /:year/:month/:day/:filename/
-  summary_lines: 20
+  summary_lines: 7
   latest: 10
 
 pages:

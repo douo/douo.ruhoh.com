@@ -2,11 +2,33 @@
 layout : default
 ---
 <article class="post">
+<ul class="category-label">
+{{# page.categories?to_categories }}
+<li><a href="{{url}}" class="{{name}}">{{ name }}</a></li>
+{{/ page.categories?to_categories}}
+</ul>
 {{{ content }}}
+<div class="footer">
+  <ul class="tag_box inline">
+  {{# page.tags?to_tags }}
+  <li><a href="{{url}}">{{ name }}</a></li>
+  {{/ page.tags?to_tags}}
+  </ul>
+  <span class="date">
+  {{ page.date }}
+  </span>
+</divr>
 </article>
-<!-- 见这里https://github.com/ruhoh/ruhoh.rb/issues/52 所以只能
-    hardcode 到这里 -->
+
+
 <div class="post">
+  <div class="plus">
+    {{{ gplus }}}
+    {{{ jiathis }}}
+
+
+{{! 见这里https://github.com/ruhoh/ruhoh.rb/issues/52 所以只能將 disqus hardcode 到这里}}
+  </div>
     <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO

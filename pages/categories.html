@@ -3,14 +3,14 @@ rich_title: "Categories | <a href=\"archive\">Date</a> | <a href=\"tags\">Tags</
 description:
 ---
 
-<ul class="tag_box inline">
+<ul class="tag_box inline category">
 {{# categories }}
   {{> categories_list }}
 {{/ categories }}
 </ul>
 
 {{# categories }}
-  <h3  class="achive-title show" id="{{name}}-ref" data-toggle="collapse" data-target="#{{name}}">{{ name }} ({{ count }})<b class="caret"></b></h3>
+  <h3  class="achive-title show category" id="{{name}}-ref" data-toggle="collapse" data-target="#{{name}}">{{ name }} ({{ count }})<b class="caret"></b></h3>
   <ul id="{{name}}" class="collapse in">
     {{# posts?to_posts }}
       {{> posts_list }}

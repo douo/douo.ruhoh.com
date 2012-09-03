@@ -60,7 +60,7 @@ module Jekyll
         tags = []
         (item/:category).each do |c|
           if c.attributes['domain'] == 'category'
-            categories.push(c.inner_text)
+            categories.push(c.inner_text.downcase)
           else
             tags.push(c.inner_text)
           end

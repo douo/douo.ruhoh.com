@@ -18,3 +18,27 @@ layout : default
 </div>
 </article>
 {{/ posts_latest }}
+<div class="post">
+  <div class="row-fluid">
+  <div class="span6">
+  <div id="recentcomments" class="dsq-widget"><h3
+    class="dsq-widget-title">近期評論</h3><script type="text/javascript"
+    src="http://doousblog.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script></div><a
+    href="http://disqus.com/">Powered by Disqus</a>
+    </div>
+
+    <div class="span6">
+      <h3>友情链接</h3>
+      <ul class="blogroll">
+	{{# site.links}}
+	<li><a href="{{url}}" rel="friend" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','{{url}}']);">{{title}}</a></li>
+	{{/ site.links}}
+      </ul>
+    </div>
+    
+  </div>
+  
+</div>
+<center><a href="/archive">~~ 全部文章 ~~</a></center>
+<hr>
+

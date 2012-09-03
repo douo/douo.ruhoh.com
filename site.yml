@@ -13,4 +13,27 @@ navigation :
   - categories.html
   - pages.html
   - about.md
-  
+
+# 自己重新實現的導航
+nav :
+  - title: home
+    url: /
+    describe: 主頁
+  - title: archive
+    url: /archive
+    describe: 歸檔
+  - title: wiki
+    url: http://wiki.dourok.info
+    describe: 我的個人筆記
+  - title: feed
+    url: /rss.xml
+    describe: 訂閱
+  - title: about
+    url: /about
+    describe: 關於我
+      
+links:
+  - title: MAGICALBOY
+    url: http://magicalboy.com/
+  - title: 驴子博客
+    url: http://www.cnlvzi.com/

@@ -29,37 +29,36 @@
 
 </head>
 <body>
-<div class="navbar visible-phone">
-<div class="navbar-inner">
 <div class="container">
-  <ul class="nav">
-    <li><a href="/">Home</a></li>
-    {{# site.navigation?to_pages }}
-    {{> pages_list }}
-    {{/ site.navigation?to_pages }}
-	{{# page?next }}
-    <li> 
-    <a class="meta-nav next" href="{{ url }}">
-    <span>←</span>{{ title }}
-	</a>
-    </li>
-    {{/ page?next }}
-	{{# page?previous }}
-    <li>
-    <a class="meta-nav previous" href="{{ url }}">
-    {{ title }}<span>→</span>
-    </a>
-    </li>
-    {{/ page?previous }}
-  </ul>
-</div>
-</div>
-</div>
-
-<div class="container">
-    <div class="row-fluid">
-    <div class="span2 hidden-phone">
+  
+  <div class="navbar visible-phone">
+    <div class="navbar-inner">
+      <div class="container">
+	<ul class="nav">
+	  {{# site.nav }}
+	  <li><a href="{{url}}" title="{{describe}}">{{title}}</a></li>
+	  {{/ site.nav }}
+	  {{# page?next }}
+	  <li> 
+	  <a class="meta-nav next" href="{{ url }}">
+	  <span>←</span>{{ title }}
+	  </a>
+	  </li>
+	  {{/ page?next }}
+	  {{# page?previous }}
+	  <li>
+	  <a class="meta-nav previous" href="{{ url }}">
+	  {{ title }}<span>→</span>
+	  </a>
+	  </li>
+	  {{/ page?previous }}
+	</ul>
+      </div>
     </div>
+  </div><!-- nav -->
+
+  <div class="row-fluid">
+    <div class="span2 hidden-phone"></div>
     <div class="span8">
       <header class="header">
       {{# page.home}}
@@ -77,51 +76,40 @@
       {{/ page.home}}
       </header>
     </div> <!-- header -->
-    </div>
-    <div class="row-fluid">
-      <div class="span2 hidden-phone">
-	<div class="visible-phone">
-	  <nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
-            <ul>
-	      <li><a class="brand" href="/">Home</a></li>
-              {{# site.navigation?to_pages }}
-              {{> pages_list }}
-              {{/ site.navigation?to_pages }}
-            </ul>
-          </nav>
-	 </div>
-      </div>
-      <div class="span8 content">
-	<nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
-          <ul>
-	    <li><a class="brand" href="/">Home</a></li>
-            {{# site.navigation?to_pages }}
-            {{> pages_list }}
-            {{/ site.navigation?to_pages }}
-	    <li  class="separate"></li>
-	    {{# page?next }}
-	       <li> 
-		 <a class="meta-nav next" href="{{ url }}">
-		   <span>←<br></span>{{ title }}
-		 </a>
-	       </li>
-            {{/ page?next }}
-	    {{# page?previous }}
-	       <li>
-		 <a class="meta-nav previous" href="{{ url }}">
-		   {{ title }}<span><br>→</span>
-		 </a>
-	       </li>
-            {{/ page?previous }}
-          </ul>
+   </div>
+   <div class="row-fluid">
+     <div class="span2 hidden-phone"></div>
+     <div class="span8 content">
+       <nav class="nav moon-nav-list"  data-spy="affix" data-offset-top="70">
+       <ul>
+	  {{# site.nav }}
+	  <li><a href="{{url}}" rel="tooltip" data-placement="top" title="{{describe}}">{{title}}</a></li>
+	  {{/ site.nav }}
+	 <li  class="separate"></li>
+	 {{# page?next }}
+	 <li> 
+	 <a class="meta-nav next" href="{{ url }}">
+	 <span>←<br></span>{{ title }}
+	 </a>
+	 </li>
+	 {{/ page?next }}
+	 {{# page?previous }}
+	 <li>
+	 <a class="meta-nav previous" href="{{ url }}">
+	 {{ title }}<span><br>→</span>
+	 </a>
+	 </li>
+	 {{/ page?previous }}
+       </ul>
        </nav>
-	{{{ content }}}
-      </div>  <!-- content -->
+       
+       {{{ content }}}
+       
+     </div>  <!-- content -->
    </div>  <!-- row -->
    
    <div class="row-fluid">
-   <div class="span2 hidden-phone">
-   </div>
+   <div class="span2 hidden-phone"></div>
    <div class="span8">
      <footer class="statement">
      <small class＝"copyright">&copy;2009-2012 {{ site.title }} |</small>
@@ -132,6 +120,7 @@
      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh"><img title="知识共享许可协议" style="border-width: 0px; vertical-align: middle; display: inline; " src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" original="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png"></a>		
      </small>
      </footer>
+   </div>
    </div>
 </div> <!-- /container -->
    

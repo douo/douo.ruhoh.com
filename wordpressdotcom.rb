@@ -24,8 +24,8 @@ module Jekyll
       
       reg2 = /\[tex\](?<content>.*?)\[\/tex\]/im
 
-      content = content.gsub(reg,'<pre><code language="\k<lang>">\k<content></code></pre>')
-      content = content.gsub(reg1,'<pre><code language="\k<lang>">\k<content></code></pre>')
+      content = content.gsub(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
+      content = content.gsub(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
       content = content.gsub(reg2,"\n<script type=\"math/tex; mode=display\">\n\k<content>\n</script>\n")
       return content
     end

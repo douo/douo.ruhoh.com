@@ -26,18 +26,33 @@ module Jekyll
     end
 
     def self.convertTex!(content,later)
+      
       reg = /\[tex\](?<content>.*?)\[\/tex\]/im
       #rep = "\n<script type=\"math/tex; mode=display\">\n\k<content>\n</script>\n"
       i = 0
+      reg1 = /(?<=[\r\n])\[tex\](?<content>((?!\[tex\]).)*?)\[\/tex\]/im
+
+      if content =~ reg
+        content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
+      end
+
+      while res = content.match(reg1)
+        puts res
+        key = "[[tex#{i}]]"
+        i = i+1
+        later[key] = "\n<script type=\"math/tex; mode=display\">#{res['content']}</script>\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
+        content.sub!(reg1,key)
+      end
       while res = content.match(reg)
         key = "[[tex#{i}]]"
         i = i+1
-        later[key] = "<script type=\"math/tex; mode=display\">#{res['content']}</script>"
+        later[key] = "<script type=\"math/tex\">#{res['content']}</script>".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
         content.sub!(reg,key)
       end
+      
     end
 
-    def self.prepocess(content,later)
+    def self.prepocess!(content,later)
       methods(false).find_all {|m| m=~ /convert.*/}.each {|m| __send__(m,content,later)}
     end
     
@@ -104,13 +119,13 @@ module Jekyll
         content = item.at('content:encoded').inner_text
         
         later =Hash.new
-        prepocess(content,later)
+        prepocess!(content,later)
         # 先当成 markdown 转换到 html 可以修复没有p标签的段落问题        
         content = PandocRuby.convert(content, :from => :'markdown', :to => :'html')
         
         content = PandocRuby.convert(content, :from => :html, :to => :'markdown')
         
-        puts later
+        pp later if later != {}
         later.each {|k,v| content.sub!(k,v)}
 
         FileUtils.mkdir_p "_#{type}s"

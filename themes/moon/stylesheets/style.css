@@ -23,7 +23,11 @@
     -webkit-box-shadow: 0px 1px 3px #A8ABAB;
     -moz-box-shadow: 0px 1px 3px #A8ABAB;
     box-shadow: 0px 1px 3px #A8ABAB;
-    line-height:1.8em;
+}
+.post p{
+    font-size:1.12em;
+    line-height:1.6em;
+
 }
 
 .post img{

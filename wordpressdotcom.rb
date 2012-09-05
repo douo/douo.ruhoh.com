@@ -16,18 +16,29 @@ module Jekyll
       puts "help"
     end
 
-    def self.prepocess(content)
-      # 预处理正文
+    def self.convertCode!(content,later)
+      ## 转换codecolor 短标签的代码
 
       reg1 = /\[(?<tag>cc(?<opti>[a-zA-Z]*)) +(lang="(?<lang>\w+)")\](?<content>.*?)(\[\/\k<tag>\])/m
       reg = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)\](?<content>.*?)(\[\/\k<tag>\])/m
-      
-      reg2 = /\[tex\](?<content>.*?)\[\/tex\]/im
+      content.gsub!(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
+      content.gsub!(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
+    end
 
-      content = content.gsub(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
-      content = content.gsub(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
-      content = content.gsub(reg2,"\n<script type=\"math/tex; mode=display\">\n\k<content>\n</script>\n")
-      return content
+    def self.convertTex!(content,later)
+      reg = /\[tex\](?<content>.*?)\[\/tex\]/im
+      #rep = "\n<script type=\"math/tex; mode=display\">\n\k<content>\n</script>\n"
+      i = 0
+      while res = content.match(reg)
+        key = "[[tex#{i}]]"
+        i = i+1
+        later[key] = "<script type=\"math/tex; mode=display\">#{res['content']}</script>"
+        content.sub!(reg,key)
+      end
+    end
+
+    def self.prepocess(content,later)
+      methods(false).find_all {|m| m=~ /convert.*/}.each {|m| __send__(m,content,later)}
     end
     
     def self.process(filename = "wordpress.xml")
@@ -89,18 +100,28 @@ module Jekyll
           'postid' => postid,
           'guid'   => guid
         }
-
-        content = item.at('content:encoded').inner_text
-
-        content = prepocess(content)
         
+        content = item.at('content:encoded').inner_text
+        
+        later =Hash.new
+        prepocess(content,later)
+        # 先当成 markdown 转换到 html 可以修复没有p标签的段落问题        
+        content = PandocRuby.convert(content, :from => :'markdown', :to => :'html')
+        
+        content = PandocRuby.convert(content, :from => :html, :to => :'markdown')
+        
+        puts later
+        later.each {|k,v| content.sub!(k,v)}
+
         FileUtils.mkdir_p "_#{type}s"
         File.open("_#{type}s/#{name}", "w") do |f|
           f.puts header.to_yaml
           f.puts '---'
-          f.puts PandocRuby.convert(content, :from => :html, :to => :'markdown')
+          f.puts content
         end
         
+
+
         import_count[type] += 1
       end
       

@@ -13,6 +13,7 @@ class Ruhoh
         feed = Nokogiri::XML::Builder.new do |xml|
          xml.rss(:version => '2.0') {
            xml.channel {
+
              xml.title_ Ruhoh::DB.site['title']
              xml.link_ Ruhoh::DB.site['config']['production_url']
              xml.pubDate_ Time.now

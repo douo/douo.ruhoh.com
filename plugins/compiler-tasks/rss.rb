@@ -5,6 +5,7 @@ class Ruhoh
     # http://www.davejlong.com/ 
     # https://github.com/davejlong
     # Thanks David!
+    # modified by Douo
     module Rss
       # TODO: This renders the page content even though we already need to
       # render the content to save to disk. This will be a problem when posts numbers expand. Merge this in later.

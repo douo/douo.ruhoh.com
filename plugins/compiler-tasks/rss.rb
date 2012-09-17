@@ -18,7 +18,7 @@ class Ruhoh
 
              xml.title_ Ruhoh::DB.site['title']
              xml.link_ Ruhoh::DB.site['config']['production_url']
-             xml.pubDate_ Time.now
+             xml.pubDate_ Time.now.strftime("%a, %d %b %Y %H:%M:%S %z")
              Ruhoh::DB.posts['chronological'].each do |post_id|
                post = Ruhoh::DB.posts['dictionary'][post_id]
                page.change(post_id)
@@ -26,7 +26,7 @@ class Ruhoh
                  xml.title_ post['title']
                  xml.link "#{Ruhoh::DB.site['config']['production_url']}#{post['url']}"
                  xml['dc'].creator_ Ruhoh::DB.site['author']['name']
-                 xml.pubDate_ post['date']
+                 xml.pubDate_ Time.parse(post['date']).strftime("%a, %d %b %Y %H:%M:%S %z")
                  xml.description_ (post['description'] ? post['description'] : page.render_content)
                }
              end

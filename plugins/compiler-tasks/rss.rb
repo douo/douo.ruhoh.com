@@ -24,32 +24,33 @@ class Ruhoh
                post = Ruhoh::DB.posts['dictionary'][post_id]
                page.change(post_id)
                xml.item {
-                  
-                 xml.title_ post['title']
-                 xml.link "#{Ruhoh::DB.site['config']['production_url']}#{post['url']}"
-                 xml.pubDate_ Time.parse(post['date']).strftime("%a, %d %b %Y %H:%M:%S %z")
-                 xml['dc'].creator_ Ruhoh::DB.site['author']['name']
-                  
-                 # append categories and tags
-                 post['categories'].each do |c|
+                  xml.title_ post['title']
+                  xml.link "#{Ruhoh::DB.site['config']['production_url']}#{post['url']}"
+                  xml.pubDate_ Time.parse(post['date']).strftime("%a, %d %b %Y %H:%M:%S %z")
+                  xml['dc'].creator_ Ruhoh::DB.site['author']['name']
+                  xml.guid(:isPermalink => 'false'){  
+                    xml.text "#{Ruhoh::DB.site['config']['production_url']}/?id=#{post_id}"
+                  }
+                  # append categories and tags
+                  post['categories'].each do |c|
                     xml.category {
                       xml.cdata c
                     }
-                 end
+                  end
                   post['tags'].each do |t|
                     xml.category {
                       xml.cdata t
                     }
-                 end
-
-                 xml.description_  post['description'] 
-                 xml['content'].encoded {
+                  end
+                  
+                  xml.description_  post['description'] 
+                  xml['content'].encoded {
                     xml.cdata  page.render_content
                   }
-               }
-             end
-           }
-         }
+                }
+              end
+            }
+          }
         end
         File.open(File.join(target, 'rss.xml'), 'w'){ |p| p.puts feed.to_xml }
       end

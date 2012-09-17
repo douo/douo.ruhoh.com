@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>DouO's Blog</title>
-    <link>http://douo.ruhoh.com</link>
-    <pubDate>Sun, 16 Sep 2012 23:00:08 -0500</pubDate>
+    <link>http://brain.dourok.info</link>
+    <pubDate>Mon, 17 Sep 2012 00:41:58 -0500</pubDate>
     <item>
       <title>&#x5173;&#x4E8E;ruhoh&#x7684;&#x4E00;&#x4E9B;&#x8BB0;&#x5F55;</title>
-      <link>http://douo.ruhoh.com/2012/08/20/something-about-ruhoh</link>
+      <link>http://brain.dourok.info/2012/08/20/something-about-ruhoh</link>
       <pubDate>Mon, 20 Aug 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<h3 id="toc_0">ruhoh</h3>
+      <description></description>
+      <content:encoded><![CDATA[<h3 id="toc_0">ruhoh</h3>
 
 <p>这里也许会成为我第一篇ruhoh的博客，先罗列一下常用的命令吧。</p>
 
@@ -231,15 +232,16 @@ id="MathJax-Element-11">\begin{aligned}P\left( \sup_{f\in\mathcal{F}}
 </ul>
 
 <p>到底是關注於博客系統還是博客本身呢，本末倒置了吧。整理一下現在還欠缺的內容。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x8BEF;&#x5220;&#x5206;&#x533A;</title>
-      <link>http://douo.ruhoh.com/2012/06/28/&#x8BEF;&#x5220;&#x5206;&#x533A;</link>
+      <link>http://brain.dourok.info/2012/06/28/&#x8BEF;&#x5220;&#x5206;&#x533A;</link>
       <pubDate>Thu, 28 Jun 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>用windows自带的分区工具删除上次装黑苹果时的临时分区竟然出问题了。把我另外一个1.7tb的大分区也删掉了。我怀疑是交叉分区导致的(分区助手专业版4.0
+      <description></description>
+      <content:encoded><![CDATA[<p>用windows自带的分区工具删除上次装黑苹果时的临时分区竟然出问题了。把我另外一个1.7tb的大分区也删掉了。我怀疑是交叉分区导致的(分区助手专业版4.0
 分的)，这个1.7tb分区有着500gb左右的数据。十分珍贵。幸好，据我所知删除分区只是修改位于硬盘头的分区表而已。不会对真正分区内容做什么更改。恢复应该时可以的。</p>
 
 <p>一开始用diskgenius，看着它的恢复速度十分蛋疼，每秒还不知有没有一个柱面，而我的大硬盘有24多万个柱面。而且用的算法还是不精确的快速算法，应是只检测每个磁道的第一个扇区。如果是完全扫描速度应该慢个255倍。diskgenius还有提供自己规定柱面范围恢复的功能，不知为什么这个选项是灰色的无效状态。如果可以用就方便许多了。</p>
@@ -254,18 +256,19 @@ id="MathJax-Element-11">\begin{aligned}P\left( \sup_{f\in\mathcal{F}}
 <p>回到diskgenius，惊奇的发现它居然有按照柱面精确分区的功能。太适合了。</p>
 
 <p>再回到ADD用快速扫描一下，没想到很快就把那个1t多的分区给找出来了。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x53EF;&#x4EA4;&#x4E92;&#x7684; adb devices</title>
-      <link>http://douo.ruhoh.com/2012/06/26/selecting-adb-device</link>
+      <link>http://brain.dourok.info/2012/06/26/selecting-adb-device</link>
       <pubDate>Tue, 26 Jun 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[adb]]></category>
       <category><![CDATA[ADT]]></category>
       <category><![CDATA[Android]]></category>
-      <description><![CDATA[<p>$ adb hell
+      <description></description>
+      <content:encoded><![CDATA[<p>$ adb hell
     1) HT18HTB00535 device
     2) HT04RL901008 device
     Select the device to use,  to quit: 1
@@ -428,11 +431,11 @@ shell@android:/ $
 这个问题是由于不同的机器使用不同的<strong>debug.keystore</strong>，导致安装的时候验证错误。所有开发的机器使用相同的<strong>debug.keystore</strong>便可以避免这个问题再次发生。在
 Eclipse 下 Window -&gt; Preferences -&gt; Android -&gt; Build -&gt; Custom debug
 keystore 中可以更改。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>LightsOut &#x89E3;&#x6CD5;&#x5C0F;&#x63A2;</title>
-      <link>http://douo.ruhoh.com/2012/05/31/lights-out-solution</link>
+      <link>http://brain.dourok.info/2012/05/31/lights-out-solution</link>
       <pubDate>Thu, 31 May 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -440,7 +443,8 @@ keystore 中可以更改。</p>
       <category><![CDATA[游戏]]></category>
       <category><![CDATA[算法]]></category>
       <category><![CDATA[线性代数]]></category>
-      <description><![CDATA[<p><a href="http://dourok.info/wp-content/uploads/2012/05/light_out_banner.png"><img src="http://dourok.info/wp-content/uploads/2012/05/light_out_banner.png" alt="" title="light\_out\_banner"></a></p>
+      <description></description>
+      <content:encoded><![CDATA[<p><a href="http://dourok.info/wp-content/uploads/2012/05/light_out_banner.png"><img src="http://dourok.info/wp-content/uploads/2012/05/light_out_banner.png" alt="" title="light\_out\_banner"></a></p>
 
 <p>Lights Out(关灯游戏) 是一款经典的老游戏，维基百科上说Lights Out
 是在1995年由 <a href="https://en.wikipedia.org/wiki/Tiger_Toys" title="Tiger Toys">Tiger
@@ -513,18 +517,19 @@ Out，<a href="http://www.addictinggames.com/puzzle-games/lightsout.jsp">http://
 
 <p>由此可见，5 * 5
 游戏的解并不是唯一的，即便是灯光全暗，也不一定表示开关全部被关闭。另外，并不是所有可能性都有解。好了就先到这里，了解更多请见下面的链接：</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Lonely Android</title>
-      <link>http://douo.ruhoh.com/2012/04/29/lonely-android</link>
+      <link>http://brain.dourok.info/2012/04/29/lonely-android</link>
       <pubDate>Sun, 29 Apr 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[Android]]></category>
       <category><![CDATA[processing.js]]></category>
       <category><![CDATA[wordpress插件]]></category>
-      <description><![CDATA[<p>两个月前，在某博客看到Android
+      <description></description>
+      <content:encoded><![CDATA[<p>两个月前，在某博客看到Android
 Developer的一个Flash广告挺有趣的，可以点下<a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/www.android.com/zh-CN//swf/conveyor.swf" title="conveyor.swf">Conveyor.swf</a>看看。就想把它做成WordPress
 无头像评论者的随机头像（或者叫
 <a href="http://en.wikipedia.org/wiki/Identicon" title="Identicon">Identicons</a>）应该很可爱的。</p>
@@ -542,15 +547,16 @@ Developer的一个Flash广告挺有趣的，可以点下<a href="http://static.g
 <p>其实在用processingjs实现之前我已经在Android平台上实现了这个东东，幸好有processingjs这么像java语法的东西让我省了不少力气移植到js上来。
 不浪费顺便弄了个动态壁纸（live wallpaper），到<a href="https://play.google.com/store/apps/details?id=info.dourok.imandroid">Play
 Store</a>看下吧。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x91CE;&#x82B1;</title>
-      <link>http://douo.ruhoh.com/2012/04/22/wild_flower</link>
+      <link>http://brain.dourok.info/2012/04/22/wild_flower</link>
       <pubDate>Sun, 22 Apr 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>路边的野花独自开得这般灿烂，可曾有人为你驻足?
+      <description></description>
+      <content:encoded><![CDATA[<p>路边的野花独自开得这般灿烂，可曾有人为你驻足?
 <a href="http://dourok.info/wp-content/uploads/2012/04/IMAG00071.jpg"><img src="http://dourok.info/wp-content/uploads/2012/04/IMAG00071.jpg" alt="" title="IMAG0007"></a>
 可野花从不管有没有人欣赏都照样开放。
 从不向人类乞求一分一毫，如此孤高冷傲，也不近人情<a href="http://dourok.info/wp-content/uploads/2012/04/IMAG0034.jpg"><img src="http://dourok.info/wp-content/uploads/2012/04/IMAG0034.jpg" alt="" title="IMAG0034"></a>
@@ -558,20 +564,21 @@ Store</a>看下吧。</p>
 可惜我不懂花的语言，不敢开口，你现在是否在为我开放？<a href="http://dourok.info/wp-content/uploads/2012/04/IMAG0160.jpg"><img src="http://dourok.info/wp-content/uploads/2012/04/IMAG0160.jpg" alt="" title="IMAG0160"></a></p>
 
 <p>今天真是适合踏青的好天气，蓝天白云，风轻如梦，视野开阔。可惜手机的镜头不给力，拍不出这种开阔。<a href="http://dourok.info/wp-content/uploads/2012/04/IMAG00061.jpg"><img src="http://dourok.info/wp-content/uploads/2012/04/IMAG00061.jpg" alt="" title="IMAG0006"></a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Test</title>
-      <link>http://douo.ruhoh.com/2012/04/14/test</link>
+      <link>http://brain.dourok.info/2012/04/14/test</link>
       <pubDate>Sat, 14 Apr 2012 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>(tags <code>processing.js,</code>Wordpress, <code>Wordpress Theme,</code>吐槽) | (comments nil)</p>
-]]></description>
+      <description></description>
+      <content:encoded><![CDATA[<p>(tags <code>processing.js,</code>Wordpress, <code>Wordpress Theme,</code>吐槽) | (comments nil)</p>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x6765;&#x9664;&#x8349;&#x4E86;&#x3002;&#x3002;&#x3002;</title>
-      <link>http://douo.ruhoh.com/2011/12/25/before_2012</link>
+      <link>http://brain.dourok.info/2011/12/25/before_2012</link>
       <pubDate>Sun, 25 Dec 2011 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
@@ -579,7 +586,8 @@ Store</a>看下吧。</p>
       <category><![CDATA[Wordpress]]></category>
       <category><![CDATA[Wordpress Theme]]></category>
       <category><![CDATA[吐槽]]></category>
-      <description><![CDATA[<p>终于争取到在2012前上来吐槽下，记录下对博客做的修改和一些新理解。</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>终于争取到在2012前上来吐槽下，记录下对博客做的修改和一些新理解。</p>
 
 <p>首先取消了分类目录，全部通过标签来做归类管理。像我这种随便吐槽的博客用分类目录，很多时候都觉的是种自我限制，相对的标签就自由许多，同时也有归类的功能。这方面不得不说Evernote很有相见之明，不过我很久没用Evernote了，听说它也是顶不住用户的压力开始支持分类管理了。至于技术文章，我把它归为笔记类，和其它笔记，摘抄都记录到我的wiki里，wiki目前还是通过分类管理的，分得细致很多，不过我觉得更合理的话应该要配合上标签，即便没有客户端和没有标签管理下DokuWiki还是完全替代了我对Evernote的使用，何况标签这个功能装个插件就有了，Wiki的自由和可扩展性是无可替代的。一直有个将dokuwiki变身为云笔记想法，主要目的本地和服务器同步文件，还有Web编辑器太弱了，想通过Emacs来做桌面客户端，再来个Android
 App，加上一些自己常用网站的接口插件，就差不多了。我已经启动这个项目很久了（见<a href="http://code.google.com/p/wiki-note/">wiki-note</a>），不过一直没有动工过，果然是拖延症患者吧。</p>
@@ -596,18 +604,19 @@ theme），设计主要来自 <a href="http://criticalzero.co.uk/%20">CriticalZe
 ，Copy的太多都不好意思说是参考了。目前是dirty又buggy，只在Chrome和Firefox下测试过，我自己发现的就有不少bug，也没要提供任何可自定制的接口，下次再修复吧。有兴趣的同学到这里看下：<a href="https://github.com/dourokinga/BetaD">https://github.com/dourokinga/BetaD</a></p>
 
 <p>另外，不知大家有发现没，这个主题的背景是动态生成，在研究代码是时候，发现了相当酷的框架<a href="http://processingjs.org">processing.js</a>，是用来做html5交互动画的。这个背景就是用这个框架生成的，看起来十分强大的样子，一定要来研究下。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x5728;Netbeans&#x4E0A;&#x67E5;&#x770B;Android&#x6E90;&#x7801;</title>
-      <link>http://douo.ruhoh.com/2011/10/10/browse_android_sources_on_netbeans</link>
+      <link>http://brain.dourok.info/2011/10/10/browse_android_sources_on_netbeans</link>
       <pubDate>Mon, 10 Oct 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[Android]]></category>
       <category><![CDATA[NBAdroid]]></category>
       <category><![CDATA[Netbeans]]></category>
-      <description><![CDATA[<p>Netbeans7.1终于有像Eclipse一样的Attach
+      <description></description>
+      <content:encoded><![CDATA[<p>Netbeans7.1终于有像Eclipse一样的Attach
 Sources按钮，可以为android.jar附加源码了。虽然现在Netbeans 7.1
 还处在测试阶段，但这个功能太重要了，迫不及待要去尝鲜，不过其实现在也足够稳定了。
 <a href="http://dourok.info/wp-content/uploads/2010/05/attach_sources.png"><img src="http://dourok.info/wp-content/uploads/2010/05/attach_sources.png" alt="" title="attach_sources"></a>
@@ -628,11 +637,11 @@ Sources&quot;按钮失效。我试过了确实会这样（linux下）。解决�
 <p><a href="http://kenai.com/jira/browse/NBANDROID-71">NBANDROID-71</a>基本可以算解决了。</p>
 
 <p>见此,如何<a href="http://dourok.info/2010/05/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/" title="在Netbeans上配置Android开发环境">在Netbeans上配置Android开发环境</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x4FEE;&#x590D;&#x4E86; Lyrics Grabber2 &#x7684;&#x5343;&#x5343;&#x9759;&#x542C;&#x6B4C;&#x8BCD;&#x6293;&#x53D6;&#x811A;&#x672C;</title>
-      <link>http://douo.ruhoh.com/2011/08/08/fixed_ttplayer_lrc_py</link>
+      <link>http://brain.dourok.info/2011/08/08/fixed_ttplayer_lrc_py</link>
       <pubDate>Mon, 08 Aug 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -641,7 +650,8 @@ Sources&quot;按钮失效。我试过了确实会这样（linux下）。解决�
       <category><![CDATA[Lyrics Grabber2]]></category>
       <category><![CDATA[python]]></category>
       <category><![CDATA[歌词搜索]]></category>
-      <description><![CDATA[<p>之前修改过现在查词失败的同学请点<a href="#attention">这里</a></p>
+      <description></description>
+      <content:encoded><![CDATA[<p>之前修改过现在查词失败的同学请点<a href="#attention">这里</a></p>
 
 <p><a href="http://code.google.com/p/lyricsgrabber2/">Lyrics Grabber2</a>
 可以说我理想中的歌曲下载插件，主要是它可以批量抓取更新歌词，又可以自定义抓取脚本方便扩展(见<a href="http://code.google.com/p/lyricsgrabber/wiki/HowToMakeProviderInPython">此HowToMakeProviderInPython</a>)，实在强大。不过还是有一些不足，比如找到的歌词没有给出来源（Provider），歌词服务器（Provier）不能更改优先级，还有就是出现多个歌词的匹配问题，既有多个服务器的，也有一个服务器的多个歌词的，希望能增加人工选择的选项。不过 Lyrics
@@ -749,18 +759,19 @@ You Ain&#39;t Goin Nowhere在千千静听里面也是Fault。</p>
 <p>btw：千千静听的歌词库，只要是热门的，流行的，出名的歌曲都挺全的，不知是从哪里来的。</p>
 
 <p> </p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x8FF7;&#x5BAB;&#x751F;&#x6210;&#x7B97;&#x6CD5;</title>
-      <link>http://douo.ruhoh.com/2011/07/14/maze_generation_algorithm</link>
+      <link>http://brain.dourok.info/2011/07/14/maze_generation_algorithm</link>
       <pubDate>Thu, 14 Jul 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[javascript]]></category>
       <category><![CDATA[图论]]></category>
       <category><![CDATA[迷宫]]></category>
-      <description><![CDATA[<p>迷宫,大家都在知道是什么吧.一种标准的迷宫可以是像下图这样的结构,</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>迷宫,大家都在知道是什么吧.一种标准的迷宫可以是像下图这样的结构,</p>
 
 <p><a href="http://dourok.info/wp-content/uploads/2011/07/maze01.png"><img src="http://dourok.info/wp-content/uploads/2011/07/maze01.png" alt="" title="maze01"></a></p>
 
@@ -801,15 +812,16 @@ method),我喜欢叫你建墙我挖洞法,从名字就可以看出这是一种�
 
 <p>参考: <a href="http://en.wikipedia.org/wiki/Maze%5C_generation%5C_algorithm">http://en.wikipedia.org/wiki/Maze\_generation\_algorithm</a>
 <a href="http://en.wikipedia.org/wiki/Maze">http://en.wikipedia.org/wiki/Maze</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x60A0;&#x54C9;&#x60A0;&#x54C9;&#xFF0C;&#x8F97;&#x8F6C;&#x53CD;&#x4FA7;</title>
-      <link>http://douo.ruhoh.com/2011/06/05/&#x60A0;&#x54C9;&#x60A0;&#x54C9;&#xFF0C;&#x8F97;&#x8F6C;&#x53CD;&#x4FA7;</link>
+      <link>http://brain.dourok.info/2011/06/05/&#x60A0;&#x54C9;&#x60A0;&#x54C9;&#xFF0C;&#x8F97;&#x8F6C;&#x53CD;&#x4FA7;</link>
       <pubDate>Sun, 05 Jun 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>昨天晚上，也就是敏感瓷那天，跟几个老同学跑出去犯罪了，其实应该算是只醉没饭…
+      <description></description>
+      <content:encoded><![CDATA[<p>昨天晚上，也就是敏感瓷那天，跟几个老同学跑出去犯罪了，其实应该算是只醉没饭…
 喝了几杯酒，一点醉意也没，还很精神。回来还写两个多小时的代码，丝毫不困，只是烦。
 …… 居然把博客当微博，真是太水了。
 抱怨一下老鹰，真的是自动gzip，速度又不快，等了快10秒页面空白，突然咔噔一下，全部载入好了。本来是想躺在床上用手机上的，但android上等的我受不了，直接起床开电脑了。</p>
@@ -817,17 +829,18 @@ method),我喜欢叫你建墙我挖洞法,从名字就可以看出这是一种�
 <p>有点睡意，立马上床。</p>
 
 <p>于 2011 年 06 月 05 日 03:59:17</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>System.in&#x7684;&#x56F0;&#x60D1;</title>
-      <link>http://douo.ruhoh.com/2011/05/28/a_puzzle_of_system-in</link>
+      <link>http://brain.dourok.info/2011/05/28/a_puzzle_of_system-in</link>
       <pubDate>Sat, 28 May 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[Java]]></category>
       <category><![CDATA[System.in]]></category>
-      <description><![CDATA[<p>先看下下面代码先</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>先看下下面代码先</p>
 
 <pre><code>static class Thread1 extends Thread {
         @Override
@@ -998,26 +1011,27 @@ b, int off, int len)
 <p>希望能在<a href="http://book.douban.com/subject/1230413/">深入理解计算机系统</a>找到答案，</p>
 
 <p>最近看开始这本书，太棒了，才看第一章就对它入迷了，大学时代与它失之交臂真是遗憾啊。。。。啊。。。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x66F4;&#x65B0;&#x4E86;&#x4E0B;CSS</title>
-      <link>http://douo.ruhoh.com/2011/05/24/&#x66F4;&#x65B0;&#x4E86;&#x4E0B;css</link>
+      <link>http://brain.dourok.info/2011/05/24/&#x66F4;&#x65B0;&#x4E86;&#x4E0B;css</link>
       <pubDate>Tue, 24 May 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
       <category><![CDATA[Chrome]]></category>
       <category><![CDATA[css]]></category>
       <category><![CDATA[通用字体]]></category>
-      <description><![CDATA[<p>Ubuntu 下的Chrome 11默认字体很糟糕，不像Chromium
+      <description></description>
+      <content:encoded><![CDATA[<p>Ubuntu 下的Chrome 11默认字体很糟糕，不像Chromium
 13，Chrome设置里只能改标准字体和等宽字体，经测试分别对应通用字体的fantasy(同未声明)和monospace。
 无奈下添加了对文泉驿微米黑和微软雅黑的优先权。
 详细整理于此：<a href="http://dourok.info/wiki/doku.php/%E7%BC%96%E7%A0%81/css/css%E9%80%9A%E7%94%A8%E5%AD%97%E4%BD%93">css通用字体</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x5982;&#x4F55;&#x7528;Mercurial&#x5F00;&#x59CB;GoogleCode&#x9879;&#x76EE;</title>
-      <link>http://douo.ruhoh.com/2011/05/11/managing-google-code-project-with-mercurial</link>
+      <link>http://brain.dourok.info/2011/05/11/managing-google-code-project-with-mercurial</link>
       <pubDate>Wed, 11 May 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
@@ -1025,7 +1039,8 @@ b, int off, int len)
       <category><![CDATA[Google Code]]></category>
       <category><![CDATA[hg]]></category>
       <category><![CDATA[Mercurial]]></category>
-      <description><![CDATA[<p>最近打算对自己乱糟糟的代码整理规划下，把一些项目提交到在线的代码仓库。因为自己还算是一个windows用户，所以还是放弃github，选择google
+      <description></description>
+      <content:encoded><![CDATA[<p>最近打算对自己乱糟糟的代码整理规划下，把一些项目提交到在线的代码仓库。因为自己还算是一个windows用户，所以还是放弃github，选择google
 code
 加上看起来比较好用的Mercurial（<a href="http://www.cnblogs.com/greenmile/archive/2010/04/20/VCS.html">CVS，GIT，Mercurial和SVN比较</a>），Netbeans对Mercurial也有很好的支持。</p>
 
@@ -1148,29 +1163,31 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 管理你的项目</a>，我也没细看。</p>
 
 <p>知道hg就是汞Hg吧 :lol:</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>I'm Back!</title>
-      <link>http://douo.ruhoh.com/2011/05/09/im-back</link>
+      <link>http://brain.dourok.info/2011/05/09/im-back</link>
       <pubDate>Mon, 09 May 2011 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>看下日期blog荒废了快半年了。本来就很懒，再加上前几个月合租的虚拟主机又过期了，想趁这个机会自己买个美国虚拟主机，而信用卡申请又被拒了，就这样继续耗着。最近几天新的工商信用卡终于批下来的，由于是在线提交申请的，很多功能受到限制，需要本人亲自柜台激活，网上银行开通也要申请，还要开通境外无卡支付，结果又断断续续跑去银行几趟，还不如一开始直接去银行申请方便。不过现在总算可以购买美国主机了，权衡之下选了知名度相对较低的老鹰，想不到它最近居然开始支持Alipay，真是悲剧。选了标准套餐+独立IP+50%的折扣就47多刀。速度还不错，下午测试下，ping就150+，而上下行带宽都到达我电信1m小水管的极限。做代理爽歪歪啊！</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>看下日期blog荒废了快半年了。本来就很懒，再加上前几个月合租的虚拟主机又过期了，想趁这个机会自己买个美国虚拟主机，而信用卡申请又被拒了，就这样继续耗着。最近几天新的工商信用卡终于批下来的，由于是在线提交申请的，很多功能受到限制，需要本人亲自柜台激活，网上银行开通也要申请，还要开通境外无卡支付，结果又断断续续跑去银行几趟，还不如一开始直接去银行申请方便。不过现在总算可以购买美国主机了，权衡之下选了知名度相对较低的老鹰，想不到它最近居然开始支持Alipay，真是悲剧。选了标准套餐+独立IP+50%的折扣就47多刀。速度还不错，下午测试下，ping就150+，而上下行带宽都到达我电信1m小水管的极限。做代理爽歪歪啊！</p>
 
 <p>随着这文章的成功发表，博客搬家也搞定了。btw：最近在用ubuntu11.04 :grin:</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Groovy&#x521D;&#x63A5;&#x89E6;</title>
-      <link>http://douo.ruhoh.com/2010/12/30/groovy_introduce</link>
+      <link>http://brain.dourok.info/2010/12/30/groovy_introduce</link>
       <pubDate>Thu, 30 Dec 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[Groovy]]></category>
       <category><![CDATA[Java]]></category>
       <category><![CDATA[闭包]]></category>
-      <description><![CDATA[<h3 id="toc_0">Groovy</h3>
+      <description></description>
+      <content:encoded><![CDATA[<h3 id="toc_0">Groovy</h3>
 
 <p>Groovy是一种运行在Java虚拟机上的脚本语言，语法相比java起来简单很多。而且完全支持Java语法，这个不知道是不是好事，写习惯groovy再去写java会不会很容易混淆？所有Java的库都可以在Groovy上使用，可以说跟Java是互通的。Groovy的就是一跑在jvm上的脚本语言嘛，Groovy的代码最后也要被编译成为jvm上的字节码。</p>
 
@@ -1384,11 +1401,11 @@ def buildPrimeTable(n){
 <p>以生成前10000位素数为例，结果如下： Java:718ms，表现不错。
 Python:8833ms，8秒，java的10倍，也可能是我代码写的不好。
 Groovy:77484ms，没错，你没看错是5位数，77秒！几乎是java版的110倍。天啊，这也忒慢了吧，是不是我触犯了什么禁忌啊，很可能出现在列表结构上面，下次再弄清楚啦。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>dokuwiki&#x65B0;&#x7248;&#x672C;"Anteater"&#x652F;&#x6301;UTF-8&#x6587;&#x4EF6;&#x540D;</title>
-      <link>http://douo.ruhoh.com/2010/12/09/dokuwiki_new_realease</link>
+      <link>http://brain.dourok.info/2010/12/09/dokuwiki_new_realease</link>
       <pubDate>Thu, 09 Dec 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -1396,7 +1413,8 @@ Groovy:77484ms，没错，你没看错是5位数，77秒！几乎是java版的11
       <category><![CDATA[FML]]></category>
       <category><![CDATA[php]]></category>
       <category><![CDATA[UTF-8]]></category>
-      <description><![CDATA[<p>&quot;;</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>&quot;;</p>
 
 <p>//可能要动手修改的地方\
 \$ds =dirname(__FILE__) . &quot;/data&quot;; //默认同目录下的data文件夹 //\$ds
@@ -1410,18 +1428,19 @@ rename_data(\$ds);</p>
 
 <p>突然想来一段FML:
 今天，本来是想把dokuwiki的老数据拉到本地系统上来改名的，用Java写好了代码才想起windows文件名不是utf-8，于是乎再将数据跟代码传到我的ssh服务器上，上面有java环境，运行下才发现服务器不支持非ASCII字符，我一早知道又给忘了，无奈只能用php重写，实现了url解码成功改完名后，才发现php有urldecode…FML</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Random Words My Chosen</title>
-      <link>http://douo.ruhoh.com/2010/12/04/random-words</link>
+      <link>http://brain.dourok.info/2010/12/04/random-words</link>
       <pubDate>Sat, 04 Dec 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[php]]></category>
       <category><![CDATA[wordpress插件]]></category>
       <category><![CDATA[随机副标题]]></category>
-      <description><![CDATA[<p>博客荒废了2个月，不忍让时间悄然飞逝，终于鼓起劲把博客重新整理下。其实不写博客还有另外一个原因，就是我习惯了用Evernote来记笔记。Evernote用起来是很方便，特别是做些文字剪辑。但是用久有些缺点还是很明显，如没有层次结构，用标签管理，如果标签没有规划好，就很容易乱了。得经常需要整理，而我又疏于整理，最后只能越来越乱了。确实不如wiki清晰，且页面间不能互相连接是个缺憾。</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>博客荒废了2个月，不忍让时间悄然飞逝，终于鼓起劲把博客重新整理下。其实不写博客还有另外一个原因，就是我习惯了用Evernote来记笔记。Evernote用起来是很方便，特别是做些文字剪辑。但是用久有些缺点还是很明显，如没有层次结构，用标签管理，如果标签没有规划好，就很容易乱了。得经常需要整理，而我又疏于整理，最后只能越来越乱了。确实不如wiki清晰，且页面间不能互相连接是个缺憾。</p>
 
 <p>说回整理博客，趁这个机会实现了个以前很想实现的功能，就是随机显示不同的副标题(见右上角)。这样就可以把一堆格言名句之类东西扔进去每次访问随机显示一条出来。一开始写在主题文件上面，觉得这样写很丑，便想写成wordpress的插件。仔细了解一番发现写成插件也并不复杂。wordpress的插件主要就是两个行为，一个动作（Action），另一个是过滤器（Filter）。我所写的那个插件主要就是用到过滤器，当页面请求显示博客副标题也就是bloginfo(&quot;description&quot;)这个方法时，我的插件会将它原本的内容拦截下来替换成格言列表里面的随机一句。就是这么傻瓜化，关于制作插件方面的具体内容，我连php都是现学现写，连个菜鸟都算不上，就不献丑了。下面给出一些帮助我完成这个插件的文章链接供有兴趣者参考：</p>
 
@@ -1449,26 +1468,27 @@ W3school的php教程挺简洁的</p>
 <p><a href="http://dourok.info/wp-content/uploads/2010/12/random-words-my-chosen.zip">random-words-my-chosen</a></p>
 
 <p>关于php再唠叨一下，每个变量前要加个\$符号真的很不爽啊，试过在访问数组的时候，索引忘了加&quot;\$&quot;，在记事本上写又不报错哦。结果调试了半天。还有，写过php后,我就忘了javascript该怎么写...真的挺像的。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>WebGL V5!</title>
-      <link>http://douo.ruhoh.com/2010/09/26/webgl-v5</link>
+      <link>http://brain.dourok.info/2010/09/26/webgl-v5</link>
       <pubDate>Sun, 26 Sep 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
       <category><![CDATA[WebGL]]></category>
-      <description><![CDATA[<p>CPU狂飙警告！！！</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>CPU狂飙警告！！！</p>
 
 <p>源地址在此<a href="http://webglsamples.googlecode.com/hg/aquarium/aquarium.html">http://webglsamples.googlecode.com/hg/aquarium/aquarium.html</a>，用最新版的chrome或chromium浏览。</p>
 
 <p><a href="http://webglsamples.googlecode.com/hg">http://webglsamples.googlecode.com/hg</a>上有很多WebGL的例子，看了利马让你觉得WebGL
 V5！HTML5 V5！ 用了iframe,不好意思!</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x63D2;&#x5165;!&#x6570;&#x5B66;&#x516C;&#x5F0F;&#x6D4B;&#x8BD5;&#xFF0C;&#x9644;&#x4E0A;&#x4E00;&#x4E2A;&#x5F88;SB&#x7684;Java&#x7A0B;&#x5E8F;</title>
-      <link>http://douo.ruhoh.com/2010/08/31/316</link>
+      <link>http://brain.dourok.info/2010/08/31/316</link>
       <pubDate>Tue, 31 Aug 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -1478,7 +1498,8 @@ V5！HTML5 V5！ 用了iframe,不好意思!</p>
       <category><![CDATA[mathtex]]></category>
       <category><![CDATA[Robot]]></category>
       <category><![CDATA[数学公式]]></category>
-      <description><![CDATA[<p>实际上我不喜欢插入这个词!</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>实际上我不喜欢插入这个词!</p>
 
 <p>在网页上嵌入数学公式，之前已经在wiki上试过，尝试了<a href="http://www.math.union.edu/%7Edpvc/jsmath/">jsMath</a>和<a href="http://www.mathjax.org/">mathJax</a>。这两个都不是在服务器是渲染Latex代码，而是用javascript在客户端渲染，而且渲染出来的不是图片而是文本，也就是说可以复制粘贴到文本编辑器上，不知这个算不算优点，好处节省下带宽，但实际在IE8上可以说又慢又卡，chromium还可以接受但下标有点错位，也许是我配置的问题，对FireFox的支持是最好的。但是为了获得最佳的显示效果客户端必须要安装某种最佳字体，选择mathJax会自动下载该字体。点击<a href="http://dourok.info/mathjax/test/">这里看下mathJax的效果</a>。相对来说mathJax比jsMath更方便些。</p>
 
@@ -1619,29 +1640,30 @@ y)这个方法是返回给定屏幕坐标处的像素颜色。是不是感觉更
 <p>可以得到当前屏幕的图像，又可以控制鼠标，键盘的行为，实际上，Robot就是经常被用来做远程操控软件的。在游戏开发中Robot也可以用来做鼠标强制居中，对这个类也是停留在刚刚认识的阶段。</p>
 
 <p><a href="http://dourok.info/wp-content/uploads/2010/09/Robot.jar">程序在此！</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x539F;&#x578B;&#x4F53;(Prototype)&#x901A;&#x5173;</title>
-      <link>http://douo.ruhoh.com/2010/08/08/&#x539F;&#x578B;&#x4F53;prototype&#x901A;&#x5173;</link>
+      <link>http://brain.dourok.info/2010/08/08/&#x539F;&#x578B;&#x4F53;prototype&#x901A;&#x5173;</link>
       <pubDate>Sun, 08 Aug 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
       <category><![CDATA[Prototype]]></category>
       <category><![CDATA[原型体]]></category>
       <category><![CDATA[游戏]]></category>
-      <description><![CDATA[<p><img src="http://i563.photobucket.com/albums/ss74/naviichi/ad12.jpg" alt="" title="Big Boss is watching you"></p>
+      <description></description>
+      <content:encoded><![CDATA[<p><img src="http://i563.photobucket.com/albums/ss74/naviichi/ad12.jpg" alt="" title="Big Boss is watching you"></p>
 
 <p>昨晚玩到凌晨3点多，终于把<a href="http://zh.wikipedia.org/zh-cn/%E8%99%90%E6%9D%80%E5%8E%9F%E5%BD%A2">原型体(Prototype)</a>的剧情打通了。不过是走马观花般地打通，细胞记忆只拿了35%，而且电影还是E文字幕的，所以<a href="http://game.ali213.net/thread-2757401-1-1.html" title="剧透警告">别人所说的剧情</a>我一点都察觉不出来，真是可惜。不过原型体(Prototype)就算不谈剧情也是是一部上上的佳作，操作流畅，动作华丽，极具速度感，在曼哈顿飞奔相当有快感，作为同样开放式的游戏杀起人来那是比GTA牛逼哄哄的多，个人感觉那肉鞭才是最牛逼的武器，最适合我这种猥琐的玩家。</p>
 
 <p>现在剩下都是收集控、完美控的工作了，我两者都不是，更不是剧情控，只是轻微的强迫症患者。只是现在在执行我的硬盘游戏清理计划，这是个相当漫长的计划呐。作为这个计划中第一款被清理的游戏（当然记录跟安装包还是会被保留……），始终觉得要留点文字作纪念。OK，任务完成了，下一个是刺客信条。</p>
 
 <p><img src="http://www.vgarabia.com/wp-content/uploads/2009/06/prototype_042508_7263.jpg" alt="" title="引用自vgarabia.com"></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>CodeColorer&#x4E2D;&#x6587;&#x5E2E;&#x52A9;</title>
-      <link>http://douo.ruhoh.com/2010/08/03/codecolorer&#x4E2D;&#x6587;&#x5E2E;&#x52A9;</link>
+      <link>http://brain.dourok.info/2010/08/03/codecolorer&#x4E2D;&#x6587;&#x5E2E;&#x52A9;</link>
       <pubDate>Tue, 03 Aug 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
@@ -1649,7 +1671,8 @@ y)这个方法是返回给定屏幕坐标处的像素颜色。是不是感觉更
       <category><![CDATA[wordpress插件]]></category>
       <category><![CDATA[插件翻译]]></category>
       <category><![CDATA[语法高亮]]></category>
-      <description><![CDATA[<h2 id="toc_0">写在前面</h2>
+      <description></description>
+      <content:encoded><![CDATA[<h2 id="toc_0">写在前面</h2>
 
 <p>用WordPress以来，一直都用CodeColorer插件用来实现代码高亮，不过一直没花时间去看说明，用起来很苦恼。所以今天决定花点时间认真学习下，并根据作者的说明总结下各个属性的作用，还添加了些例子，以后忘了理解起来也方便些。不过都是些苦力活啦。</p>
 
@@ -1910,11 +1933,11 @@ very very very very long String&quot;); } } [/ccsW_xml]</p>
 </code></pre>
 
 <p>就得用不同的短标签将其包围起来。不知这样说的够明白没。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>ProGuard&#x6DF7;&#x6DC6;&#x4E22;&#x6389;&#x7A7A;&#x5FAA;&#x73AF;</title>
-      <link>http://douo.ruhoh.com/2010/07/30/proguard&#x6DF7;&#x6DC6;&#x4E22;&#x6389;&#x7A7A;&#x5FAA;&#x73AF;</link>
+      <link>http://brain.dourok.info/2010/07/30/proguard&#x6DF7;&#x6DC6;&#x4E22;&#x6389;&#x7A7A;&#x5FAA;&#x73AF;</link>
       <pubDate>Fri, 30 Jul 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -1923,7 +1946,8 @@ very very very very long String&quot;); } } [/ccsW_xml]</p>
       <category><![CDATA[valatile]]></category>
       <category><![CDATA[多线程]]></category>
       <category><![CDATA[空循环]]></category>
-      <description><![CDATA[<p>项目正要发布时，我用proguard打了个混淆包，想不到运行的时候出错了。proguard是Netbeans6.9
+      <description></description>
+      <content:encoded><![CDATA[<p>项目正要发布时，我用proguard打了个混淆包，想不到运行的时候出错了。proguard是Netbeans6.9
 J2ME插件自带的，版本号是4.4。</p>
 
 <p>无奈只好debug加反编译，发现居然混淆后的代码里，我用来挂起线程的空循环语句，所谓的<a href="http://en.wikipedia.org/wiki/Busy_waiting">busy-waiting
@@ -1981,17 +2005,18 @@ option.</p>
 
 <pre><code>-dontoptimize
 </code></pre>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x73A9;&#x626B;&#x96F7;&#x7684;&#x60B2;&#x5267;</title>
-      <link>http://douo.ruhoh.com/2010/07/20/&#x73A9;&#x626B;&#x96F7;&#x7684;&#x60B2;&#x5267;</link>
+      <link>http://brain.dourok.info/2010/07/20/&#x73A9;&#x626B;&#x96F7;&#x7684;&#x60B2;&#x5267;</link>
       <pubDate>Tue, 20 Jul 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
       <category><![CDATA[minesweeper]]></category>
       <category><![CDATA[扫雷]]></category>
-      <description><![CDATA[<p>直接上图:</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>直接上图:</p>
 
 <p><a href="http://dourok.info/wp-content/uploads/2010/07/12.jpg"><img src="http://dourok.info/wp-content/uploads/2010/07/12.jpg" alt="" title="mine1"></a></p>
 
@@ -2003,17 +2028,18 @@ option.</p>
 
 <p>不过倒发现了一个非常好的ppt：<a href="http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ASE2003.pdf">how  complicated is
 minesweeper?</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x5982;&#x4F55;&#x4E3A;MTK&#x5E73;&#x53F0;&#x6DFB;&#x52A0;&#x65B0;&#x6A21;&#x5757;</title>
-      <link>http://douo.ruhoh.com/2010/07/15/&#x5982;&#x4F55;&#x4E3A;mtk&#x5E73;&#x53F0;&#x6DFB;&#x52A0;&#x65B0;&#x6A21;&#x5757;</link>
+      <link>http://brain.dourok.info/2010/07/15/&#x5982;&#x4F55;&#x4E3A;mtk&#x5E73;&#x53F0;&#x6DFB;&#x52A0;&#x65B0;&#x6A21;&#x5757;</link>
       <pubDate>Thu, 15 Jul 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[Modis]]></category>
       <category><![CDATA[MTK]]></category>
-      <description><![CDATA[<h2 id="toc_0">包含源码的第三方库</h2>
+      <description></description>
+      <content:encoded><![CDATA[<h2 id="toc_0">包含源码的第三方库</h2>
 
 <p>以添加一个TTS模块为例，可以按如下步骤添加：</p>
 
@@ -2136,11 +2162,11 @@ make codegen_modis
 
 <p>[2]52rd论坛.
 添加新模块模拟器编译出现问题<a href="http://www.52rd.com/bbs/Detail_RD.BBS_189450_5_1_1.html">http://www.52rd.com/bbs/Detail_RD.BBS_189450_5_1_1.html</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x8BA9;HTC Hero&#x901A;&#x8FC7;&#x6211;&#x7684;&#x7B14;&#x8BB0;&#x672C;&#x65E0;&#x7EBF;&#x7F51;&#x5361;&#x5171;&#x4EAB;&#x4E0A;&#x7F51;</title>
-      <link>http://douo.ruhoh.com/2010/06/25/&#x8BA9;htc-hero&#x901A;&#x8FC7;&#x6211;&#x7684;&#x7B14;&#x8BB0;&#x672C;&#x65E0;&#x7EBF;&#x7F51;&#x5361;&#x5171;&#x4EAB;&#x4E0A;&#x7F51;</link>
+      <link>http://brain.dourok.info/2010/06/25/&#x8BA9;htc-hero&#x901A;&#x8FC7;&#x6211;&#x7684;&#x7B14;&#x8BB0;&#x672C;&#x65E0;&#x7EBF;&#x7F51;&#x5361;&#x5171;&#x4EAB;&#x4E0A;&#x7F51;</link>
       <pubDate>Fri, 25 Jun 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
@@ -2149,7 +2175,8 @@ make codegen_modis
       <category><![CDATA[Hero]]></category>
       <category><![CDATA[HTC G3]]></category>
       <category><![CDATA[无线网卡]]></category>
-      <description><![CDATA[<p>今天为了解决宿舍没有无线AP的情况，让hero可以上网（我只开了20M的GPRS消费）。捣鼓了一下让Hero通过<a href="http://en.wikipedia.org/wiki/Ad_hoc">Ad-Hoc</a>连接我的笔记本来共享上网的问题，google一下，找到了两篇可以解决问题的文章，如下：</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>今天为了解决宿舍没有无线AP的情况，让hero可以上网（我只开了20M的GPRS消费）。捣鼓了一下让Hero通过<a href="http://en.wikipedia.org/wiki/Ad_hoc">Ad-Hoc</a>连接我的笔记本来共享上网的问题，google一下，找到了两篇可以解决问题的文章，如下：</p>
 
 <p><a href="http://blog.sina.com.cn/s/blog_617b01db0100foqh.html">hTC G3 HERO 如何使用无线网卡共享宽带上网 ad
 hoc</a>（不推荐，步骤简单，但会丢失当前已记忆的wifi热点）</p>
@@ -2202,11 +2229,11 @@ WiFi技术应该是将无线网卡虚拟成无线AP，这样所有设置都在�
 设置名称&quot;HTC HERO&quot;和图标是我自己改的。</p>
 
 <p><a href="http://dourok.info/wp-content/uploads/2010/06/menu.jpg"><img src="http://dourok.info/wp-content/uploads/2010/06/menu.jpg" alt="" title="menu"></a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x4ECE;GBK&#x5230;Unicode&#x7684;&#x4E2D;&#x6587;&#x5B57;&#x7B26;&#x6620;&#x5C04;</title>
-      <link>http://douo.ruhoh.com/2010/06/24/&#x4ECE;gbk&#x5230;unicode&#x7684;&#x4E2D;&#x6587;&#x5B57;&#x7B26;&#x6620;&#x5C04;</link>
+      <link>http://brain.dourok.info/2010/06/24/&#x4ECE;gbk&#x5230;unicode&#x7684;&#x4E2D;&#x6587;&#x5B57;&#x7B26;&#x6620;&#x5C04;</link>
       <pubDate>Thu, 24 Jun 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -2214,7 +2241,8 @@ WiFi技术应该是将无线网卡虚拟成无线AP，这样所有设置都在�
       <category><![CDATA[MTK]]></category>
       <category><![CDATA[Unicode]]></category>
       <category><![CDATA[编码转换]]></category>
-      <description><![CDATA[<h2 id="toc_0">前言</h2>
+      <description></description>
+      <content:encoded><![CDATA[<h2 id="toc_0">前言</h2>
 
 <p>最近在做MTK开发，需要在程序中将GBK编码的文本文件实时转换为unicode编码，因为MTK只认Unicode。经尝试网上提供的mmi_chset_convert函数在我手上的SDK里没有用，很奇怪这个函数的只是调用了memcpy。无奈之下只能自己动手实现转换，也好趁这个机会摸清以前一直一知半解的字符编码。</p>
 
@@ -2346,18 +2374,19 @@ Encoding</a></li>
 <li> <a href="http://dourok.info/wp-content/uploads/2010/06/gbktoule.7z">源码、编译的可执行文件、及ULE表都在这里</a></li>
 <li> GBK/1、GBK/5符号集合，当然在我网页上显示的是UTF-8编码的：</li>
 </ol>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x5728;Netbeans&#x4E0A;&#x914D;&#x7F6E;Android&#x5F00;&#x53D1;&#x73AF;&#x5883;</title>
-      <link>http://douo.ruhoh.com/2010/05/22/&#x5728;netbeans&#x4E0A;&#x914D;&#x7F6E;android&#x5F00;&#x53D1;&#x73AF;&#x5883;</link>
+      <link>http://brain.dourok.info/2010/05/22/&#x5728;netbeans&#x4E0A;&#x914D;&#x7F6E;android&#x5F00;&#x53D1;&#x73AF;&#x5883;</link>
       <pubDate>Sat, 22 May 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[Android]]></category>
       <category><![CDATA[NBAdroid]]></category>
       <category><![CDATA[Netbeans]]></category>
-      <description><![CDATA[<h1 id="toc_0">NBAndroid</h1>
+      <description></description>
+      <content:encoded><![CDATA[<h1 id="toc_0">NBAndroid</h1>
 
 <p>突发奇想要看看Android应用程序的开发，在网上找了些文章，发现android的开发环境大多是Eclipse+ADT，其实在netbeans上也是可以的。有个netbeabs插件叫NBAndroid，如果想在Netbeans上开发Android应用第一步就是要安装它，下面是NBAndroid的项目主页
 <a href="http://kenai.com/projects/nbandroid">http://kenai.com/projects/nbandroid</a>。</p>
@@ -2476,17 +2505,18 @@ Android开发者主页，（墙）</li>
 <li> <a href="http://kenai.com/projects/nbandroid/pages/Home">http://kenai.com/projects/nbandroid/pages/Home</a>NBAndroid
 Wiki</li>
 </ol>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Java ME&#x901A;&#x7528;Logger&#x5305;&#x548C;&#x63A7;&#x5236;&#x53F0;</title>
-      <link>http://douo.ruhoh.com/2010/05/15/&#x4E00;&#x4E2A;me&#x7684;log&#x5305;</link>
+      <link>http://brain.dourok.info/2010/05/15/&#x4E00;&#x4E2A;me&#x7684;log&#x5305;</link>
       <pubDate>Sat, 15 May 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[J2ME]]></category>
       <category><![CDATA[控制台]]></category>
-      <description><![CDATA[<h2 id="toc_0">写在前面</h2>
+      <description></description>
+      <content:encoded><![CDATA[<h2 id="toc_0">写在前面</h2>
 
 <p>这是一个JavaMe的通用轻量级Logger系统和控制台程序，轻击<a href="#source">这里下载logger源码</a>，把它拉到你的项目里面去便可，要看下例子可以再轻击<a href="#example">这里</a>，还有<a href="#image">效果图在这</a>。</p>
 
@@ -2565,41 +2595,45 @@ g)。很多时候消息太多会超过一屏，要在canvas实现滚屏那显的
 UI库，可自定义主题，同时支持渲染xHtml/CSS，提供有xHtml浏览器组件。<a href="http://sourceforge.net/projects/fire-j2me/">这里</a>是它的项目地址</p>
 
 <h2 id="toc_4"><a href="http://dourok.info/wp-content/uploads/2010/05/console.png"><img src="http://dourok.info/wp-content/uploads/2010/05/console-e1274319179862-225x300.png" alt="" title="console"></a></h2>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x65B9;&#x683C;&#x56FE;&#x7684;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#x63A2;&#x8BA8;</title>
-      <link>http://douo.ruhoh.com/2010/05/11/&#x65B9;&#x683C;&#x56FE;&#x7684;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#x63A2;&#x8BA8;-2</link>
+      <link>http://brain.dourok.info/2010/05/11/&#x65B9;&#x683C;&#x56FE;&#x7684;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#x63A2;&#x8BA8;-2</link>
       <pubDate>Tue, 11 May 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
-      <description><![CDATA[]]></description>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Java&#x5F00;&#x53D1;&#x7684;&#x5C4F;&#x5E55;&#x62FE;&#x8272;&#x5668;</title>
-      <link>http://douo.ruhoh.com/2010/05/11/&#x65B9;&#x683C;&#x56FE;&#x7684;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#x63A2;&#x8BA8;</link>
+      <link>http://brain.dourok.info/2010/05/11/&#x65B9;&#x683C;&#x56FE;&#x7684;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#x63A2;&#x8BA8;</link>
       <pubDate>Tue, 11 May 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[]]></description>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>PNG&#x683C;&#x5F0F;&#x4E0E;Me&#x4E2D;&#x7684;PNG</title>
-      <link>http://douo.ruhoh.com/2010/05/11/png&#x683C;&#x5F0F;&#x4E0E;me&#x4E2D;&#x7684;png</link>
+      <link>http://brain.dourok.info/2010/05/11/png&#x683C;&#x5F0F;&#x4E0E;me&#x4E2D;&#x7684;png</link>
       <pubDate>Tue, 11 May 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[]]></description>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Google Cookies &#x5206;&#x6790;</title>
-      <link>http://douo.ruhoh.com/2010/04/22/google-cookies-&#x5206;&#x6790;</link>
+      <link>http://brain.dourok.info/2010/04/22/google-cookies-&#x5206;&#x6790;</link>
       <pubDate>Thu, 22 Apr 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
       <category><![CDATA[cookie]]></category>
       <category><![CDATA[google]]></category>
-      <description><![CDATA[<p>3:  set-cookie PREF= ID=8931acd2f4c3f634:            //全球唯一的标识符
+      <description></description>
+      <content:encoded><![CDATA[<p>3:  set-cookie PREF= ID=8931acd2f4c3f634:            //全球唯一的标识符
 16^16 NW=1:                    //不明 TM=1271669549:              
  //第一次你得到这个cookie的时间，精确到秒 LM=1271669549:              
  //最后一次你更改个人设置的时间，精确到秒 S=EORIeSpgb7i-vZqM;          
@@ -2610,11 +2644,11 @@ GMT格林威治时间 path=/; domain=.google.com 4:  set-cookie NID=
 33=Vyk2IVVq3qGM6wfvyrqcRd-QUL7ziBWapXikTvR0jdHewShmN09TSuqxRpgLP18McnMLL7PhWfE_VTCmX6LlqY5q-Nk-CGTkVzqQ41ZUx1oZfY5BIt8d1f7iJVFMfSih;  
      //NID 不明用途 expires=Tue, 19-Oct-2010 09:32:29 GMT; path=/;
 domain=.google.com; HttpOnly</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Java Me&#x8BFB;&#x53D6;&#x672C;&#x5730;&#x6587;&#x4EF6;(JSR 75)</title>
-      <link>http://douo.ruhoh.com/2010/04/22/java-me&#x8BFB;&#x53D6;&#x672C;&#x5730;&#x6587;&#x4EF6;jsr-75</link>
+      <link>http://brain.dourok.info/2010/04/22/java-me&#x8BFB;&#x53D6;&#x672C;&#x5730;&#x6587;&#x4EF6;jsr-75</link>
       <pubDate>Thu, 22 Apr 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
@@ -2622,7 +2656,8 @@ domain=.google.com; HttpOnly</p>
       <category><![CDATA[J2ME]]></category>
       <category><![CDATA[J2ME文件系统]]></category>
       <category><![CDATA[JSR 75]]></category>
-      <description><![CDATA[<h3 id="toc_0">FCOP (File Connection optional package) JSR 75</h3>
+      <description></description>
+      <content:encoded><![CDATA[<h3 id="toc_0">FCOP (File Connection optional package) JSR 75</h3>
 
 <p>一个file协议URL的例子 file:///xxxx.txt
 为什么有3个斜线(/)呢?前两个斜线的作用是将file协议与文件路径分开.第2跟第3斜线之间的区域保留给要操作的对象的主机名使用;在前面的示例中,因为主机名就是本地主机,所以省略为空,也可以是file://localhost/xxxx.txt</p>
@@ -2730,44 +2765,47 @@ Domain修改为maximum便可。ktoolbar在 wtk的安装目录/bin/ktoolbar.exe</
 <h3 id="toc_8">参考文献</h3>
 
 <p>RayRischpaer 著 杨越 等译 2009 人民出版社 Java ME基础教程</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Hello world&#xFF01;</title>
-      <link>http://douo.ruhoh.com/2010/04/20/hello-world</link>
+      <link>http://brain.dourok.info/2010/04/20/hello-world</link>
       <pubDate>Tue, 20 Apr 2010 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>欢迎使用 WordPress
+      <description></description>
+      <content:encoded><![CDATA[<p>欢迎使用 WordPress
 。这是系统自动生成的演示文章。编辑或者删除它，开始您的博客！</p>
 
 <p>代码高亮测试:<a href="http://wordpress.org/extend/plugins/codecolorer/installation/">codecolorer</a></p>
 
 <p><code>System.out.println(WordReader.getHoleWord(&quot;adjustable&quot;)); System.out.println(WordReader.getHoleWord(&quot;abyss&quot;)); System.out.println(WordReader.getHoleWord(&quot;aback&quot;)); f = new Form(&quot;test&quot;); tf = new TextField(&quot;查询&quot;, &quot;&quot;, 10, TextField.ANY); st = new StringItem(&quot;result&quot;, &quot;&quot;); f.addCommand(ok); f.setCommandListener(this);</code>{lang=&quot;java&quot;}</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x60CA;&#x53F9;!&#x7B2C;&#x4E00;&#x4EBA;&#x79F0;&#x4FC4;&#x7F57;&#x65AF;&#x65B9;&#x5757;!?</title>
-      <link>http://douo.ruhoh.com/2010/01/27/&#x60CA;&#x53F9;&#x7B2C;&#x4E00;&#x4EBA;&#x79F0;&#x4FC4;&#x7F57;&#x65AF;&#x65B9;&#x5757;</link>
+      <link>http://brain.dourok.info/2010/01/27/&#x60CA;&#x53F9;&#x7B2C;&#x4E00;&#x4EBA;&#x79F0;&#x4FC4;&#x7F57;&#x65AF;&#x65B9;&#x5757;</link>
       <pubDate>Wed, 27 Jan 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
-      <description><![CDATA[<p><img src="http://www.dourok.info/wp-content/uploads/2010/01/best-record.JPG" alt="" title="Best-Record"></p>
+      <description></description>
+      <content:encoded><![CDATA[<p><img src="http://www.dourok.info/wp-content/uploads/2010/01/best-record.JPG" alt="" title="Best-Record"></p>
 
 <p>经典的俄罗斯方块也有第一人称玩法，很难想象吧。<a href="http://www.firstpersontetris.com/">第一人称俄罗斯方块（First-Person
 Tetris）</a>是一款在线的Flash游戏。本身是一款非常传统，应该说怀旧的俄罗斯方块。所谓第一人称，实际上就是让视角跟随着方块运动，这也让游戏有了预防颈椎病的功效（瞎说的~）。像第一人称贪吃蛇、第一人称吃豆人也是可行的吧！俄罗斯方块加上第一人称相应的难度应该有所增加吧，至少第一次玩会有影响。像我这种俄罗斯方块苦手（我的最好成绩：上图分数…），很难作判断。另外，三首Midi都很动听，注意听听看。很好奇游戏长什么样子吧？链接就在上面还没点吗。</p>
 
 <p>如果嫌挑战不够，或者对颈椎病的效果不好，那别忘了点上NIGHT
 MODE。很有小时候背着父母半夜起来玩红白机的味道，不过请注意，这是一级头晕警告。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x56DE;&#x5BB6;&#x672D;&#x8BB0;&#x4E8C;:&#x7F51;&#x7AD9;&#x88AB;&#x5899;</title>
-      <link>http://douo.ruhoh.com/2010/01/25/&#x56DE;&#x5BB6;&#x672D;&#x8BB0;&#x4E8C;&#x7F51;&#x7AD9;&#x88AB;&#x5899;</link>
+      <link>http://brain.dourok.info/2010/01/25/&#x56DE;&#x5BB6;&#x672D;&#x8BB0;&#x4E8C;&#x7F51;&#x7AD9;&#x88AB;&#x5899;</link>
       <pubDate>Mon, 25 Jan 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p><a href="http://www.dourok.info/wp-content/uploads/2010/01/1248583217836.jpg"><img src="http://www.dourok.info/wp-content/uploads/2010/01/1248583217836-300x206.jpg" alt="" title="1248583217836"></a></p>
+      <description></description>
+      <content:encoded><![CDATA[<p><a href="http://www.dourok.info/wp-content/uploads/2010/01/1248583217836.jpg"><img src="http://www.dourok.info/wp-content/uploads/2010/01/1248583217836-300x206.jpg" alt="" title="1248583217836"></a></p>
 
 <p>中午起床，有点心神不宁。点开一个网站…突然一个熟悉的页面出现在不应该出现的域名下面：</p>
 
@@ -2794,15 +2832,16 @@ MODE。很有小时候背着父母半夜起来玩红白机的味道，不过请�
 
 <p>网站已于2010-01-13 00:18
 通过换空间恢复。具体被墙原因仍不清楚，也不会清楚D。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x8BF7;&#x5173;&#x6CE8;!&#x5E2E;&#x52A9;&#x4E61;&#x6751;&#x5EFA;&#x56FE;&#x4E66;&#x9986;&#x4F60;&#x7684;1&#x7968;=100$</title>
-      <link>http://douo.ruhoh.com/2010/01/22/&#x8BF7;&#x5173;&#x6CE8;&#x5E2E;&#x52A9;&#x4E61;&#x6751;&#x5EFA;&#x56FE;&#x4E66;&#x9986;&#x4F60;&#x7684;1&#x7968;100</link>
+      <link>http://brain.dourok.info/2010/01/22/&#x8BF7;&#x5173;&#x6CE8;&#x5E2E;&#x52A9;&#x4E61;&#x6751;&#x5EFA;&#x56FE;&#x4E66;&#x9986;&#x4F60;&#x7684;1&#x7968;100</link>
       <pubDate>Fri, 22 Jan 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p> </p>
+      <description></description>
+      <content:encoded><![CDATA[<p> </p>
 
 <blockquote>
 <p>爱心传递慈善基金会（Pass Love Charity
@@ -2820,15 +2859,16 @@ Challenge，主办方是美国的大银行Chase，让大家投票给自己支持
 <p><a href="http://www.passlove.org/bbs/read.php?tid=1852">http://www.passlove.org/bbs/read.php?tid=1852</a></p>
 
 <p>慈善之余，又有翻(^_^)墙方法提供，请一定要关注！</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Passage,&#x6D53;&#x7F29;&#x7684;&#x4EBA;&#x751F;</title>
-      <link>http://douo.ruhoh.com/2010/01/21/passage&#x6D53;&#x7F29;&#x7684;&#x4EBA;&#x751F;</link>
+      <link>http://brain.dourok.info/2010/01/21/passage&#x6D53;&#x7F29;&#x7684;&#x4EBA;&#x751F;</link>
       <pubDate>Thu, 21 Jan 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
-      <description><![CDATA[<p><img src="http://www.dourok.info/wp-content/uploads/2010/01/passage.png" alt="Passage截图" title="Passage"></p>
+      <description></description>
+      <content:encoded><![CDATA[<p><img src="http://www.dourok.info/wp-content/uploads/2010/01/passage.png" alt="Passage截图" title="Passage"></p>
 
 <p>整理硬盘的时候，在硬盘的角落又瞧见这款游戏Passage，忍不住重玩一遍，我承认确实没有当初玩的时候那么有感觉，不过还是免不了黯然神伤。</p>
 
@@ -2853,31 +2893,33 @@ make”。确实，他做到了，让我们尊敬。我呢？路还很远…</p>
 <p>不喜欢全屏，安装后在settings文件夹里将fullscreen.ini的1改为0即可。</p>
 
 <p>顺便说一下，这游戏的像素画风格很赞！音乐很能调动气氛。特别是随着距离所作的那些模糊或者说归纳处理，非常棒，意味深长啊。其实这游戏也有一些可以探索的东西，详情请见<a href="http://baike.baidu.com/view/1695529.htm">百度百科：Passage</a>。建议玩过后再看。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x56DE;&#x5BB6;&#x672D;&#x8BB0;&#x4E00;:&#x6298;&#x817E;&#x529F;&#x653E;&#x5668;</title>
-      <link>http://douo.ruhoh.com/2010/01/10/&#x56DE;&#x5BB6;&#x672D;&#x8BB0;&#x4E00;&#x6298;&#x817E;&#x529F;&#x653E;&#x5668;</link>
+      <link>http://brain.dourok.info/2010/01/10/&#x56DE;&#x5BB6;&#x672D;&#x8BB0;&#x4E00;&#x6298;&#x817E;&#x529F;&#x653E;&#x5668;</link>
       <pubDate>Sun, 10 Jan 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>今天在中午醒来,草草喝了两碗粥.闲的蛋疼,看着客厅尘封多年的那套所谓的家庭影院忽然有股冲动,想把那个大音箱(大是相对而言)接到笔记本上.于是乎把功放搬出来,找了条湿毛巾擦干净灰尘,看了下后面的接口已经氧化了.还能不能用心里没底,立刻去搜刮到一条AV转3.5mm的线.插入功放,打开电源,连上笔记本,播放音乐.哈哈,有声音.不过”嘶嘶”的破音十分严重,勉强可以听到旋律.再清理了几次接口的氧化层后,声音终于恢复正常.干净而且熟悉的音色,恰好foobar2000上播放的是那套纯音CD,这套CD已陪伴我多年.最近才刚吧它转录到电脑上.在那首萨克斯演奏的In
+      <description></description>
+      <content:encoded><![CDATA[<p>今天在中午醒来,草草喝了两碗粥.闲的蛋疼,看着客厅尘封多年的那套所谓的家庭影院忽然有股冲动,想把那个大音箱(大是相对而言)接到笔记本上.于是乎把功放搬出来,找了条湿毛巾擦干净灰尘,看了下后面的接口已经氧化了.还能不能用心里没底,立刻去搜刮到一条AV转3.5mm的线.插入功放,打开电源,连上笔记本,播放音乐.哈哈,有声音.不过”嘶嘶”的破音十分严重,勉强可以听到旋律.再清理了几次接口的氧化层后,声音终于恢复正常.干净而且熟悉的音色,恰好foobar2000上播放的是那套纯音CD,这套CD已陪伴我多年.最近才刚吧它转录到电脑上.在那首萨克斯演奏的In
 a sentimental
 mood的衬托下,整种氛围仿佛回到了10年前还没有电脑的时候.那时候总要放上音乐才肯安心学习.唉</p>
 
 <p>本以为把功放和音箱拉到房间里就一切OK,不用折腾了.傍晚回到房间里,准备放歌.没想到,它竟然给我罢工了.没了声音,安静下来可以听到音箱里微弱的电流声.问题应该出在功放那,扭动下功放后面的输出线,音箱都有反应,确实是功放的问题.一开始以为是后面输入端口的问题,但无论怎么扭动还是没反应.不能不先放下,检查其他地方.在前面板的按钮上乱按着…突然有了声音,一闪而过又没了.问题在按钮!仔细检查一遍按钮,确认问题是在静音按钮与另外一颗切换输入源的按钮.我紧按静音键同时调大音量,慢慢的就有了声音.手一拿开,很快就没了声音.几乎可以确认是按钮接触不良.我按住静音键,保持有声音,同时回头找一下胶带.一不留神,按住按钮的那手指松开了,可奇怪的是声音并没有停止,而且唱的很欢快.我以为它奇迹般好了.然后手一拿开很快又没了声音…这就让我百思不得其解了.经过我做多几次试验后,基本上总结出这样雷人的规律:必须先用手按一下那两按钮,然后再用手不停抚摸功放器的那排按钮,它才肯发声.莫非功放修炼多年已成精了,但也没怎么快吧.我继续百思不得其解:温度?No.静电?No.光线?aha,光线!我立刻拿了本小本子挡在我手的位置,然后把手拿开.太神奇了,音乐没有停.我在仔细观察一下,看出来一些端倪.原来在功放的按钮旁边有个遥控器的接收器.重点在我伸手去抚摸的时候,也会把这个接收器给挡住,莫非是它搞的鬼?迅速找来黑胶布,把它挡住.双手拿开,啊哈一切正常,多么激动人心的时刻.看来罪魁祸首就是这个接收器了,可还有一个问题是:是什么给它发信号?我苦找一遍,除了背后的节能灯这唯一的光源外就没有任何可能的发射源了.只能是节能灯了.据我所知,家用电器的遥控器靠得是红外线来传播信号,节能灯是怎么能导致功放器误认为接受到遥控器的信号的?有没有内行的同学赐教一二?</p>
 
 <p>曝光下这功放器,国产,JINHAO牌,型号JH9812.很不错,应该买了十多年.仍然能工作.本来还有一日本的均衡器,不知什么时候坏了.</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>J2ME&#x5BF9;PNG&#x683C;&#x5F0F;&#x7684;&#x652F;&#x6301;&#x5F88;&#x8BE1;&#x5F02;&#x2013;&#x4E0D;&#x6821;&#x68C0;CRC?</title>
-      <link>http://douo.ruhoh.com/2010/01/02/j2me&#x5BF9;png&#x683C;&#x5F0F;&#x7684;&#x652F;&#x6301;&#x5F88;&#x8BE1;&#x5F02;-&#x4E0D;&#x6821;&#x68C0;crc</link>
+      <link>http://brain.dourok.info/2010/01/02/j2me&#x5BF9;png&#x683C;&#x5F0F;&#x7684;&#x652F;&#x6301;&#x5F88;&#x8BE1;&#x5F02;-&#x4E0D;&#x6821;&#x68C0;crc</link>
       <pubDate>Sat, 02 Jan 2010 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
       <category><![CDATA[J2ME]]></category>
-      <description><![CDATA[<p>先看下面一张图片先</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>先看下面一张图片先</p>
 
 <p><img src="http://www.dourok.info/wp-content/uploads/2010/01/D.png.png" alt="" title="D"></p>
 
@@ -2955,15 +2997,16 @@ FE.改到图片里面,用ACDSee打开可依旧提示”原始数据格式无法�
 <p>有好久没碰ME了,最近又开始拿起.关于J2ME对PNG的支持问题不是很清楚,据说是有些设备会校检CRC,有些CRC会被忽略.所以可以确定的仅仅是wtk上的模拟器是不校检CRC的,最新版本的wtk就难说了.</p>
 
 <p>2010年01月01日,感慨一下…我已经好久没用ACDSee(从3.0用到8.0好像),Me也不用EclicpseME,改用Netbeans了.</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x6210;&#x5C31;&#x72C2;!&#x4E13;&#x5C5E;&#x6E38;&#x620F;Achievement Unlocked</title>
-      <link>http://douo.ruhoh.com/2009/12/21/&#x6210;&#x5C31;&#x72C2;&#x4E13;&#x5C5E;&#x6E38;&#x620F;achievement-unlocked</link>
+      <link>http://brain.dourok.info/2009/12/21/&#x6210;&#x5C31;&#x72C2;&#x4E13;&#x5C5E;&#x6E38;&#x620F;achievement-unlocked</link>
       <pubDate>Mon, 21 Dec 2009 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
-      <description><![CDATA[<p>如果你是成就偏执狂,如果魔兽世界的成就系统让你备受煎熬,那么来这里寻找解脱吧:<a href="http://armorgames.com/play/2893/achievement-unlocked">http://armorgames.com/play/2893/achievement-unlocked</a></p>
+      <description></description>
+      <content:encoded><![CDATA[<p>如果你是成就偏执狂,如果魔兽世界的成就系统让你备受煎熬,那么来这里寻找解脱吧:<a href="http://armorgames.com/play/2893/achievement-unlocked">http://armorgames.com/play/2893/achievement-unlocked</a></p>
 
 <p><img src="http://www.dourok.info/wp-content/uploads/2009/12/image001.png" alt="image001" title="image001"></p>
 
@@ -2973,40 +3016,43 @@ FE.改到图片里面,用ACDSee打开可依旧提示”原始数据格式无法�
 
 <p>但不要以为这样游戏就没难度,实际上这小小的场景,你需要一些耐心,好奇心,及细致的观察,才能体会到它带给你的乐趣.当然想满成就达成,不可或缺的还是:Too
 Much Free Time…Orz</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x65F6;&#x4E0B;&#x6700;&#x597D;&#x804C;&#x4E1A;,&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;&#x5E08;&#x6392;&#x540D;&#x7B2C;&#x4E94;</title>
-      <link>http://douo.ruhoh.com/2009/12/17/&#x65F6;&#x4E0B;&#x6700;&#x597D;&#x804C;&#x4E1A;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;&#x5E08;&#x6392;&#x540D;&#x7B2C;&#x4E94;</link>
+      <link>http://brain.dourok.info/2009/12/17/&#x65F6;&#x4E0B;&#x6700;&#x597D;&#x804C;&#x4E1A;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;&#x5E08;&#x6392;&#x540D;&#x7B2C;&#x4E94;</link>
       <pubDate>Thu, 17 Dec 2009 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
       <category><![CDATA[翻译]]></category>
-      <description><![CDATA[<p>这是一份发布在careercast上的报告，该报告主要根据工作压力、体力要求、雇佣前景、报酬及工作环境对200种工作从好到坏进行排名。其中排名第一的是数学家，而软件工程师排名第五，单从收入看，软件工程师排在第三位，而工作时间却是前十名中最多的每周50小时。报告还特意指出伐木工排名第200位，并给出一份倒数十大排名列表，企图说明用大脑创造财富比用双手创造财富有效的多。</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>这是一份发布在careercast上的报告，该报告主要根据工作压力、体力要求、雇佣前景、报酬及工作环境对200种工作从好到坏进行排名。其中排名第一的是数学家，而软件工程师排名第五，单从收入看，软件工程师排在第三位，而工作时间却是前十名中最多的每周50小时。报告还特意指出伐木工排名第200位，并给出一份倒数十大排名列表，企图说明用大脑创造财富比用双手创造财富有效的多。</p>
 
 <p>显然，这份报告并不适应中国现状。 如有兴趣，移步到此：
 当今十大最好工作：<a href="http://www.careercast.com/jobs/content/JobsRated_10BestJobs">http://www.careercast.com/jobs/content/JobsRated_10BestJobs</a>
 当今十大最差工作：<a href="http://www.careercast.com/jobs/content/JobsRated_10WorstJobs">http://www.careercast.com/jobs/content/JobsRated_10WorstJobs</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x7537;&#x5B50;&#x56E0;&#x538B;&#x529B;&#x5927;&#x8DF3;&#x6865;&#x81EA;&#x6740; 9&#x5C81;&#x513F;&#x5B50;&#x8DEA;&#x6C42;&#x672A;&#x679C;</title>
-      <link>http://douo.ruhoh.com/2009/12/10/&#x7537;&#x5B50;&#x56E0;&#x538B;&#x529B;&#x5927;&#x8DF3;&#x6865;&#x81EA;&#x6740;-9&#x5C81;&#x513F;&#x5B50;&#x8DEA;&#x6C42;&#x672A;&#x679C;</link>
+      <link>http://brain.dourok.info/2009/12/10/&#x7537;&#x5B50;&#x56E0;&#x538B;&#x529B;&#x5927;&#x8DF3;&#x6865;&#x81EA;&#x6740;-9&#x5C81;&#x513F;&#x5B50;&#x8DEA;&#x6C42;&#x672A;&#x679C;</link>
       <pubDate>Thu, 10 Dec 2009 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>一条悲剧的新闻，出现了网易难得的温情回帖…</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>一条悲剧的新闻，出现了网易难得的温情回帖…</p>
 
 <p><a href="http://comment.news.163.com/news_shehui2_bbs/5PC29NSG00011229.html">http://comment.news.163.com/news_shehui2_bbs/5PC29NSG00011229.html</a></p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x756B;&#x500B;&#x661F;&#x661F;&#xFF0C;&#x5BB9;&#x6613;&#x4E48;&#xFF01;</title>
-      <link>http://douo.ruhoh.com/2009/11/21/&#x756B;&#x500B;&#x661F;&#x661F;&#xFF0C;&#x5BB9;&#x6613;&#x4E48;&#xFF01;</link>
+      <link>http://brain.dourok.info/2009/11/21/&#x756B;&#x500B;&#x661F;&#x661F;&#xFF0C;&#x5BB9;&#x6613;&#x4E48;&#xFF01;</link>
       <pubDate>Sat, 21 Nov 2009 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[coder]]></category>
-      <description><![CDATA[<p>今天在看《Filthy Rich
+      <description></description>
+      <content:encoded><![CDATA[<p>今天在看《Filthy Rich
 Clients》时看到一个画星星的程序片段，忽然就打算看自己能不能写出这个程序来。最初以为没有难度，到真正写起来又不知如何下手，无奈就在纸上画起了图。嗖嗖，半个小时过去了，基本上有了想法，先把星星尖角的点算出来再说。这个不就是圆内接正多边形的接点吗，我的想法很直接，就是先给一个初始点，然后作圆心到这个点的线段，然后把线绕圆点转按一定的角度，得到的新线段的点就是星星新的尖角。如此循环直到所有星星的点出来为止。说的不明白，上图先：</p>
 
 <p><img src="http://www.dourok.info/wp-content/uploads/2009/11/star1.png" alt="星星" title="星星"></p>
@@ -3056,17 +3102,18 @@ path.closePath(); return path; }</p>
 <p>一定要把它记住。</p>
 
 <p>确实，才发觉有些东西要写出来才印象深刻，于是乎就有了这篇文章，不过不用又会很快忘记。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Foobar2000&#x7684;win7&#x754C;&#x9762;&#x6574;&#x5408;&#x63D2;&#x4EF6;</title>
-      <link>http://douo.ruhoh.com/2009/11/19/foobar2000&#x7684;win7&#x754C;&#x9762;&#x6574;&#x5408;&#x63D2;&#x4EF6;</link>
+      <link>http://brain.dourok.info/2009/11/19/foobar2000&#x7684;win7&#x754C;&#x9762;&#x6574;&#x5408;&#x63D2;&#x4EF6;</link>
       <pubDate>Thu, 19 Nov 2009 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[otaku]]></category>
       <category><![CDATA[f]]></category>
       <category><![CDATA[foobar2000]]></category>
-      <description><![CDATA[<p>剛剛在Foobar2000.org上獲知，foobar2000推出1.0beat版，乘機換掉一直在用的那個占用100M內存傻瓜整合版，因為這個整合版的功能很多我都不要用到。然而這個不帶插件的官方版沒有一個我覺得很實用的功能，具體見圖：</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>剛剛在Foobar2000.org上獲知，foobar2000推出1.0beat版，乘機換掉一直在用的那個占用100M內存傻瓜整合版，因為這個整合版的功能很多我都不要用到。然而這個不帶插件的官方版沒有一個我覺得很實用的功能，具體見圖：</p>
 
 <p><img src="http://wintense.com/wp-content/uploads/2009/02/w7shell.png" alt="win7shell插件功能預覽" title="w7shell">w7shell插件功能預覽</p>
 
@@ -3081,15 +3128,16 @@ path.closePath(); return path; }</p>
 7 Integration可以配置該插件，比如可以取消显示停止按钮，或者开启Aero
 PeeK（安装这插件后Foobar2000默认取消了Aero
 Peek）等等。w7shell在foobar20001.0 beat 2a 下工作正常。</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>&#x54C8;&#x54C8;&#xFF0C;FB</title>
-      <link>http://douo.ruhoh.com/2009/11/17/fb</link>
+      <link>http://brain.dourok.info/2009/11/17/fb</link>
       <pubDate>Tue, 17 Nov 2009 00:00:00 -0600</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>凌晨1点多，终于有个安静的时候了，今天特别冷，外面风很大，窗户都被摇得咯咯作响。我的思维也很乱。想趁现在整理清楚……</p>
+      <description></description>
+      <content:encoded><![CDATA[<p>凌晨1点多，终于有个安静的时候了，今天特别冷，外面风很大，窗户都被摇得咯咯作响。我的思维也很乱。想趁现在整理清楚……</p>
 
 <p>我现在是把笔记本搬到床上，躺在床上打字，原本以为这样会很暖和，没想到躺在床上打字保持那个姿势真的很难受，而且被子又不够长，盖住了笔记本又盖不了脚…感慨长得高还真不好。</p>
 
@@ -3107,19 +3155,20 @@ Peek）等等。w7shell在foobar20001.0 beat 2a 下工作正常。</p>
 <p>———————————————————————————————————-</p>
 
 <p>这文章是在两天前写的，多得学校的断网制度写完时发不上来了。隔天又不想发了，觉得要改改，然后今天突然一时冲动什么也没改就发上来了。至于题目……刚乱起的，恩，很好orz!…</p>
-]]></description>
+]]></content:encoded>
     </item>
     <item>
       <title>Hello world&#xFF01;</title>
-      <link>http://douo.ruhoh.com/2009/10/14/hello-world&#xFF01;</link>
+      <link>http://brain.dourok.info/2009/10/14/hello-world&#xFF01;</link>
       <pubDate>Wed, 14 Oct 2009 00:00:00 -0500</pubDate>
       <dc:creator>DouO</dc:creator>
       <category><![CDATA[life]]></category>
-      <description><![CDATA[<p>欢迎使用 WordPress
+      <description></description>
+      <content:encoded><![CDATA[<p>欢迎使用 WordPress
 。这是系统自动生成的演示文章。编辑或者删除它，开始您的博客！</p>
 
 <p>你是不会被删的,哈哈</p>
-]]></description>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

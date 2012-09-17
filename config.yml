@@ -3,7 +3,7 @@
 
 RuhohSpec: '1.0'
 theme : moon
-production_url : http://douo.ruhoh.com
+production_url : http://brain.dourok.info
 
 posts:
   permalink: /:year/:month/:day/:filename/

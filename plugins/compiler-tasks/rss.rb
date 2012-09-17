@@ -12,7 +12,8 @@ class Ruhoh
       def self.run(target, page)
         feed = Nokogiri::XML::Builder.new do |xml|
          xml.rss(:version => '2.0', 
-                 'xmlns:dc' => "http://purl.org/dc/elements/1.1/"
+                 'xmlns:dc' => "http://purl.org/dc/elements/1.1/",
+                 'xmlns:content' => "http://purl.org/rss/1.0/modules/content/"
                  ) {
            xml.channel {
 
@@ -41,8 +42,9 @@ class Ruhoh
                     }
                  end
 
-                  xml.description { 
-                    xml.cdata page.render_content
+                 xml.description_  post['description'] 
+                 xml['content'].encoded {
+                    xml.cdata  page.render_content
                   }
                }
              end

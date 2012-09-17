@@ -11,7 +11,9 @@ class Ruhoh
       # render the content to save to disk. This will be a problem when posts numbers expand. Merge this in later.
       def self.run(target, page)
         feed = Nokogiri::XML::Builder.new do |xml|
-         xml.rss(:version => '2.0') {
+         xml.rss(:version => '2.0', 
+                 'xmlns:dc' => "http://purl.org/dc/elements/1.1/"
+                 ) {
            xml.channel {
 
              xml.title_ Ruhoh::DB.site['title']
@@ -23,6 +25,7 @@ class Ruhoh
                xml.item {
                  xml.title_ post['title']
                  xml.link "#{Ruhoh::DB.site['config']['production_url']}#{post['url']}"
+                 xml['dc'].creator_ Ruhoh::DB.site['author']['name']
                  xml.pubDate_ post['date']
                  xml.description_ (post['description'] ? post['description'] : page.render_content)
                }

@@ -56,7 +56,7 @@ class Ruhoh
             }
           }
         end
-        File.open(File.join(target, 'rss.xml'), 'w'){ |p| p.puts feed.to_xml }
+        File.open(File.join(target, 'feed.xml'), 'w'){ |p| p.puts feed.to_xml }
       end
     end #Rss
   end #Compiler

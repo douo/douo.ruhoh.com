@@ -1,11 +1,16 @@
 require 'nokogiri'
 class Ruhoh
   module Compiler
-    # This rss compiler is provided by David Long 
+    # the origin rss compiler is provided by David Long 
     # http://www.davejlong.com/ 
     # https://github.com/davejlong
     # Thanks David!
-    # modified by Douo
+
+    # this rss compiler is modified by Douo
+    # use  page.render_content instead of page.render 
+    # add some useful tag
+    # todo: add some configuration to site.yml
+
     module Rss
       # TODO: This renders the page content even though we already need to
       # render the content to save to disk. This will be a problem when posts numbers expand. Merge this in later.
@@ -56,7 +61,7 @@ class Ruhoh
             }
           }
         end
-        File.open(File.join(target, 'feed.xml'), 'w'){ |p| p.puts feed.to_xml }
+        File.open(File.join(target, 'rss.xml'), 'w'){ |p| p.puts feed.to_xml }
       end
     end #Rss
   end #Compiler

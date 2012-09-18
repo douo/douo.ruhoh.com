@@ -3,6 +3,7 @@
 # http://www.rubular.com/r/Fofh6u3NmW
 require 'rubygems'
 require 'hpricot'
+require 'nokogiri'
 require 'fileutils'
 require 'yaml'
 require 'time'
@@ -12,10 +13,7 @@ module Jekyll
   # This importer takes a wordpress.xml file, which can be exported from your
   # wordpress.com blog (/wp-admin/export.php).
   module WordpressDotCom
-    def self.h()
-      puts "help"
-    end
-
+  
     def self.convertCode!(content,later)
       ## 转换codecolor 短标签的代码
 
@@ -37,7 +35,7 @@ module Jekyll
       end
 
       while res = content.match(reg1)
-        puts res
+        #        puts res
         key = "[[tex#{i}]]"
         i = i+1
         later[key] = "\n<script type=\"math/tex; mode=display\">#{res['content']}</script>\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
@@ -52,6 +50,20 @@ module Jekyll
       
     end
 
+    def self.convertImg(content,later)
+      html =  Nokogiri::HTML(content)
+      imgurl = []
+      html.css('img').each do |img|
+      regex = /http:\/\/dourok.info\/(.+)/
+        
+        if src = img['src'].match(regex)
+          imgurl = {:url => src[0],:file => src[1]}
+          img['src'] = "{{urls.media}}/#{src[1]}"
+        end
+      end
+      puts imgurl
+    end
+
     def self.prepocess!(content,later)
       methods(false).find_all {|m| m=~ /convert.*/}.each {|m| __send__(m,content,later)}
     end
@@ -59,8 +71,13 @@ module Jekyll
     def self.process(filename = "wordpress.xml")
       import_count = Hash.new(0)
       doc = Hpricot::XML(File.read(filename))
-      h()
       (doc/:channel/:item).each do |item|
+        type = item.at('wp:post_type').inner_text
+        
+        if type != 'post'
+          next
+        end
+        
         title = item.at(:title).inner_text.strip
         permalink_title = item.at('wp:post_name').inner_text
         # Fallback to "prettified" title if post_name is empty (can happen)
@@ -80,7 +97,7 @@ module Jekyll
           published = false
         end
 
-        type = item.at('wp:post_type').inner_text
+
 
         categories = []
         tags = []
@@ -125,7 +142,7 @@ module Jekyll
         
         content = PandocRuby.convert(content, :from => :html, :to => :'markdown')
         
-        pp later if later != {}
+        # pp later if later != {}
         later.each {|k,v| content.sub!(k,v)}
 
         FileUtils.mkdir_p "_#{type}s"
@@ -146,6 +163,5 @@ module Jekyll
     end
   end
 end
-
 
 Jekyll::WordpressDotCom.process("wordpress.xml")

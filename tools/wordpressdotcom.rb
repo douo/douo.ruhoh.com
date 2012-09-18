@@ -8,64 +8,79 @@ require 'fileutils'
 require 'yaml'
 require 'time'
 require 'pandoc-ruby'
+require 'open-uri'
 
 module Jekyll
   # This importer takes a wordpress.xml file, which can be exported from your
   # wordpress.com blog (/wp-admin/export.php).
   module WordpressDotCom
   
-    def self.convertCode!(content,later)
+    def self.convertCode!()
       ## 转换codecolor 短标签的代码
 
       reg1 = /\[(?<tag>cc(?<opti>[a-zA-Z]*)) +(lang="(?<lang>\w+)")\](?<content>.*?)(\[\/\k<tag>\])/m
       reg = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)\](?<content>.*?)(\[\/\k<tag>\])/m
-      content.gsub!(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
-      content.gsub!(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
+      @content.gsub!(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
+      @content.gsub!(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
     end
 
-    def self.convertTex!(content,later)
+    def self.convertTex!()
       
       reg = /\[tex\](?<content>.*?)\[\/tex\]/im
       #rep = "\n<script type=\"math/tex; mode=display\">\n\k<content>\n</script>\n"
       i = 0
       reg1 = /(?<=[\r\n])\[tex\](?<content>((?!\[tex\]).)*?)\[\/tex\]/im
 
-      if content =~ reg
-        content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
+      if @content =~ reg
+        @content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
       end
 
-      while res = content.match(reg1)
+      while res = @content.match(reg1)
         #        puts res
         key = "[[tex#{i}]]"
         i = i+1
-        later[key] = "\n<script type=\"math/tex; mode=display\">#{res['content']}</script>\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
-        content.sub!(reg1,key)
+        @holder[key] = "\n<script type=\"math/tex; mode=display\">#{res['content']}</script>\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
+        @content.sub!(reg1,key)
       end
-      while res = content.match(reg)
+      while res = @content.match(reg)
         key = "[[tex#{i}]]"
         i = i+1
-        later[key] = "<script type=\"math/tex\">#{res['content']}</script>".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
-        content.sub!(reg,key)
+        @holder[key] = "<script type=\"math/tex\">#{res['content']}</script>".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
+        @content.sub!(reg,key)
       end
       
     end
 
-    def self.convertImg(content,later)
-      html =  Nokogiri::HTML(content)
+    def self.convertImg()
+      html =  Nokogiri::HTML(@content)
       imgurl = []
+      i = 0
       html.css('img').each do |img|
       regex = /http:\/\/dourok.info\/(.+)/
-        
         if src = img['src'].match(regex)
-          imgurl = {:url => src[0],:file => src[1]}
-          img['src'] = "{{urls.media}}/#{src[1]}"
+          key = "#{i}.png"
+          i = i+1
+          imgurl << {:url => src[0],:file => "media/#{src[1]}"}
+          img['src'] = "#{key}"
+          @holder[key] = "{{urls.media}}/#{src[1]}"
         end
       end
-      puts imgurl
+      dlImg imgurl
     end
-
-    def self.prepocess!(content,later)
-      methods(false).find_all {|m| m=~ /convert.*/}.each {|m| __send__(m,content,later)}
+    
+    def self.dlImg(imgurl)
+      puts imgurl
+      imgurl.each do |i|
+        FileUtils.mkdir_p File.dirname(i[:file])
+        File.open(i[:file], 'wb') do |f|
+          f << open(i[:url]).read
+        end
+      end
+    end
+      
+    
+    def self.prepocess!()
+      methods(false).find_all {|m| m=~ /convert.*/}.each {|m| __send__(m)}
     end
     
     def self.process(filename = "wordpress.xml")
@@ -133,23 +148,23 @@ module Jekyll
           'guid'   => guid
         }
         
-        content = item.at('content:encoded').inner_text
+        @content = item.at('content:encoded').inner_text
         
-        later =Hash.new
-        prepocess!(content,later)
+        @holder =Hash.new
+        prepocess!
         # 先当成 markdown 转换到 html 可以修复没有p标签的段落问题        
-        content = PandocRuby.convert(content, :from => :'markdown', :to => :'html')
+        @content = PandocRuby.convert(@content, :from => :'markdown', :to => :'html')
         
-        content = PandocRuby.convert(content, :from => :html, :to => :'markdown')
+        @content = PandocRuby.convert(@content, :from => :html, :to => :'markdown')
         
-        # pp later if later != {}
-        later.each {|k,v| content.sub!(k,v)}
+        # pp @holder if @holder != {}
+        @holder.each {|k,v| @content.sub!(k,v)}
 
         FileUtils.mkdir_p "_#{type}s"
         File.open("_#{type}s/#{name}", "w") do |f|
           f.puts header.to_yaml
           f.puts '---'
-          f.puts content
+          f.puts @content
         end
         
 

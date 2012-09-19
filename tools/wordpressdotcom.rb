@@ -55,17 +55,30 @@ module Jekyll
       html =  Nokogiri::HTML(@content)
       imgurl = []
       i = 0
-      html.css('img').each do |img|
       regex = /http:\/\/dourok.info\/(.+)/
+      html.css('a').select{|a| !a.css('img').empty?}.each do |a|
+        a.css('img').each do |img|
+          if src = img['src'].match(regex)
+            key = "#{i}.png"
+            i = i+1
+            imgurl << {:url => src[0].gsub("\\",""),:file => "media/#{src[1].gsub("\\","")}"}
+            img['src'] = "#{key}"
+            a['href'] = "#{key}"
+            @holder[key] = "{{urls.media}}/#{src[1]}"
+          end
+        end
+      end
+      html.css('img').each do |img|
         if src = img['src'].match(regex)
           key = "#{i}.png"
           i = i+1
-          imgurl << {:url => src[0],:file => "media/#{src[1]}"}
+          imgurl << {:url => src[0].gsub("\\",""),:file => "media/#{src[1].gsub("\\","")}"}
           img['src'] = "#{key}"
           @holder[key] = "{{urls.media}}/#{src[1]}"
         end
       end
-      dlImg imgurl
+      @content = html.to_s
+      #dlImg imgurl
     end
     
     def self.dlImg(imgurl)
@@ -107,9 +120,9 @@ module Jekyll
         guid = item.at(:guid).inner_text
 
         if status == "publish" 
-          published = true
+          draft = true
         else
-          published = false
+          draft = false
         end
 
 
@@ -141,12 +154,14 @@ module Jekyll
           'tags'   => tags,
           'categories' => categories,
           'status'   => status,
-          'type'   => type,
-          'published' => published,
+          #'type'   => type,
           'meta'   => metas,
           'postid' => postid,
           'guid'   => guid
         }
+        if draft
+          header['type'] = 'draft'
+        end
         
         @content = item.at('content:encoded').inner_text
         
@@ -158,7 +173,7 @@ module Jekyll
         @content = PandocRuby.convert(@content, :from => :html, :to => :'markdown')
         
         # pp @holder if @holder != {}
-        @holder.each {|k,v| @content.sub!(k,v)}
+        @holder.each {|k,v| @content.gsub!(k,v)}
 
         FileUtils.mkdir_p "_#{type}s"
         File.open("_#{type}s/#{name}", "w") do |f|
@@ -166,9 +181,6 @@ module Jekyll
           f.puts '---'
           f.puts @content
         end
-        
-
-
         import_count[type] += 1
       end
       

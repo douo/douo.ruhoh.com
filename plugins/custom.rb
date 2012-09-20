@@ -9,6 +9,10 @@ class Ruhoh
         code = sub_context.gsub('{', '&#123;').gsub('}', '&#125;').gsub('<', '&lt;').gsub('>', '&gt;')
         "<pre><code>#{code}</code></pre>"
       end
+      
+      def to_what(sub_context)
+        puts sub_context
+      end
     end
   end
 end

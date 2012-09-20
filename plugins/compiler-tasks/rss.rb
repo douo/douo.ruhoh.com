@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 require 'nokogiri'
 class Ruhoh
   module Compiler
@@ -61,7 +63,10 @@ class Ruhoh
             }
           }
         end
-        File.open(File.join(target, 'rss.xml'), 'w'){ |p| p.puts feed.to_xml }
+        # 不知道爲什麼要強制制定爲UTF-8
+        #Ruhoh::Friend.say {red feed.to_xml.force_encoding(Encoding.default_external).encoding }
+        File.open(File.join(target, 'rss.xml'), 'w:UTF-8'){ |p| p.puts feed.to_xml.force_encoding(Encoding.default_external) }
+        Ruhoh::Friend.say { green "processed: rss.xml" }
       end
     end #Rss
   end #Compiler

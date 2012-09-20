@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.4.1" created="2012-09-19 13:40" -->
+<!-- generator="WordPress/3.4.1" created="2012-09-20 17:28" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>DouO&#039;s Blog</title>
 	<link>http://dourok.info</link>
 	<description>非淡泊无以明志，非宁静无以致远</description>
-	<pubDate>Wed, 19 Sep 2012 13:40:48 +0000</pubDate>
+	<pubDate>Thu, 20 Sep 2012 17:28:34 +0000</pubDate>
 	<language>zh-CN</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://dourok.info</wp:base_site_url>
@@ -47,6 +47,7 @@
 	<wp:tag><wp:term_id>70</wp:term_id><wp:tag_slug>chrome</wp:tag_slug><wp:tag_name><![CDATA[Chrome]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>41</wp:term_id><wp:tag_slug>codecolorer</wp:tag_slug><wp:tag_name><![CDATA[CodeColorer]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>4</wp:term_id><wp:tag_slug>cookie</wp:tag_slug><wp:tag_name><![CDATA[cookie]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>99</wp:term_id><wp:tag_slug>crc</wp:tag_slug><wp:tag_name><![CDATA[crc]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>69</wp:term_id><wp:tag_slug>css</wp:tag_slug><wp:tag_name><![CDATA[css]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>60</wp:term_id><wp:tag_slug>dokuwiki</wp:tag_slug><wp:tag_name><![CDATA[dokuwiki]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>85</wp:term_id><wp:tag_slug>f</wp:tag_slug><wp:tag_name><![CDATA[f]]></wp:tag_name></wp:tag>
@@ -55,6 +56,7 @@
 	<wp:tag><wp:term_id>78</wp:term_id><wp:tag_slug>foobar2000</wp:tag_slug><wp:tag_name><![CDATA[foobar2000]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>53</wp:term_id><wp:tag_slug>forkosh</wp:tag_slug><wp:tag_name><![CDATA[forkosh]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>21</wp:term_id><wp:tag_slug>gbk</wp:tag_slug><wp:tag_name><![CDATA[GBK]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>97</wp:term_id><wp:tag_slug>gfw</wp:tag_slug><wp:tag_name><![CDATA[gfw]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>3</wp:term_id><wp:tag_slug>google</wp:tag_slug><wp:tag_name><![CDATA[google]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>65</wp:term_id><wp:tag_slug>google-code</wp:tag_slug><wp:tag_name><![CDATA[Google Code]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>94</wp:term_id><wp:tag_slug>gpt</wp:tag_slug><wp:tag_name><![CDATA[GPT]]></wp:tag_name></wp:tag>
@@ -65,6 +67,7 @@
 	<wp:tag><wp:term_id>6</wp:term_id><wp:tag_slug>j2me</wp:tag_slug><wp:tag_name><![CDATA[J2ME]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>7</wp:term_id><wp:tag_slug>j2me%e6%96%87%e4%bb%b6%e7%b3%bb%e7%bb%9f</wp:tag_slug><wp:tag_name><![CDATA[J2ME文件系统]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>48</wp:term_id><wp:tag_slug>java</wp:tag_slug><wp:tag_name><![CDATA[Java]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>101</wp:term_id><wp:tag_slug>java2d</wp:tag_slug><wp:tag_name><![CDATA[java2d]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>76</wp:term_id><wp:tag_slug>javascript</wp:tag_slug><wp:tag_name><![CDATA[javascript]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>8</wp:term_id><wp:tag_slug>jsr-75</wp:tag_slug><wp:tag_name><![CDATA[JSR 75]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>49</wp:term_id><wp:tag_slug>latex</wp:tag_slug><wp:tag_name><![CDATA[LaTex]]></wp:tag_name></wp:tag>
@@ -85,6 +88,8 @@
 	<wp:tag><wp:term_id>52</wp:term_id><wp:tag_slug>robot</wp:tag_slug><wp:tag_name><![CDATA[Robot]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>40</wp:term_id><wp:tag_slug>synchronized</wp:tag_slug><wp:tag_name><![CDATA[synchronized]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>72</wp:term_id><wp:tag_slug>system-in</wp:tag_slug><wp:tag_name><![CDATA[System.in]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>96</wp:term_id><wp:tag_slug>tetris</wp:tag_slug><wp:tag_name><![CDATA[Tetris]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>102</wp:term_id><wp:tag_slug>twitter</wp:tag_slug><wp:tag_name><![CDATA[twitter]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>22</wp:term_id><wp:tag_slug>unicode</wp:tag_slug><wp:tag_name><![CDATA[Unicode]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>61</wp:term_id><wp:tag_slug>utf-8</wp:tag_slug><wp:tag_name><![CDATA[UTF-8]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>39</wp:term_id><wp:tag_slug>valatile</wp:tag_slug><wp:tag_name><![CDATA[valatile]]></wp:tag_name></wp:tag>
@@ -93,10 +98,13 @@
 	<wp:tag><wp:term_id>84</wp:term_id><wp:tag_slug>wordpress-theme</wp:tag_slug><wp:tag_name><![CDATA[Wordpress Theme]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>43</wp:term_id><wp:tag_slug>wordpress%e6%8f%92%e4%bb%b6</wp:tag_slug><wp:tag_name><![CDATA[wordpress插件]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>92</wp:term_id><wp:tag_slug>%e5%88%86%e5%8c%ba%e6%81%a2%e5%a4%8d</wp:tag_slug><wp:tag_name><![CDATA[分区恢复]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>103</wp:term_id><wp:tag_slug>%e5%8d%9a%e5%ae%a2</wp:tag_slug><wp:tag_name><![CDATA[博客]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>46</wp:term_id><wp:tag_slug>%e5%8e%9f%e5%9e%8b%e4%bd%93</wp:tag_slug><wp:tag_name><![CDATA[原型体]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>81</wp:term_id><wp:tag_slug>%e5%90%90%e6%a7%bd</wp:tag_slug><wp:tag_name><![CDATA[吐槽]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>74</wp:term_id><wp:tag_slug>%e5%9b%be%e8%ae%ba</wp:tag_slug><wp:tag_name><![CDATA[图论]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>38</wp:term_id><wp:tag_slug>%e5%a4%9a%e7%ba%bf%e7%a8%8b</wp:tag_slug><wp:tag_name><![CDATA[多线程]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>100</wp:term_id><wp:tag_slug>%e5%b7%a5%e4%bd%9c</wp:tag_slug><wp:tag_name><![CDATA[工作]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>98</wp:term_id><wp:tag_slug>%e6%85%88%e5%96%84</wp:tag_slug><wp:tag_name><![CDATA[慈善]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>34</wp:term_id><wp:tag_slug>%e6%89%ab%e9%9b%b7</wp:tag_slug><wp:tag_name><![CDATA[扫雷]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>12</wp:term_id><wp:tag_slug>%e6%8e%a7%e5%88%b6%e5%8f%b0</wp:tag_slug><wp:tag_name><![CDATA[控制台]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>44</wp:term_id><wp:tag_slug>%e6%8f%92%e4%bb%b6%e7%bf%bb%e8%af%91</wp:tag_slug><wp:tag_name><![CDATA[插件翻译]]></wp:tag_name></wp:tag>
@@ -104,6 +112,7 @@
 	<wp:tag><wp:term_id>29</wp:term_id><wp:tag_slug>%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1</wp:tag_slug><wp:tag_name><![CDATA[无线网卡]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>79</wp:term_id><wp:tag_slug>%e6%ad%8c%e8%af%8d%e6%90%9c%e7%b4%a2</wp:tag_slug><wp:tag_name><![CDATA[歌词搜索]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>47</wp:term_id><wp:tag_slug>%e6%b8%b8%e6%88%8f</wp:tag_slug><wp:tag_name><![CDATA[游戏]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>95</wp:term_id><wp:tag_slug>%e7%8b%ac%e7%ab%8b%e6%b8%b8%e6%88%8f</wp:tag_slug><wp:tag_name><![CDATA[独立游戏]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>93</wp:term_id><wp:tag_slug>%e7%a1%ac%e7%9b%98</wp:tag_slug><wp:tag_name><![CDATA[硬盘]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>37</wp:term_id><wp:tag_slug>%e7%a9%ba%e5%be%aa%e7%8e%af</wp:tag_slug><wp:tag_name><![CDATA[空循环]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>88</wp:term_id><wp:tag_slug>%e7%ae%97%e6%b3%95</wp:tag_slug><wp:tag_name><![CDATA[算法]]></wp:tag_name></wp:tag>
@@ -121,7 +130,7 @@
 
 	<item>
 		<title>console</title>
-		<link>http://dourok.info/2010/05/15/%e4%b8%80%e4%b8%aame%e7%9a%84log%e5%8c%85/console/</link>
+		<link>http://dourok.info/2010/05/15/a-logger-for-j2me/console/</link>
 		<pubDate>Thu, 20 May 2010 01:31:50 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/console.png</guid>
@@ -156,7 +165,7 @@
 	</item>
 	<item>
 		<title>nba1</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba1/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba1/</link>
 		<pubDate>Fri, 21 May 2010 17:27:39 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba1.png</guid>
@@ -187,7 +196,7 @@
 	</item>
 	<item>
 		<title>nba2</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba2/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba2/</link>
 		<pubDate>Sat, 22 May 2010 01:06:33 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba2.png</guid>
@@ -218,7 +227,7 @@
 	</item>
 	<item>
 		<title>nba3</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba3/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba3/</link>
 		<pubDate>Sat, 22 May 2010 06:18:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba3.png</guid>
@@ -249,7 +258,7 @@
 	</item>
 	<item>
 		<title>nba4</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba4/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba4/</link>
 		<pubDate>Sat, 22 May 2010 06:19:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba4.png</guid>
@@ -280,7 +289,7 @@
 	</item>
 	<item>
 		<title>nba5</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba5/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba5/</link>
 		<pubDate>Sat, 22 May 2010 06:20:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba5.png</guid>
@@ -311,7 +320,7 @@
 	</item>
 	<item>
 		<title>nba6</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba6/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba6/</link>
 		<pubDate>Sat, 22 May 2010 06:30:26 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba6.png</guid>
@@ -342,7 +351,7 @@
 	</item>
 	<item>
 		<title>nba7</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba7/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba7/</link>
 		<pubDate>Sat, 22 May 2010 06:30:28 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba7.png</guid>
@@ -373,7 +382,7 @@
 	</item>
 	<item>
 		<title>nba8</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba8/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba8/</link>
 		<pubDate>Sat, 22 May 2010 06:32:12 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba8.png</guid>
@@ -404,7 +413,7 @@
 	</item>
 	<item>
 		<title>nba9</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba9/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba9/</link>
 		<pubDate>Sat, 22 May 2010 06:32:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba9.png</guid>
@@ -435,7 +444,7 @@
 	</item>
 	<item>
 		<title>nba10</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba10/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba10/</link>
 		<pubDate>Sat, 22 May 2010 06:32:20 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba10.png</guid>
@@ -466,7 +475,7 @@
 	</item>
 	<item>
 		<title>nba11</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/nba11/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/nba11/</link>
 		<pubDate>Sat, 22 May 2010 06:32:23 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/nba11.png</guid>
@@ -497,7 +506,7 @@
 	</item>
 	<item>
 		<title>GBK编码范围</title>
-		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/gbk%e7%bc%96%e7%a0%81%e8%8c%83%e5%9b%b4/</link>
+		<link>http://dourok.info/2010/06/24/convert-gbk-to-unicode/gbk%e7%bc%96%e7%a0%81%e8%8c%83%e5%9b%b4/</link>
 		<pubDate>Wed, 23 Jun 2010 15:12:41 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/GBK编码范围.jpg</guid>
@@ -528,7 +537,7 @@
 	</item>
 	<item>
 		<title>Unicode</title>
-		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/unicode/</link>
+		<link>http://dourok.info/2010/06/24/convert-gbk-to-unicode/unicode/</link>
 		<pubDate>Wed, 23 Jun 2010 15:12:50 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/Unicode.jpg</guid>
@@ -559,7 +568,7 @@
 	</item>
 	<item>
 		<title>汉字编码对照表</title>
-		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/%e6%b1%89%e5%ad%97%e7%bc%96%e7%a0%81%e5%af%b9%e7%85%a7%e8%a1%a8/</link>
+		<link>http://dourok.info/2010/06/24/convert-gbk-to-unicode/%e6%b1%89%e5%ad%97%e7%bc%96%e7%a0%81%e5%af%b9%e7%85%a7%e8%a1%a8/</link>
 		<pubDate>Wed, 23 Jun 2010 15:12:55 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/汉字编码对照表.jpg</guid>
@@ -590,7 +599,7 @@
 	</item>
 	<item>
 		<title>result</title>
-		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/result/</link>
+		<link>http://dourok.info/2010/06/24/convert-gbk-to-unicode/result/</link>
 		<pubDate>Wed, 23 Jun 2010 16:08:19 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/result.jpg</guid>
@@ -621,7 +630,7 @@
 	</item>
 	<item>
 		<title>Internet share</title>
-		<link>http://dourok.info/2010/06/25/%e8%ae%a9htc-hero%e9%80%9a%e8%bf%87%e6%88%91%e7%9a%84%e7%ac%94%e8%ae%b0%e6%9c%ac%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1%e5%85%b1%e4%ba%ab%e4%b8%8a%e7%bd%91/internet-share/</link>
+		<link>http://dourok.info/2010/06/25/my-wifi-for-htc-hero/internet-share/</link>
 		<pubDate>Thu, 24 Jun 2010 17:42:40 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/Internet-share.jpg</guid>
@@ -652,7 +661,7 @@
 	</item>
 	<item>
 		<title>menu</title>
-		<link>http://dourok.info/2010/06/25/%e8%ae%a9htc-hero%e9%80%9a%e8%bf%87%e6%88%91%e7%9a%84%e7%ac%94%e8%ae%b0%e6%9c%ac%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1%e5%85%b1%e4%ba%ab%e4%b8%8a%e7%bd%91/menu/</link>
+		<link>http://dourok.info/2010/06/25/my-wifi-for-htc-hero/menu/</link>
 		<pubDate>Thu, 24 Jun 2010 17:42:46 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/menu.jpg</guid>
@@ -683,7 +692,7 @@
 	</item>
 	<item>
 		<title>MY_WIFI</title>
-		<link>http://dourok.info/2010/06/25/%e8%ae%a9htc-hero%e9%80%9a%e8%bf%87%e6%88%91%e7%9a%84%e7%ac%94%e8%ae%b0%e6%9c%ac%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1%e5%85%b1%e4%ba%ab%e4%b8%8a%e7%bd%91/my_wifi/</link>
+		<link>http://dourok.info/2010/06/25/my-wifi-for-htc-hero/my_wifi/</link>
 		<pubDate>Thu, 24 Jun 2010 17:42:49 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/06/MY_WIFI.jpg</guid>
@@ -714,7 +723,7 @@
 	</item>
 	<item>
 		<title>mine1</title>
-		<link>http://dourok.info/2010/07/20/%e7%8e%a9%e6%89%ab%e9%9b%b7%e7%9a%84%e6%82%b2%e5%89%a7/attachment/12/</link>
+		<link>http://dourok.info/2010/07/20/painess-of-minesweeper/attachment/12/</link>
 		<pubDate>Tue, 20 Jul 2010 01:25:47 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/07/12.jpg</guid>
@@ -745,7 +754,7 @@
 	</item>
 	<item>
 		<title>闵</title>
-		<link>http://dourok.info/2010/07/20/%e7%8e%a9%e6%89%ab%e9%9b%b7%e7%9a%84%e6%82%b2%e5%89%a7/sl/</link>
+		<link>http://dourok.info/2010/07/20/painess-of-minesweeper/sl/</link>
 		<pubDate>Tue, 20 Jul 2010 01:25:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/07/sl.jpg</guid>
@@ -776,7 +785,7 @@
 	</item>
 	<item>
 		<title>9191a5cc799b343d01e928d8</title>
-		<link>http://dourok.info/2010/08/31/316/9191a5cc799b343d01e928d8-jpg/</link>
+		<link>http://dourok.info/2010/08/31/display-formulatest/9191a5cc799b343d01e928d8-jpg/</link>
 		<pubDate>Wed, 01 Sep 2010 06:21:41 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/08/9191a5cc799b343d01e928d8.jpg.png</guid>
@@ -877,7 +886,7 @@
 	</item>
 	<item>
 		<title>1</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/attachment/1/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/attachment/1/</link>
 		<pubDate>Mon, 29 Nov 2010 07:43:21 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/1.png</guid>
@@ -908,7 +917,7 @@
 	</item>
 	<item>
 		<title>2</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/attachment/2/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/attachment/2/</link>
 		<pubDate>Mon, 29 Nov 2010 07:43:23 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/2.png</guid>
@@ -939,7 +948,7 @@
 	</item>
 	<item>
 		<title>3</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/attachment/3/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/attachment/3/</link>
 		<pubDate>Mon, 29 Nov 2010 07:43:25 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/3.png</guid>
@@ -970,7 +979,7 @@
 	</item>
 	<item>
 		<title>4</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/attachment/4/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/attachment/4/</link>
 		<pubDate>Mon, 29 Nov 2010 07:43:26 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/4.png</guid>
@@ -1001,7 +1010,7 @@
 	</item>
 	<item>
 		<title>添加NBAndroid更新中心</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/1-2/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/1-2/</link>
 		<pubDate>Mon, 29 Nov 2010 07:45:59 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/11.png</guid>
@@ -1032,7 +1041,7 @@
 	</item>
 	<item>
 		<title>安装NBAndroid</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/2-2/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/2-2/</link>
 		<pubDate>Mon, 29 Nov 2010 07:46:02 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/21.png</guid>
@@ -1063,7 +1072,7 @@
 	</item>
 	<item>
 		<title>3</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/3-2/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/3-2/</link>
 		<pubDate>Mon, 29 Nov 2010 07:46:03 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/31.png</guid>
@@ -1094,7 +1103,7 @@
 	</item>
 	<item>
 		<title>4</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/4-2/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/4-2/</link>
 		<pubDate>Mon, 29 Nov 2010 07:46:05 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/41.png</guid>
@@ -1125,7 +1134,7 @@
 	</item>
 	<item>
 		<title>Android_SDK_FOLDER</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/attachment/5/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/attachment/5/</link>
 		<pubDate>Mon, 29 Nov 2010 08:03:54 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/5.png</guid>
@@ -1156,7 +1165,7 @@
 	</item>
 	<item>
 		<title>random-words-my-chosen</title>
-		<link>http://dourok.info/2010/12/04/random-words/random-words-my-chosen/</link>
+		<link>http://dourok.info/2010/12/04/random-words-my-chosen/random-words-my-chosen/</link>
 		<pubDate>Sat, 04 Dec 2010 15:54:45 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/12/random-words-my-chosen.zip</guid>
@@ -1218,7 +1227,7 @@
 	</item>
 	<item>
 		<title>maze01</title>
-		<link>http://dourok.info/2011/07/14/maze_generation_algorithm/maze01/</link>
+		<link>http://dourok.info/2011/07/14/maze-generation-algorithm/maze01/</link>
 		<pubDate>Thu, 14 Jul 2011 07:04:00 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/07/maze01.png</guid>
@@ -1249,7 +1258,7 @@
 	</item>
 	<item>
 		<title>maze2</title>
-		<link>http://dourok.info/2011/07/14/maze_generation_algorithm/maze2/</link>
+		<link>http://dourok.info/2011/07/14/maze-generation-algorithm/maze2/</link>
 		<pubDate>Thu, 14 Jul 2011 07:04:01 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/07/maze2.png</guid>
@@ -1280,7 +1289,7 @@
 	</item>
 	<item>
 		<title>maze3</title>
-		<link>http://dourok.info/2011/07/14/maze_generation_algorithm/maze3/</link>
+		<link>http://dourok.info/2011/07/14/maze-generation-algorithm/maze3/</link>
 		<pubDate>Thu, 14 Jul 2011 07:04:03 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/07/maze3.png</guid>
@@ -1311,7 +1320,7 @@
 	</item>
 	<item>
 		<title>t1</title>
-		<link>http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/t1/</link>
+		<link>http://dourok.info/2011/08/08/fixed-ttplayer-lrc-py/t1/</link>
 		<pubDate>Sun, 07 Aug 2011 19:39:12 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/08/t1.png</guid>
@@ -1342,7 +1351,7 @@
 	</item>
 	<item>
 		<title>t2</title>
-		<link>http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/t2/</link>
+		<link>http://dourok.info/2011/08/08/fixed-ttplayer-lrc-py/t2/</link>
 		<pubDate>Sun, 07 Aug 2011 19:39:16 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/08/t2.png</guid>
@@ -1373,7 +1382,7 @@
 	</item>
 	<item>
 		<title>t2_</title>
-		<link>http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/t2_/</link>
+		<link>http://dourok.info/2011/08/08/fixed-ttplayer-lrc-py/t2_/</link>
 		<pubDate>Sun, 07 Aug 2011 19:39:18 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/08/t2_.png</guid>
@@ -1404,7 +1413,7 @@
 	</item>
 	<item>
 		<title>t3</title>
-		<link>http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/t3/</link>
+		<link>http://dourok.info/2011/08/08/fixed-ttplayer-lrc-py/t3/</link>
 		<pubDate>Sun, 07 Aug 2011 19:39:22 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/08/t3.png</guid>
@@ -1435,7 +1444,7 @@
 	</item>
 	<item>
 		<title>t4</title>
-		<link>http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/t4/</link>
+		<link>http://dourok.info/2011/08/08/fixed-ttplayer-lrc-py/t4/</link>
 		<pubDate>Sun, 07 Aug 2011 19:39:25 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2011/08/t4.png</guid>
@@ -1466,7 +1475,7 @@
 	</item>
 	<item>
 		<title>attach_sources</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/attach_sources/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/attach_sources/</link>
 		<pubDate>Sat, 15 Oct 2011 19:36:59 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/attach_sources.png</guid>
@@ -1497,7 +1506,7 @@
 	</item>
 	<item>
 		<title>view_sources</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/view_sources/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/view_sources/</link>
 		<pubDate>Sat, 15 Oct 2011 19:37:05 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/view_sources.png</guid>
@@ -1528,7 +1537,7 @@
 	</item>
 	<item>
 		<title>debug_view</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/debug_view/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/debug_view/</link>
 		<pubDate>Sat, 15 Oct 2011 19:37:14 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/debug_view.png</guid>
@@ -1559,7 +1568,7 @@
 	</item>
 	<item>
 		<title>android_tab</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/android_tab/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/android_tab/</link>
 		<pubDate>Tue, 25 Oct 2011 18:07:47 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2010/05/android_tab.png</guid>
@@ -1590,7 +1599,7 @@
 	</item>
 	<item>
 		<title>IMAG0007</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/imag0007/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/imag0007/</link>
 		<pubDate>Sun, 22 Apr 2012 17:02:19 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2012/04/IMAG0007.jpg</guid>
@@ -1621,7 +1630,7 @@
 	</item>
 	<item>
 		<title>IMAG0034</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/imag0034/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/imag0034/</link>
 		<pubDate>Sun, 22 Apr 2012 17:02:47 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2012/04/IMAG0034.jpg</guid>
@@ -1652,7 +1661,7 @@
 	</item>
 	<item>
 		<title>IMAG0160</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/imag0160/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/imag0160/</link>
 		<pubDate>Sun, 22 Apr 2012 17:03:10 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2012/04/IMAG0160.jpg</guid>
@@ -1683,7 +1692,7 @@
 	</item>
 	<item>
 		<title>IMAG0007</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/imag0007-2/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/imag0007-2/</link>
 		<pubDate>Sun, 22 Apr 2012 18:40:34 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2012/04/IMAG00071.jpg</guid>
@@ -1714,7 +1723,7 @@
 	</item>
 	<item>
 		<title>IMAG0006</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/imag0006/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/imag0006/</link>
 		<pubDate>Sun, 22 Apr 2012 18:47:42 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2012/04/IMAG0006.jpg</guid>
@@ -1745,7 +1754,7 @@
 	</item>
 	<item>
 		<title>IMAG0006</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/imag0006-2/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/imag0006-2/</link>
 		<pubDate>Sun, 22 Apr 2012 18:59:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/wp-content/uploads/2012/04/IMAG00061.jpg</guid>
@@ -3748,6 +3757,10 @@ f.setCommandListener(this);</code>]]></content:encoded>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842308]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[hello_world]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>1</wp:comment_id>
 			<wp:comment_author><![CDATA[WordPress先生]]></wp:comment_author>
@@ -3817,7 +3830,7 @@ f.setCommandListener(this);</code>]]></content:encoded>
 	</item>
 	<item>
 		<title>Google Cookies 分析</title>
-		<link>http://dourok.info/2010/04/22/google-cookies-%e5%88%86%e6%9e%90/</link>
+		<link>http://dourok.info/2010/04/22/google-cookies-analysize/</link>
 		<pubDate>Wed, 21 Apr 2010 16:42:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=6</guid>
@@ -3846,7 +3859,7 @@ HttpOnly]]></content:encoded>
 		<wp:post_date_gmt>2010-04-21 16:42:58</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>google-cookies-%e5%88%86%e6%9e%90</wp:post_name>
+		<wp:post_name>google-cookies-analysize</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -3860,10 +3873,18 @@ HttpOnly]]></content:encoded>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[google-cookies-%e5%88%86%e6%9e%90]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[google_cookies_analysize]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Java Me读取本地文件(JSR 75)</title>
-		<link>http://dourok.info/2010/04/22/java-me%e8%af%bb%e5%8f%96%e6%9c%ac%e5%9c%b0%e6%96%87%e4%bb%b6jsr-75/</link>
+		<link>http://dourok.info/2010/04/22/j2me-jsr-75/</link>
 		<pubDate>Thu, 22 Apr 2010 01:10:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=8</guid>
@@ -3923,7 +3944,7 @@ RayRischpaer 著 杨越 等译 2009 人民出版社 Java ME基础教程]]></cont
 		<wp:post_date_gmt>2010-04-22 01:10:52</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>java-me%e8%af%bb%e5%8f%96%e6%9c%ac%e5%9c%b0%e6%96%87%e4%bb%b6jsr-75</wp:post_name>
+		<wp:post_name>j2me-jsr-75</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -3942,6 +3963,14 @@ RayRischpaer 著 杨越 等译 2009 人民出版社 Java ME基础教程]]></cont
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842379]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[java-me%e8%af%bb%e5%8f%96%e6%9c%ac%e5%9c%b0%e6%96%87%e4%bb%b6jsr-75]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[j2me_jsr_75]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>10</wp:comment_id>
@@ -3969,7 +3998,7 @@ RayRischpaer 著 杨越 等译 2009 人民出版社 Java ME基础教程]]></cont
 	</item>
 	<item>
 		<title>Java ME通用Logger包和控制台</title>
-		<link>http://dourok.info/2010/05/15/%e4%b8%80%e4%b8%aame%e7%9a%84log%e5%8c%85/</link>
+		<link>http://dourok.info/2010/05/15/a-logger-for-j2me/</link>
 		<pubDate>Fri, 14 May 2010 17:01:08 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/2010/05/%e4%b8%80%e4%b8%aame%e7%9a%84log%e5%8c%85/</guid>
@@ -4043,7 +4072,7 @@ Console还有个String getMemoryInfo()的方法，来得到当前虚拟机的内
 		<wp:post_date_gmt>2010-05-14 17:01:08</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e4%b8%80%e4%b8%aame%e7%9a%84log%e5%8c%85</wp:post_name>
+		<wp:post_name>a-logger-for-j2me</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -4060,6 +4089,14 @@ Console还有个String getMemoryInfo()的方法，来得到当前虚拟机的内
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842382]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e4%b8%80%e4%b8%aame%e7%9a%84log%e5%8c%85]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[a_logger_for_j2me]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>8</wp:comment_id>
@@ -4170,7 +4207,7 @@ Console还有个String getMemoryInfo()的方法，来得到当前虚拟机的内
 	</item>
 	<item>
 		<title>在Netbeans上配置Android开发环境</title>
-		<link>http://dourok.info/2010/05/22/%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83/</link>
+		<link>http://dourok.info/2010/05/22/netbeans-as-android-ide/</link>
 		<pubDate>Sat, 22 May 2010 02:44:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=50</guid>
@@ -4267,7 +4304,7 @@ Netbeans7.1终于有像Eclipse一样的Attach Sources按钮，可以为android.j
 		<wp:post_date_gmt>2010-05-22 02:44:15</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83</wp:post_name>
+		<wp:post_name>netbeans-as-android-ide</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -4287,16 +4324,24 @@ Netbeans7.1终于有像Eclipse一样的Attach Sources按钮，可以为android.j
 			<wp:meta_value><![CDATA[安装与设置NBAndroid，在netbeans上查看Android源码（Attach Sources）]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[NBAndroid,netbeans 7.1,netbeans,Android,查看Android源码,Attach Sources]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[在Netbeans上配置Android开发环境]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842468]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[NBAndroid,netbeans 7.1,netbeans,Android,查看Android源码,Attach Sources]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e5%9c%a8netbeans%e4%b8%8a%e9%85%8d%e7%bd%aeandroid%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[netbeans_as_android_ide]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>16</wp:comment_id>
@@ -4808,7 +4853,7 @@ http://kenai.com/downloads/nbandroid/updatecenter/updates.xml
 	</item>
 	<item>
 		<title>从GBK到Unicode的中文字符映射</title>
-		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/</link>
+		<link>http://dourok.info/2010/06/24/convert-gbk-to-unicode/</link>
 		<pubDate>Wed, 23 Jun 2010 16:51:31 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=85</guid>
@@ -4946,7 +4991,7 @@ It work!
 		<wp:post_date_gmt>2010-06-23 16:51:31</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84</wp:post_name>
+		<wp:post_name>convert-gbk-to-unicode</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -4957,7 +5002,6 @@ It work!
 		<category domain="post_tag" nicename="gbk"><![CDATA[GBK]]></category>
 		<category domain="post_tag" nicename="mtk"><![CDATA[MTK]]></category>
 		<category domain="post_tag" nicename="unicode"><![CDATA[Unicode]]></category>
-		<category domain="post_tag" nicename="%e7%bc%96%e7%a0%81%e8%bd%ac%e6%8d%a2"><![CDATA[编码转换]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -4965,6 +5009,14 @@ It work!
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842619]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[convert_gbk_to_unicode]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>46</wp:comment_id>
@@ -5091,17 +5143,17 @@ It work!
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=751</guid>
 		<description></description>
-		<content:encoded><![CDATA[凌晨1点多，终于有个安静的时候了，今天特别冷，外面风很大，窗户都被摇得咯咯作响。我的思维也很乱。想趁现在整理清楚……
+		<content:encoded><![CDATA[凌晨1点多，终于有个安静的时候了，今天特别冷，外面风很大，窗户都被摇得咯咯作响。我的思维也很乱。趁现在整理清楚……
 
 我现在是把笔记本搬到床上，躺在床上打字，原本以为这样会很暖和，没想到躺在床上打字保持那个姿势真的很难受，而且被子又不够长，盖住了笔记本又盖不了脚…感慨长得高还真不好。
 
-今天可以说一整天都在上网看东西，没有去上课，也没有开展我的工作，更没做成我打算今天要做的事，我早已习惯这样了。不过看了一天网页，收获还是挺大的，最受感慨的还是看到了两例当代社会由“当权者”所造成的冤假错案，其实是关乎两个人的故事，一个叫范燕琼；另一个忘了名字了，我知道是关于上海拆迁的事。确实有记在这里的必要，我期待平反的一天。还一则是关于长江三峡造成旱灾的事，这种消息得不到传播，还是既得利益者的功劳，在壹報那里看到的文章说长江三峡产生的利益，不知道算不算诽谤呢？我曾经在Discover上看到一部关于三峡的记录片。具体内容记不清了，记得有提过三峡工程造成了人类的大量迁徙及三峡发电站的旅游资源，还有关于三峡的可能引发地震的讨论，基本上这记录片对三峡的态度还是贬多于褒的，当时我也很奇怪，一直以为三峡是一件有益民生的工程，因为我在家乡的很长一段时间内一个星期都要断俩次电，就一直很期待三峡能带来改变。所以我看完记录片，立刻上网搜索一下，还真发现一篇反驳这记录片的文章，什么内容就真的一点也记不清了，只知道当时我还是有点相信或者也造成了我对这纪录片的态度多了点怀疑，现在回想起来是不是就是那种五毛一篇的文章。嗯，对三峡的东西写的太多了。还有一件是现在还处于进行时中的事，就是冯正虎被拒于国们之外，现居于日本入境处前（日本境外）的一支长凳上面。哈，以后有能耐出国旅游还是要小心点，说不定随时回不了国。
+今天可以说一整天都在上网看东西，没有去上课，也没有做我的兼职项目，更没做成打算今天要做的事，我早已习惯这样了。不过看了一天网页，收获还是挺大的，最受感慨的还是看到了两例当代社会由“当权者”所造成的悲剧，其实是两个人的故事，一个叫范燕琼；另一个忘了名字了，我知道是关于上海拆迁的事。确实有记在这里的必要，我期待平反的一天。还一则是关于长江三峡造成旱灾的事，这种消息得不到传播，还是既得利益者的功劳，在壹報那里看到的文章说长江三峡产生的利益，按照某当权者逻辑不知道算不算诽谤呢？我曾经在Discover上看到一部关于三峡的记录片。具体内容记不清了，记得有提过三峡工程造成了人类的大量迁徙及三峡发电站的旅游资源，还有关于三峡的可能引发地震的讨论，基本上这记录片对三峡的态度还是贬多于褒的，当时我也很奇怪，一直以为三峡是一件有益民生的工程，因为我在家乡的很长一段时间内一个星期都要断俩次电，就一直很期待三峡能带来改变。所以我看完记录片，还立刻上网搜索一下，还真发现一篇反驳这记录片的文章，但是具体什么内容就记不清了，只知道当时我还是有点相信或者也造成了我对这纪录片的态度多了点怀疑，现在回想起来这些所谓的反驳其实就是那种五毛一篇的文章吧。嗯，对三峡的东西写的太多了。还有一件是现在还处于进行时中的事，就是冯正虎被拒于国门之外，现居于日本入境处前（日本境外）的一支长凳上面。哈，以后有能耐出国旅游还是要小心点，某某可以让你随时回不了国。
 
 另外一个大段就应该讲讲博客的事情。上一整天网，发现了许多优秀的博客，这些博客，也是我了解上一段那些信息的主要渠道，这也成为我想写自己博客的原因以及方向，自然，我没有打算也很怀疑自己有没有能力去写这些评论社会，时政，民生的文章，我所想要的是一个分享技术，以及通过记录学习笔记来帮助我学习的博客，同时，也用来分享心情，我希望可以很随意发一些文章，无论看起来是无知的、低B的、不和谐的、充满幻想的、甚至装B并且不成功的，都可以坦荡荡的发出来。正如现在整个博客还是空荡荡，我还能发这篇文章出来一样。当然，整个博客还是以游戏开发及设想为主，这是我目前最大的兴趣。其次，我还想把我的以前的诗整理后也发出来，今天访问了我三四年前的MSN空间，上面放着我当时写的诗，到如今还是零评论，是不是说明这些东西的价值了？不过，对我自己每每看了都会触动的，所以我很希望能够把高中写的诗都给整理出来，放在博客上，当然诗里面的感情只能属于我，但我是很希望能够通过此学到一些写诗方面的技巧，我一直很难把我写的诗称之为“诗”。
 
-再谈一下twitter推特吧，虽然很想睡觉了。注册twitter 是在今年五月，当时注册了个screwyou的名称，然后发了句sleeping就没怎么搭理它了，到了今天才feel到twitter的强大，渐渐开始想融入推特社区了，不过推特还是挺费时间的，我有90来个follewing，一直看更新(有更新就看,看完又有更新了)，一直下去就费了大半天了，纯电脑用户用twitter还真是有点凄惨，还得学学怎么吃这快餐。
+再谈一下twitter推特吧，虽然很想睡觉了。注册twitter 是在今年五月，当时注册了个screwyou的名称，然后发了句sleeping就没怎么搭理它了，到了今天才感觉到twitter的强大，渐渐开始想融入推特社区了，不过推特还是挺费时间的，我有90来个following，一直看更新(有更新就看,看完又有更新了)，一直下去就费了大半天了，纯电脑用户用twitter还真是有点凄惨，还得学学怎么吃这快餐。
 
-最后是不是应该展望未来了，临近毕业，未来这个词已经不是遥远的了，毕业打算，还是想继续进修，考个专插本，可现在的问题，我很难有规律地为专插本做准备。时间规划也是我现在的燃眉之急啊。
+最后是不是应该展望未来了，临近毕业，未来这个词已经不是遥远的了，毕业打算，还是想继续进修，可现在的问题，我很难有规律地做准备。时间规划也是我现在的燃眉之急啊。
 
 好了真的困了，末尾感慨一下自己的打字速度还真的慢，上面那堆字从一点多打到现在已经3点了，虽然中间跑去过隔壁宿舍偷点鸡蛋饼充饥，随便看他们玩魔兽RPG。
 
@@ -5122,6 +5174,8 @@ It work!
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
+		<category domain="post_tag" nicename="twitter"><![CDATA[twitter]]></category>
+		<category domain="post_tag" nicename="%e5%8d%9a%e5%ae%a2"><![CDATA[博客]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -5129,13 +5183,15 @@ It work!
 	</item>
 	<item>
 		<title>Foobar2000的win7界面整合插件</title>
-		<link>http://dourok.info/2009/11/19/foobar2000%e7%9a%84win7%e7%95%8c%e9%9d%a2%e6%95%b4%e5%90%88%e6%8f%92%e4%bb%b6/</link>
+		<link>http://dourok.info/2009/11/19/foo-w7shell/</link>
 		<pubDate>Thu, 19 Nov 2009 11:12:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=753</guid>
 		<description></description>
 		<content:encoded><![CDATA[剛剛在Foobar2000.org上獲知，foobar2000推出1.0beat版，乘機換掉一直在用的那個占用100M內存傻瓜整合版，因為這個整合版的功能很多我都不要用到。然而這個不帶插件的官方版沒有一個我覺得很實用的功能，具體見圖：
-<div><img title="w7shell" src="http://wintense.com/wp-content/uploads/2009/02/w7shell.png" alt="win7shell插件功能預覽" width="318" height="245" />w7shell插件功能預覽</div>
+
+<img title="w7shell" src="http://wintense.com/wp-content/uploads/2009/02/w7shell.png" alt="win7shell插件功能預覽" title="w7shell插件功能預覽" width="318" height="245" />
+
 在win7中可以不用切換出界面來控制播放（當然快捷鍵也可以做到），直接在程序縮略圖中控制。Google一下，就找到了這插件，現給出介紹跟下載地址：
 
 <a href="http://wintense.com/plugins/foo_w7shell" target="_blank">http://wintense.com/plugins/foo_w7shell</a>
@@ -5149,24 +5205,31 @@ It work!
 		<wp:post_date_gmt>2009-11-19 11:12:15</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>foobar2000%e7%9a%84win7%e7%95%8c%e9%9d%a2%e6%95%b4%e5%90%88%e6%8f%92%e4%bb%b6</wp:post_name>
+		<wp:post_name>foo-w7shell</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="f"><![CDATA[f]]></category>
 		<category domain="post_tag" nicename="foobar2000"><![CDATA[foobar2000]]></category>
 		<category domain="category" nicename="c-otaku"><![CDATA[Otaku]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[foobar2000%e7%9a%84win7%e7%95%8c%e9%9d%a2%e6%95%b4%e5%90%88%e6%8f%92%e4%bb%b6]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[foo_w7shell]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>畫個星星，容易么！</title>
-		<link>http://dourok.info/2009/11/21/%e7%95%ab%e5%80%8b%e6%98%9f%e6%98%9f%ef%bc%8c%e5%ae%b9%e6%98%93%e4%b9%88%ef%bc%81/</link>
+		<link>http://dourok.info/2009/11/21/draw-a-star/</link>
 		<pubDate>Sat, 21 Nov 2009 07:05:21 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=756</guid>
@@ -5232,7 +5295,7 @@ S = √(p(p-a)(p-b)(p-c))
 		<wp:post_date_gmt>2009-11-21 07:05:21</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e7%95%ab%e5%80%8b%e6%98%9f%e6%98%9f%ef%bc%8c%e5%ae%b9%e6%98%93%e4%b9%88%ef%bc%81</wp:post_name>
+		<wp:post_name>draw-a-star</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5240,14 +5303,23 @@ S = √(p(p-a)(p-b)(p-c))
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="keepcoding"><![CDATA[Coder]]></category>
+		<category domain="post_tag" nicename="java2d"><![CDATA[java2d]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e7%95%ab%e5%80%8b%e6%98%9f%e6%98%9f%ef%bc%8c%e5%ae%b9%e6%98%93%e4%b9%88%ef%bc%81]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[draw_a_star]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>时下最好职业,软件工程师排名第五</title>
-		<link>http://dourok.info/2009/12/17/%e6%97%b6%e4%b8%8b%e6%9c%80%e5%a5%bd%e8%81%8c%e4%b8%9a%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e5%b8%88%e6%8e%92%e5%90%8d%e7%ac%ac%e4%ba%94/</link>
+		<link>http://dourok.info/2009/12/17/bestjobs-report-from-careercast/</link>
 		<pubDate>Thu, 17 Dec 2009 04:48:14 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=760</guid>
@@ -5264,7 +5336,7 @@ S = √(p(p-a)(p-b)(p-c))
 		<wp:post_date_gmt>2009-12-17 04:48:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e6%97%b6%e4%b8%8b%e6%9c%80%e5%a5%bd%e8%81%8c%e4%b8%9a%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e5%b8%88%e6%8e%92%e5%90%8d%e7%ac%ac%e4%ba%94</wp:post_name>
+		<wp:post_name>bestjobs-report-from-careercast</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5272,15 +5344,24 @@ S = √(p(p-a)(p-b)(p-c))
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
+		<category domain="post_tag" nicename="%e5%b7%a5%e4%bd%9c"><![CDATA[工作]]></category>
 		<category domain="post_tag" nicename="%e7%bf%bb%e8%af%91"><![CDATA[翻译]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e6%97%b6%e4%b8%8b%e6%9c%80%e5%a5%bd%e8%81%8c%e4%b8%9a%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e5%b8%88%e6%8e%92%e5%90%8d%e7%ac%ac%e4%ba%94]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[bestjobs_report_from_careercast]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>成就狂!专属游戏Achievement Unlocked</title>
-		<link>http://dourok.info/2009/12/21/%e6%88%90%e5%b0%b1%e7%8b%82%e4%b8%93%e5%b1%9e%e6%b8%b8%e6%88%8fachievement-unlocked/</link>
+		<link>http://dourok.info/2009/12/21/achievement-unlocked/</link>
 		<pubDate>Mon, 21 Dec 2009 12:49:25 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=762</guid>
@@ -5300,7 +5381,7 @@ S = √(p(p-a)(p-b)(p-c))
 		<wp:post_date_gmt>2009-12-21 12:49:25</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e6%88%90%e5%b0%b1%e7%8b%82%e4%b8%93%e5%b1%9e%e6%b8%b8%e6%88%8fachievement-unlocked</wp:post_name>
+		<wp:post_name>achievement-unlocked</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5308,14 +5389,23 @@ S = √(p(p-a)(p-b)(p-c))
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="c-otaku"><![CDATA[Otaku]]></category>
+		<category domain="post_tag" nicename="%e7%8b%ac%e7%ab%8b%e6%b8%b8%e6%88%8f"><![CDATA[独立游戏]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e6%88%90%e5%b0%b1%e7%8b%82%e4%b8%93%e5%b1%9e%e6%b8%b8%e6%88%8fachievement-unlocked]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[achievement_unlocked]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>J2ME对PNG格式的支持很诡异–不校检CRC?</title>
-		<link>http://dourok.info/2010/01/02/j2me%e5%af%b9png%e6%a0%bc%e5%bc%8f%e7%9a%84%e6%94%af%e6%8c%81%e5%be%88%e8%af%a1%e5%bc%82-%e4%b8%8d%e6%a0%a1%e6%a3%80crc/</link>
+		<link>http://dourok.info/2010/01/02/j2me-didnt-check-crc-in-png/</link>
 		<pubDate>Sat, 02 Jan 2010 08:50:22 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=764</guid>
@@ -5445,7 +5535,7 @@ crcTable[i]=crc;
 		<wp:post_date_gmt>2010-01-02 08:50:22</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>j2me%e5%af%b9png%e6%a0%bc%e5%bc%8f%e7%9a%84%e6%94%af%e6%8c%81%e5%be%88%e8%af%a1%e5%bc%82-%e4%b8%8d%e6%a0%a1%e6%a3%80crc</wp:post_name>
+		<wp:post_name>j2me-didnt-check-crc-in-png</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5453,15 +5543,24 @@ crcTable[i]=crc;
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="keepcoding"><![CDATA[Coder]]></category>
+		<category domain="post_tag" nicename="crc"><![CDATA[crc]]></category>
 		<category domain="post_tag" nicename="j2me"><![CDATA[J2ME]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[j2me%e5%af%b9png%e6%a0%bc%e5%bc%8f%e7%9a%84%e6%94%af%e6%8c%81%e5%be%88%e8%af%a1%e5%bc%82-%e4%b8%8d%e6%a0%a1%e6%a3%80crc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[j2me_didnt_check_crc_in_png]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>回家札记一:折腾功放器</title>
-		<link>http://dourok.info/2010/01/10/%e5%9b%9e%e5%ae%b6%e6%9c%ad%e8%ae%b0%e4%b8%80%e6%8a%98%e8%85%be%e5%8a%9f%e6%94%be%e5%99%a8/</link>
+		<link>http://dourok.info/2010/01/10/note-at-home-first-fix-amplifier/</link>
 		<pubDate>Sun, 10 Jan 2010 10:51:37 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=767</guid>
@@ -5477,7 +5576,7 @@ crcTable[i]=crc;
 		<wp:post_date_gmt>2010-01-10 10:51:37</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e5%9b%9e%e5%ae%b6%e6%9c%ad%e8%ae%b0%e4%b8%80%e6%8a%98%e8%85%be%e5%8a%9f%e6%94%be%e5%99%a8</wp:post_name>
+		<wp:post_name>note-at-home-first-fix-amplifier</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5489,10 +5588,14 @@ crcTable[i]=crc;
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e5%9b%9e%e5%ae%b6%e6%9c%ad%e8%ae%b0%e4%b8%80%e6%8a%98%e8%85%be%e5%8a%9f%e6%94%be%e5%99%a8]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Passage,浓缩的人生</title>
-		<link>http://dourok.info/2010/01/21/passage%e6%b5%93%e7%bc%a9%e7%9a%84%e4%ba%ba%e7%94%9f/</link>
+		<link>http://dourok.info/2010/01/21/passage_pass_age/</link>
 		<pubDate>Thu, 21 Jan 2010 08:52:29 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=769</guid>
@@ -5503,9 +5606,9 @@ crcTable[i]=crc;
 
 Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank">Jason Rohrer</a>。我去年在<a href="http://www.indiegm.com/game/passsage" target="_blank">独立游戏杂志</a>上发现它的介绍。下载下来一玩，短短五分钟的人生旅程，从一开始的不知所玩，再到慢慢明白作者的意图，正准备感慨作者的创造力时，游戏突然给我震撼一下，然后就Game Over，五分钟到了。
 
-至今我还记得当时的感受。作者所描述的与我的人生观多么吻合，无论生活的过程怎么丰富多彩；是为什么所驱动，去追求什么；或者受尽欲望的折磨。最后论及人生的目的，实际上除了受苦，人生就没有什么目的可言。所有幸福、所有满足都只是长时间的煎熬所换来的，却要那么短暂，甚至虚幻。而后又被新的欲望所霸占又继续煎熬。所以，当最终浓缩起来的人生就如这游戏的过程一样，单调且重复，却又不得不触动。唉，如今确实没有当时那么多感慨，再说多就成无病呻吟了。只是推荐大家去玩一下，见识下电子游戏的艺术性质。
+至今我还记得当时的感受。作者所描述的与我的人生观多么吻合，无论生活的过程怎么丰富多彩；是为什么所驱动，去追求什么；或者受尽欲望的折磨。最后论及人生的目的，实际上除了受苦，人生就没有什么目的可言。所有幸福、所有满足都只是长时间的煎熬所换来的，却要那么短暂，甚至虚幻。而后又被新的欲望所霸占又继续煎熬。所以，当最终浓缩起来的人生就如这游戏的过程一样，单调且重复，却又不得不触动。唉，叔本华给我的影响吗？如今确实没有当时那么多感慨，再说多就成无病呻吟了。只是推荐大家去玩一下，感受下这款艺术性较强的电子游戏。
 
-今天才发现Passage可以拆开成Pass+age(流逝的岁月?) 。在毕业之际发现是多么应景呵！
+今天才发现Passage可以拆开成Pass+age(流逝的岁月?) 。在毕业年发现是多么应景呵！
 
 同时,我又好奇的搜了下<a title="点击访问Jason主页" href="http://hcsoftware.sourceforge.net/jason-rohrer/" target="_blank">Jason Rohrer</a>。在作者的一个访谈中看到他说了一句话：“I make whatever games I want to make”。确实，他做到了，让我们尊敬。我呢？路还很远…
 
@@ -5522,7 +5625,7 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_date_gmt>2010-01-21 08:52:29</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>passage%e6%b5%93%e7%bc%a9%e7%9a%84%e4%ba%ba%e7%94%9f</wp:post_name>
+		<wp:post_name>passage_pass_age</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5530,24 +5633,24 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="c-otaku"><![CDATA[Otaku]]></category>
+		<category domain="post_tag" nicename="%e7%8b%ac%e7%ab%8b%e6%b8%b8%e6%88%8f"><![CDATA[独立游戏]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[passage%e6%b5%93%e7%bc%a9%e7%9a%84%e4%ba%ba%e7%94%9f]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>请关注!帮助乡村建图书馆你的1票=100$</title>
-		<link>http://dourok.info/2010/01/22/%e8%af%b7%e5%85%b3%e6%b3%a8%e5%b8%ae%e5%8a%a9%e4%b9%a1%e6%9d%91%e5%bb%ba%e5%9b%be%e4%b9%a6%e9%a6%86%e4%bd%a0%e7%9a%841%e7%a5%a8100/</link>
+		<link>http://dourok.info/2010/01/22/help-to-build-country-library/</link>
 		<pubDate>Fri, 22 Jan 2010 09:53:18 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=771</guid>
 		<description></description>
-		<content:encoded><![CDATA[&nbsp;
-<div>
-<div>
-<div>
-<div>
-<blockquote>爱心传递慈善基金会（Pass Love Charity Foundation）是中国留学生杜可名和玄伟剑于2006年在美国密西根州正式注册的501（C）（3）非营利性公益组织，获得美国IRS（国税局）公共慈善基金会的认证和免税号。
+		<content:encoded><![CDATA[<blockquote>爱心传递慈善基金会（Pass Love Charity Foundation）是中国留学生杜可名和玄伟剑于2006年在美国密西根州正式注册的501（C）（3）非营利性公益组织，获得美国IRS（国税局）公共慈善基金会的认证和免税号。
 
 2008年开始致力于为中国贫困地区创建优质的蒲公英乡村图书馆，以此为载体，使乡村儿童受到公平、适合、人性化的教育。
 
@@ -5568,7 +5671,7 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_date_gmt>2010-01-22 09:53:18</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e8%af%b7%e5%85%b3%e6%b3%a8%e5%b8%ae%e5%8a%a9%e4%b9%a1%e6%9d%91%e5%bb%ba%e5%9b%be%e4%b9%a6%e9%a6%86%e4%bd%a0%e7%9a%841%e7%a5%a8100</wp:post_name>
+		<wp:post_name>help-to-build-country-library</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5576,14 +5679,23 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
+		<category domain="post_tag" nicename="%e6%85%88%e5%96%84"><![CDATA[慈善]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e8%af%b7%e5%85%b3%e6%b3%a8%e5%b8%ae%e5%8a%a9%e4%b9%a1%e6%9d%91%e5%bb%ba%e5%9b%be%e4%b9%a6%e9%a6%86%e4%bd%a0%e7%9a%841%e7%a5%a8100]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[help_to_build_country_library]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>回家札记二:网站被墙</title>
-		<link>http://dourok.info/2010/01/25/%e5%9b%9e%e5%ae%b6%e6%9c%ad%e8%ae%b0%e4%ba%8c%e7%bd%91%e7%ab%99%e8%a2%ab%e5%a2%99/</link>
+		<link>http://dourok.info/2010/01/25/note-at-home-two-ban-by-gfw/</link>
 		<pubDate>Mon, 25 Jan 2010 08:54:11 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=773</guid>
@@ -5626,22 +5738,31 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_date_gmt>2010-01-25 08:54:11</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e5%9b%9e%e5%ae%b6%e6%9c%ad%e8%ae%b0%e4%ba%8c%e7%bd%91%e7%ab%99%e8%a2%ab%e5%a2%99</wp:post_name>
+		<wp:post_name>note-at-home-two-ban-by-gfw</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="gfw"><![CDATA[gfw]]></category>
 		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e5%9b%9e%e5%ae%b6%e6%9c%ad%e8%ae%b0%e4%ba%8c%e7%bd%91%e7%ab%99%e8%a2%ab%e5%a2%99]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[note_at_home_two_ban_by_gfw]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>惊叹!第一人称俄罗斯方块!?</title>
-		<link>http://dourok.info/2010/01/27/%e6%83%8a%e5%8f%b9%e7%ac%ac%e4%b8%80%e4%ba%ba%e7%a7%b0%e4%bf%84%e7%bd%97%e6%96%af%e6%96%b9%e5%9d%97/</link>
+		<link>http://dourok.info/2010/01/27/first-person-tetris/</link>
 		<pubDate>Wed, 27 Jan 2010 13:54:55 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=775</guid>
@@ -5657,7 +5778,7 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_date_gmt>2010-01-27 13:54:55</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e6%83%8a%e5%8f%b9%e7%ac%ac%e4%b8%80%e4%ba%ba%e7%a7%b0%e4%bf%84%e7%bd%97%e6%96%af%e6%96%b9%e5%9d%97</wp:post_name>
+		<wp:post_name>first-person-tetris</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5665,14 +5786,24 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="c-otaku"><![CDATA[Otaku]]></category>
+		<category domain="post_tag" nicename="tetris"><![CDATA[Tetris]]></category>
+		<category domain="post_tag" nicename="%e7%8b%ac%e7%ab%8b%e6%b8%b8%e6%88%8f"><![CDATA[独立游戏]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[first_person_tetris]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e6%83%8a%e5%8f%b9%e7%ac%ac%e4%b8%80%e4%ba%ba%e7%a7%b0%e4%bf%84%e7%bd%97%e6%96%af%e6%96%b9%e5%9d%97]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>让HTC Hero通过我的笔记本无线网卡共享上网</title>
-		<link>http://dourok.info/2010/06/25/%e8%ae%a9htc-hero%e9%80%9a%e8%bf%87%e6%88%91%e7%9a%84%e7%ac%94%e8%ae%b0%e6%9c%ac%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1%e5%85%b1%e4%ba%ab%e4%b8%8a%e7%bd%91/</link>
+		<link>http://dourok.info/2010/06/25/my-wifi-for-htc-hero/</link>
 		<pubDate>Thu, 24 Jun 2010 17:49:13 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=102</guid>
@@ -5723,7 +5854,7 @@ SSID是默认的计算机名，最好也改一下。如果想要换别的加密�
 		<wp:post_date_gmt>2010-06-24 17:49:13</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e8%ae%a9htc-hero%e9%80%9a%e8%bf%87%e6%88%91%e7%9a%84%e7%ac%94%e8%ae%b0%e6%9c%ac%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1%e5%85%b1%e4%ba%ab%e4%b8%8a%e7%bd%91</wp:post_name>
+		<wp:post_name>my-wifi-for-htc-hero</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5743,6 +5874,10 @@ SSID是默认的计算机名，最好也改一下。如果想要换别的加密�
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e8%ae%a9htc-hero%e9%80%9a%e8%bf%87%e6%88%91%e7%9a%84%e7%ac%94%e8%ae%b0%e6%9c%ac%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1%e5%85%b1%e4%ba%ab%e4%b8%8a%e7%bd%91]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>12</wp:comment_id>
@@ -5769,7 +5904,7 @@ SSID是默认的计算机名，最好也改一下。如果想要换别的加密�
 	</item>
 	<item>
 		<title>如何为MTK平台添加新模块</title>
-		<link>http://dourok.info/2010/07/15/%e5%a6%82%e4%bd%95%e4%b8%bamtk%e5%b9%b3%e5%8f%b0%e6%b7%bb%e5%8a%a0%e6%96%b0%e6%a8%a1%e5%9d%97/</link>
+		<link>http://dourok.info/2010/07/15/how-to-add-new-module-in-mtk/</link>
 		<pubDate>Thu, 15 Jul 2010 01:46:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=116</guid>
@@ -5872,7 +6007,7 @@ make codegen_modis[/cc]
 		<wp:post_date_gmt>2010-07-15 01:46:58</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e5%a6%82%e4%bd%95%e4%b8%bamtk%e5%b9%b3%e5%8f%b0%e6%b7%bb%e5%8a%a0%e6%96%b0%e6%a8%a1%e5%9d%97</wp:post_name>
+		<wp:post_name>how-to-add-new-module-in-mtk</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5890,10 +6025,18 @@ make codegen_modis[/cc]
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[812017495]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e5%a6%82%e4%bd%95%e4%b8%bamtk%e5%b9%b3%e5%8f%b0%e6%b7%bb%e5%8a%a0%e6%96%b0%e6%a8%a1%e5%9d%97]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[how_to_add_new_module_in_mtk]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>玩扫雷的悲剧</title>
-		<link>http://dourok.info/2010/07/20/%e7%8e%a9%e6%89%ab%e9%9b%b7%e7%9a%84%e6%82%b2%e5%89%a7/</link>
+		<link>http://dourok.info/2010/07/20/painess-of-minesweeper/</link>
 		<pubDate>Tue, 20 Jul 2010 01:45:12 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=126</guid>
@@ -5915,7 +6058,7 @@ make codegen_modis[/cc]
 		<wp:post_date_gmt>2010-07-20 01:45:12</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e7%8e%a9%e6%89%ab%e9%9b%b7%e7%9a%84%e6%82%b2%e5%89%a7</wp:post_name>
+		<wp:post_name>painess-of-minesweeper</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -5933,10 +6076,18 @@ make codegen_modis[/cc]
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[812017342]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e7%8e%a9%e6%89%ab%e9%9b%b7%e7%9a%84%e6%82%b2%e5%89%a7]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[painess_of_minesweeper]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>ProGuard混淆丢掉空循环</title>
-		<link>http://dourok.info/2010/07/30/proguard%e6%b7%b7%e6%b7%86%e4%b8%a2%e6%8e%89%e7%a9%ba%e5%be%aa%e7%8e%af/</link>
+		<link>http://dourok.info/2010/07/30/proguard-remove-busy-loop/</link>
 		<pubDate>Fri, 30 Jul 2010 15:57:42 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=130</guid>
@@ -5988,7 +6139,7 @@ System.out.print("");
 		<wp:post_date_gmt>2010-07-30 15:57:42</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>proguard%e6%b7%b7%e6%b7%86%e4%b8%a2%e6%8e%89%e7%a9%ba%e5%be%aa%e7%8e%af</wp:post_name>
+		<wp:post_name>proguard-remove-busy-loop</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -6009,10 +6160,18 @@ System.out.print("");
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[812017129]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[proguard%e6%b7%b7%e6%b7%86%e4%b8%a2%e6%8e%89%e7%a9%ba%e5%be%aa%e7%8e%af]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[proguard_remove_busy_loop]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>CodeColorer中文帮助</title>
-		<link>http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/</link>
+		<link>http://dourok.info/2010/08/03/codecolorer-doc-cn/</link>
 		<pubDate>Tue, 03 Aug 2010 12:54:35 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=149</guid>
@@ -6362,7 +6521,7 @@ public class Main {
 		<wp:post_date_gmt>2010-08-03 12:54:35</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9</wp:post_name>
+		<wp:post_name>codecolorer-doc-cn</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -6381,6 +6540,14 @@ public class Main {
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842398]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[codecolorer_doc_cn]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>54</wp:comment_id>
@@ -6790,7 +6957,7 @@ Thanks again, you have lifted my spirits immensely....]]></wp:comment_content>
 	</item>
 	<item>
 		<title>原型体(Prototype)通关</title>
-		<link>http://dourok.info/2010/08/08/%e5%8e%9f%e5%9e%8b%e4%bd%93prototype%e9%80%9a%e5%85%b3/</link>
+		<link>http://dourok.info/2010/08/08/prototype-clearance/</link>
 		<pubDate>Sun, 08 Aug 2010 07:32:31 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=309</guid>
@@ -6804,7 +6971,7 @@ Thanks again, you have lifted my spirits immensely....]]></wp:comment_content>
 		<wp:post_date_gmt>2010-08-08 07:32:31</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e5%8e%9f%e5%9e%8b%e4%bd%93prototype%e9%80%9a%e5%85%b3</wp:post_name>
+		<wp:post_name>prototype-clearance</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -6822,6 +6989,14 @@ Thanks again, you have lifted my spirits immensely....]]></wp:comment_content>
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842514]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e5%8e%9f%e5%9e%8b%e4%bd%93prototype%e9%80%9a%e5%85%b3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[prototype_-clearance]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>18</wp:comment_id>
@@ -6938,13 +7113,12 @@ Thanks again, you have lifted my spirits immensely....]]></wp:comment_content>
 	</item>
 	<item>
 		<title>插入!数学公式测试，附上一个很SB的Java程序</title>
-		<link>http://dourok.info/2010/08/31/316/</link>
+		<link>http://dourok.info/2010/08/31/display-formulatest/</link>
 		<pubDate>Tue, 31 Aug 2010 07:51:40 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=316</guid>
 		<description></description>
-		<content:encoded><![CDATA[
-实际上我不喜欢插入这个词!
+		<content:encoded><![CDATA[实际上我不喜欢插入这个词!
 
 在网页上嵌入数学公式，之前已经在wiki上试过，尝试了<a href="http://www.math.union.edu/~dpvc/jsmath/">jsMath</a>和<a href="http://www.mathjax.org/">mathJax</a>。这两个都不是在服务器是渲染Latex代码，而是用javascript在客户端渲染，而且渲染出来的不是图片而是文本，也就是说可以复制粘贴到文本编辑器上，不知这个算不算优点，好处节省下带宽，但实际在IE8上可以说又慢又卡，chromium还可以接受但下标有点错位，也许是我配置的问题，对FireFox的支持是最好的。但是为了获得最佳的显示效果客户端必须要安装某种最佳字体，选择mathJax会自动下载该字体。点击<a href="http://dourok.info/mathjax/test/">这里看下mathJax的效果</a>。相对来说mathJax比jsMath更方便些。
 
@@ -7061,7 +7235,7 @@ public Color getPixelColor(int x,int y)这个方法是返回给定屏幕坐标�
 		<wp:post_date_gmt>2010-08-31 07:51:40</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>316</wp:post_name>
+		<wp:post_name>display-formulatest</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -7082,6 +7256,14 @@ public Color getPixelColor(int x,int y)这个方法是返回给定屏幕坐标�
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842536]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[316]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[display_formula_test]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>28</wp:comment_id>
@@ -7175,6 +7357,10 @@ public Color getPixelColor(int x,int y)这个方法是返回给定屏幕坐标�
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842547]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[webgl_v5]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>44</wp:comment_id>
 			<wp:comment_author><![CDATA[17wz8.com]]></wp:comment_author>
@@ -7200,7 +7386,7 @@ public Color getPixelColor(int x,int y)这个方法是返回给定屏幕坐标�
 	</item>
 	<item>
 		<title>Random Words My Chosen</title>
-		<link>http://dourok.info/2010/12/04/random-words/</link>
+		<link>http://dourok.info/2010/12/04/random-words-my-chosen/</link>
 		<pubDate>Sat, 04 Dec 2010 03:05:01 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=397</guid>
@@ -7234,7 +7420,7 @@ public Color getPixelColor(int x,int y)这个方法是返回给定屏幕坐标�
 		<wp:post_date_gmt>2010-12-04 03:05:01</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>random-words</wp:post_name>
+		<wp:post_name>random-words-my-chosen</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -7256,6 +7442,14 @@ public Color getPixelColor(int x,int y)这个方法是返回给定屏幕坐标�
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842318]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[random-words]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[random_words_my_chosen]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>75</wp:comment_id>
@@ -7322,7 +7516,7 @@ Evernote is so nice!]]></wp:comment_content>
 	</item>
 	<item>
 		<title>dokuwiki新版本&quot;Anteater&quot;支持UTF-8文件名</title>
-		<link>http://dourok.info/2010/12/09/dokuwiki_new_realease/</link>
+		<link>http://dourok.info/2010/12/09/dokuwiki-new-realease/</link>
 		<pubDate>Thu, 09 Dec 2010 07:51:26 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=412</guid>
@@ -7411,7 +7605,7 @@ echo "<font color=\"#FF0000\">if everything running fine,delete this php file</f
 		<wp:post_date_gmt>2010-12-09 07:51:26</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>dokuwiki_new_realease</wp:post_name>
+		<wp:post_name>dokuwiki-new-realease</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -7434,6 +7628,10 @@ echo "<font color=\"#FF0000\">if everything running fine,delete this php file</f
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842578]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[dokuwiki_new_realease]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>69</wp:comment_id>
@@ -7560,7 +7758,7 @@ dokuwiki在bin目录下放了几个cli应用的php脚本，可以把这个也放
 	</item>
 	<item>
 		<title>Groovy初接触</title>
-		<link>http://dourok.info/2010/12/30/groovy_introduce/</link>
+		<link>http://dourok.info/2010/12/30/groovy-introduce/</link>
 		<pubDate>Thu, 30 Dec 2010 15:48:32 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=446</guid>
@@ -7816,7 +8014,7 @@ Groovy:77484ms，没错，你没看错是5位数，77秒！几乎是java版的11
 		<wp:post_date_gmt>2010-12-30 15:48:32</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>groovy_introduce</wp:post_name>
+		<wp:post_name>groovy-introduce</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -7832,20 +8030,24 @@ Groovy:77484ms，没错，你没看错是5位数，77秒！几乎是java版的11
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Groovy初接触]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>_aioseop_description</wp:meta_key>
 			<wp:meta_value><![CDATA[Groovy:77484ms，没错，你没看错是5位数，77秒！几乎是java版的110倍。天啊，这也忒慢了吧，是不是我触犯了什么禁忌啊，很可能出现在列表结构上面]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>dsq_thread_id</wp:meta_key>
+			<wp:meta_value><![CDATA[796842606]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_keywords</wp:meta_key>
 			<wp:meta_value><![CDATA[Groovy,groovy efficiency,groovy closure,groovy闭包,groovy效率]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Groovy初接触]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>dsq_thread_id</wp:meta_key>
-			<wp:meta_value><![CDATA[796842606]]></wp:meta_value>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[groovy_introduce]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>106</wp:comment_id>
@@ -7939,6 +8141,10 @@ Groovy:77484ms，没错，你没看错是5位数，77秒！几乎是java版的11
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[im_back]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -8120,7 +8326,7 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 	</item>
 	<item>
 		<title>更新了下CSS</title>
-		<link>http://dourok.info/2011/05/24/update_css/</link>
+		<link>http://dourok.info/2011/05/24/update-css/</link>
 		<pubDate>Tue, 24 May 2011 14:53:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=513</guid>
@@ -8134,7 +8340,7 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 		<wp:post_date_gmt>2011-05-24 14:53:58</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>update_css</wp:post_name>
+		<wp:post_name>update-css</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8154,6 +8360,10 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 			<wp:meta_value><![CDATA[css通用字体]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[update_css]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key>_aioseop_description</wp:meta_key>
 			<wp:meta_value><![CDATA[在Linux版Chrome11中，自定义字体只能够配置两种，分别是标准字体和宽度固定的字体，经测试分别对应Fantasy和Monospace， 其他通用字体的对应特定字体无法配置。
 要强制指定字体可用下面css配合 Chrome Stylist 实现。但会覆盖其他所有字体。]]></wp:meta_value>
@@ -8165,7 +8375,7 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 	</item>
 	<item>
 		<title>System.in的困惑</title>
-		<link>http://dourok.info/2011/05/28/a_puzzle_of_system-in/</link>
+		<link>http://dourok.info/2011/05/28/a-puzzle-of-system-in/</link>
 		<pubDate>Fri, 27 May 2011 19:54:33 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=519</guid>
@@ -8317,7 +8527,7 @@ Thread3跑起来果然跟Thread2不一样，算是比较可理解了，不管你
 		<wp:post_date_gmt>2011-05-27 19:54:33</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>a_puzzle_of_system-in</wp:post_name>
+		<wp:post_name>a-puzzle-of-system-in</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8331,10 +8541,14 @@ Thread3跑起来果然跟Thread2不一样，算是比较可理解了，不管你
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[a_puzzle_of_system-in]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>悠哉悠哉，辗转反侧</title>
-		<link>http://dourok.info/2011/06/05/%e6%82%a0%e5%93%89%e6%82%a0%e5%93%89%ef%bc%8c%e8%be%97%e8%bd%ac%e5%8f%8d%e4%be%a7/</link>
+		<link>http://dourok.info/2011/06/05/one_of_spams/</link>
 		<pubDate>Sat, 04 Jun 2011 20:15:08 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=532</guid>
@@ -8354,7 +8568,7 @@ Thread3跑起来果然跟Thread2不一样，算是比较可理解了，不管你
 		<wp:post_date_gmt>2011-06-04 20:15:08</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e6%82%a0%e5%93%89%e6%82%a0%e5%93%89%ef%bc%8c%e8%be%97%e8%bd%ac%e5%8f%8d%e4%be%a7</wp:post_name>
+		<wp:post_name>one_of_spams</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8365,6 +8579,10 @@ Thread3跑起来果然跟Thread2不一样，算是比较可理解了，不管你
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e6%82%a0%e5%93%89%e6%82%a0%e5%93%89%ef%bc%8c%e8%be%97%e8%bd%ac%e5%8f%8d%e4%be%a7]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
@@ -8435,7 +8653,7 @@ PS：吾网站已半死，网址仅www二级域名可访问Orz.]]></wp:comment_c
 	</item>
 	<item>
 		<title>迷宫生成算法</title>
-		<link>http://dourok.info/2011/07/14/maze_generation_algorithm/</link>
+		<link>http://dourok.info/2011/07/14/maze-generation-algorithm/</link>
 		<pubDate>Thu, 14 Jul 2011 08:23:34 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=537</guid>
@@ -8486,7 +8704,7 @@ http://en.wikipedia.org/wiki/Maze]]></content:encoded>
 		<wp:post_date_gmt>2011-07-14 08:23:34</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>maze_generation_algorithm</wp:post_name>
+		<wp:post_name>maze-generation-algorithm</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8502,53 +8720,33 @@ http://en.wikipedia.org/wiki/Maze]]></content:encoded>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[迷宫生成算法]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_1a397c109f841b5971468435cb442dbc</wp:meta_key>
+			<wp:meta_key>_oembed_98ed83789e396f86625337503a7171d8</wp:meta_key>
 			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[图的生成树算法那就相当广泛了,一次广度优先搜索(BFS)或深度优先搜索(DFS),都可以构建出图的生成子树.只要让选择下一个节点的策略随机化,每次搜索出来的就是一个随机生成树也就是随机生成的迷宫.但是BFS生成出来的结果由于其他节点相对于起始节点的深度不变,导致迷宫随机性不够理想,下面提到的Prim算法算是一种对BFS的不错改进.DFS生成的过程比较生动就像是在挖地道一样推倒一面面墙.用来生成迷宫就比较直观也比较适合.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_oembed_a9466b9d61b91e3f0fcf26adaeca1abb</wp:meta_key>
 			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_oembed_bb47c31475c4cdc612e4e8f662c6f6de</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[迷宫生成算法]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[图的生成树算法那就相当广泛了,一次广度优先搜索(BFS)或深度优先搜索(DFS),都可以构建出图的生成子树.只要让选择下一个节点的策略随机化,每次搜索出来的就是一个随机生成树也就是随机生成的迷宫.但是BFS生成出来的结果由于其他节点相对于起始节点的深度不变,导致迷宫随机性不够理想,下面提到的Prim算法算是一种对BFS的不错改进.DFS生成的过程比较生动就像是在挖地道一样推倒一面面墙.用来生成迷宫就比较直观也比较适合.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_keywords</wp:meta_key>
 			<wp:meta_value><![CDATA[迷宫生成算法,迷宫,图论,Prim,生成树,kruskal,DFS,分治法]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_oembed_98ed83789e396f86625337503a7171d8</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_395d9ab284e506f84a4e31fa318b8b81</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_6ff967c06fc6ef3c919e2cd84cc20e7a</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_9be757658b58c675a4934437216a5ed1</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_b0e15007ad454a31f7011315d9036493</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[maze_generation_algorithm]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>修复了 Lyrics Grabber2 的千千静听歌词抓取脚本</title>
-		<link>http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/</link>
+		<link>http://dourok.info/2011/08/08/fixed-ttplayer-lrc-py/</link>
 		<pubDate>Sun, 07 Aug 2011 19:40:07 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=571</guid>
@@ -8658,7 +8856,7 @@ btw：千千静听的歌词库，只要是热门的，流行的，出名的歌�
 		<wp:post_date_gmt>2011-08-07 19:40:07</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>fixed_ttplayer_lrc_py</wp:post_name>
+		<wp:post_name>fixed-ttplayer-lrc-py</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8676,21 +8874,25 @@ btw：千千静听的歌词库，只要是热门的，流行的，出名的歌�
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[python,foobar2000,foobar2000歌词,Lyrics Grabber2,foobar2000千千静听,千千静听,谷歌翻译api]]></wp:meta_value>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Lyrics Grabber2 可以说我理想中的歌曲下载插件，主要是它可以批量抓取更新歌词，又可以自定义抓取脚本方便扩展，实在强大。
+Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是用不了的。我修复了一下]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[修复了 Lyrics Grabber2 的千千静听歌词抓取脚本]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Lyrics Grabber2 可以说我理想中的歌曲下载插件，主要是它可以批量抓取更新歌词，又可以自定义抓取脚本方便扩展，实在强大。
-Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是用不了的。我修复了一下]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842664]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[python,foobar2000,foobar2000歌词,Lyrics Grabber2,foobar2000千千静听,千千静听,谷歌翻译api]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[fixed_ttplayer_lrc_py]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>333</wp:comment_id>
@@ -8939,7 +9141,7 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 	</item>
 	<item>
 		<title>在Netbeans上查看Android源码</title>
-		<link>http://dourok.info/2011/10/10/browse_android_sources_on_netbeans/</link>
+		<link>http://dourok.info/2011/10/10/browse-android-sources-on-netbeans/</link>
 		<pubDate>Sun, 09 Oct 2011 19:58:00 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=606</guid>
@@ -8963,7 +9165,7 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 		<wp:post_date_gmt>2011-10-09 19:58:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>browse_android_sources_on_netbeans</wp:post_name>
+		<wp:post_name>browse-android-sources-on-netbeans</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8982,10 +9184,14 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[在Netbeans上查看Android源码]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[browse_android_sources_on_netbeans]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>来除草了。。。</title>
-		<link>http://dourok.info/2011/12/25/before_2012/</link>
+		<link>http://dourok.info/2011/12/25/before-2012/</link>
 		<pubDate>Sun, 25 Dec 2011 09:07:25 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=636</guid>
@@ -9005,7 +9211,7 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 		<wp:post_date_gmt>2011-12-25 09:07:25</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>before_2012</wp:post_name>
+		<wp:post_name>before-2012</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -9024,6 +9230,10 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842635]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[before_2012]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>1008</wp:comment_id>
@@ -9093,7 +9303,7 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 	</item>
 	<item>
 		<title>野花</title>
-		<link>http://dourok.info/2012/04/22/wild_flower/</link>
+		<link>http://dourok.info/2012/04/22/wild-flower/</link>
 		<pubDate>Sun, 22 Apr 2012 14:49:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=666</guid>
@@ -9114,7 +9324,7 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 		<wp:post_date_gmt>2012-04-22 14:49:15</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>wild_flower</wp:post_name>
+		<wp:post_name>wild-flower</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -9133,6 +9343,10 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 		<wp:postmeta>
 			<wp:meta_key>dsq_thread_id</wp:meta_key>
 			<wp:meta_value><![CDATA[796842710]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[wild_flower]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>832</wp:comment_id>

@@ -10,14 +10,14 @@ class LIM_HTML < Redcarpet::Render::HTML
     "<h#{level}>#{text}</h#{level}>"
   end
   def block_code(code, language)
-    
+    require 'cgi'
+    code = CGI.escapeHTML code
     if language == 'mathjax'
       "<script type=\"math/tex; mode=display\">
         #{code}
       </script>"
     else
-      require 'cgi'
-      "<pre><code class=\"#{language}\">#{CGI.escapeHTML(code)}</code></pre>"
+      "<pre><code class=\"#{language}\">#{code}</code></pre>"
     end
   end
   

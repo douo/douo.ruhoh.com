@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.4.1" created="2012-08-20 16:43" -->
+<!-- generator="WordPress/3.4.1" created="2012-09-19 13:40" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>DouO&#039;s Blog</title>
 	<link>http://dourok.info</link>
 	<description>非淡泊无以明志，非宁静无以致远</description>
-	<pubDate>Mon, 20 Aug 2012 16:43:38 +0000</pubDate>
+	<pubDate>Wed, 19 Sep 2012 13:40:48 +0000</pubDate>
 	<language>zh-CN</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://dourok.info</wp:base_site_url>
@@ -57,6 +57,7 @@
 	<wp:tag><wp:term_id>21</wp:term_id><wp:tag_slug>gbk</wp:tag_slug><wp:tag_name><![CDATA[GBK]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>3</wp:term_id><wp:tag_slug>google</wp:tag_slug><wp:tag_name><![CDATA[google]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>65</wp:term_id><wp:tag_slug>google-code</wp:tag_slug><wp:tag_name><![CDATA[Google Code]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>94</wp:term_id><wp:tag_slug>gpt</wp:tag_slug><wp:tag_name><![CDATA[GPT]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>63</wp:term_id><wp:tag_slug>groovy</wp:tag_slug><wp:tag_name><![CDATA[Groovy]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>26</wp:term_id><wp:tag_slug>hero</wp:tag_slug><wp:tag_name><![CDATA[Hero]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>66</wp:term_id><wp:tag_slug>hg</wp:tag_slug><wp:tag_name><![CDATA[hg]]></wp:tag_name></wp:tag>
@@ -91,6 +92,7 @@
 	<wp:tag><wp:term_id>82</wp:term_id><wp:tag_slug>wordpress</wp:tag_slug><wp:tag_name><![CDATA[Wordpress]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>84</wp:term_id><wp:tag_slug>wordpress-theme</wp:tag_slug><wp:tag_name><![CDATA[Wordpress Theme]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>43</wp:term_id><wp:tag_slug>wordpress%e6%8f%92%e4%bb%b6</wp:tag_slug><wp:tag_name><![CDATA[wordpress插件]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>92</wp:term_id><wp:tag_slug>%e5%88%86%e5%8c%ba%e6%81%a2%e5%a4%8d</wp:tag_slug><wp:tag_name><![CDATA[分区恢复]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>46</wp:term_id><wp:tag_slug>%e5%8e%9f%e5%9e%8b%e4%bd%93</wp:tag_slug><wp:tag_name><![CDATA[原型体]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>81</wp:term_id><wp:tag_slug>%e5%90%90%e6%a7%bd</wp:tag_slug><wp:tag_name><![CDATA[吐槽]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>74</wp:term_id><wp:tag_slug>%e5%9b%be%e8%ae%ba</wp:tag_slug><wp:tag_name><![CDATA[图论]]></wp:tag_name></wp:tag>
@@ -102,6 +104,7 @@
 	<wp:tag><wp:term_id>29</wp:term_id><wp:tag_slug>%e6%97%a0%e7%ba%bf%e7%bd%91%e5%8d%a1</wp:tag_slug><wp:tag_name><![CDATA[无线网卡]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>79</wp:term_id><wp:tag_slug>%e6%ad%8c%e8%af%8d%e6%90%9c%e7%b4%a2</wp:tag_slug><wp:tag_name><![CDATA[歌词搜索]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>47</wp:term_id><wp:tag_slug>%e6%b8%b8%e6%88%8f</wp:tag_slug><wp:tag_name><![CDATA[游戏]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>93</wp:term_id><wp:tag_slug>%e7%a1%ac%e7%9b%98</wp:tag_slug><wp:tag_name><![CDATA[硬盘]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>37</wp:term_id><wp:tag_slug>%e7%a9%ba%e5%be%aa%e7%8e%af</wp:tag_slug><wp:tag_name><![CDATA[空循环]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>88</wp:term_id><wp:tag_slug>%e7%ae%97%e6%b3%95</wp:tag_slug><wp:tag_name><![CDATA[算法]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>89</wp:term_id><wp:tag_slug>%e7%ba%bf%e6%80%a7%e4%bb%a3%e6%95%b0</wp:tag_slug><wp:tag_name><![CDATA[线性代数]]></wp:tag_name></wp:tag>
@@ -2898,6 +2901,33 @@
 		</wp:comment>
 	</item>
 	<item>
+		<title>PNG格式与Me中的PNG</title>
+		<link>http://dourok.info/2010/05/11/png%e6%a0%bc%e5%bc%8f%e4%b8%8eme%e4%b8%ad%e7%9a%84png/</link>
+		<pubDate>Mon, 10 May 2010 17:50:01 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://dourok.info/2010/05/png%e6%a0%bc%e5%bc%8f%e4%b8%8eme%e4%b8%ad%e7%9a%84png/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date>2010-05-11 01:50:01</wp:post_date>
+		<wp:post_date_gmt>2010-05-10 17:50:01</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>png%e6%a0%bc%e5%bc%8f%e4%b8%8eme%e4%b8%ad%e7%9a%84png</wp:post_name>
+		<wp:status>private</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>更新日志</title>
 		<link>http://dourok.info/%e6%9b%b4%e6%96%b0%e6%97%a5%e5%bf%97/</link>
 		<pubDate>Sun, 30 May 2010 17:15:20 +0000</pubDate>
@@ -3200,33 +3230,6 @@ code ---&gt; 个人代码
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[onecolumn-page.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Test</title>
-		<link>http://dourok.info/?p=664</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://dourok.info/?p=664</guid>
-		<description></description>
-		<content:encoded><![CDATA[[cci_lisp](tags `processing.js, `Wordpress, `Wordpress Theme, `吐槽) | (comments nil)[/cci_lisp]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>664</wp:post_id>
-		<wp:post_date>2012-04-14 16:56:40</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -3669,31 +3672,36 @@ code ---&gt; 个人代码
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=850</guid>
 		<description></description>
-		<content:encoded><![CDATA[用windows自带的分区工具删除上次装黑苹果时的临时分区竟然出问题了。把我另外一个1.7tb的大分区也删掉了。我怀疑是交叉分区导致的(分区助手专业版4.0 分的)，这个1.7tb分区有着500gb左右的数据。十分珍贵。幸好，据我所知删除分区只是修改位于硬盘头的分区表而已。不会对真正分区内容做什么更改。恢复应该时可以的。
+		<content:encoded><![CDATA[用windows自带的分区工具删除上次装黑苹果时的临时分区竟然出问题了。把我另外一个1.7tb的大分区也删掉了。我怀疑是交叉分区导致的(分区助手专业版4.0 分的)，这个1.7tb分区有着500gb左右的数据。十分珍贵。幸好，据我所知删除分区只是修改位于硬盘头的分区表而已。不会对真正分区内容做什么更改。恢复应该是可能的。
 
-一开始用diskgenius，看着它的恢复速度十分蛋疼，每秒还不知有没有一个柱面，而我的大硬盘有24多万个柱面。而且用的算法还是不精确的快速算法，应是只检测每个磁道的第一个扇区。如果是完全扫描速度应该慢个255倍。diskgenius还有提供自己规定柱面范围恢复的功能，不知为什么这个选项是灰色的无效状态。如果可以用就方便许多了。
+一开始用diskgenius，看着它的恢复速度十分蛋疼，每秒还不知有没有一个柱面，而我的大硬盘有24多万个柱面。而且用的算法还是不精确的快速算法，猜测是只检测每个磁道的第一个扇区。如果是完全扫描速度应该也得慢个255倍。diskgenius还有提供自己规定柱面范围恢复的功能，不知为什么这个选项是灰色的无效状态。如果可以用就方便许多了。
 
 用了另外一个软件Acronis Disk Director（ADD）
 
-ADD功能很强大，也很好用。恢复分区的功能也提供了两种算法，快速和完全。后来我用快速扫了快1个小时没扫到。用完全扫不到1分钟就找到了第一个分区。是那个原本要删掉的分区。看来它的位置还是很靠前的。因为分区的建立和删除只关系到硬盘的分区表，对实际内容不会有影响。接下来继续扫，希望能恢复到令一个分区，两个小时过去了，还是没有找到，最可怕的那条进度栏连1%也没跳出来。果断停止。又用快速扫了将近一个小时又没有。幸好ADD还提供有hex 编辑器。打开那块未分配的区域一看一开始都是00。拉了很多才看到有数据的内容。分区头的区域大概就在有数据和无数据的边界。用二分法手工查找，很快就定位到这个交界附近，看了一下，跟开始的距离有90831767040(346795155 柱面：21587|524200950 柱面：32630)个扇区，大概就是80多G的数据了，难怪这么慢。但是ADD竟然没有精准分区的功能，害我不敢乱分。怕覆盖掉实际原本的分区。
+ADD功能很强大，也很好用。恢复分区的功能也提供了两种算法，快速和完全。后来我用快速扫了快1个小时没扫到。用完全扫不到1分钟就找到了第一个分区。是那个原本要删掉的分区。看来它的位置还是很靠前的。因为分区的建立和删除只关系到硬盘的分区表，对实际内容不会有影响。恢复后接下来继续扫，希望能恢复到另一个分区。不过等了两个小时，还是没有找到，最可怕的那条进度栏连1%也没跳出来。果断停止。又用快速扫了将近一个小时又没有。幸好ADD还提供有hex编辑器。打开那块未分配的区域一看一开始都是00。拉了很多才看到有数据的内容。分区头的区域大概就在有数据和无数据的边界。用二分法手工查找，很快就定位到这个交界附近，看了一下，跟开始的距离有90831767040(346795155 柱面：21587|524200950 柱面：32630)个扇区，大概就是80多G的数据了，难怪这么慢。但是ADD竟然没有精准分区的功能，害我不敢乱分。怕覆盖掉实际原本的分区。
 
-回到diskgenius，惊奇的发现它居然有按照柱面精确分区的功能。太适合了。
+回到diskgenius，惊奇的发现它居然有按照柱面精确分区的功能。太适合了。把空白的区域分成一个区，分区的目的就是让ADD忽略这一块数据。再回到ADD用快速扫描一下，没想到很快就把那个1t多的分区给找出来了。
 
-再回到ADD用快速扫描一下，没想到很快就把那个1t多的分区给找出来了。]]></content:encoded>
+希望对同样遭此悲剧的同学有点帮助。
+
+PS:现在我已经把MBR转换成<a href="https://zh.wikipedia.org/wiki/%E5%85%A8%E5%B1%80%E5%94%AF%E4%B8%80%E6%A8%99%E8%AD%98%E5%88%86%E5%8D%80%E8%A1%A8">GPT</a>，一劳永逸。有条件的同学特别是主板支持uEFI的同学，推荐用GPT]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>850</wp:post_id>
-		<wp:post_date>2012-06-28 11:41:02</wp:post_date>
+		<wp:post_date>2012-09-19 21:38:47</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
+		<wp:post_name>madness_of_formatting</wp:post_name>
 		<wp:status>draft</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
+		<category domain="post_tag" nicename="gpt"><![CDATA[GPT]]></category>
+		<category domain="category" nicename="c-otaku"><![CDATA[Otaku]]></category>
+		<category domain="post_tag" nicename="%e5%88%86%e5%8c%ba%e6%81%a2%e5%a4%8d"><![CDATA[分区恢复]]></category>
+		<category domain="post_tag" nicename="%e7%a1%ac%e7%9b%98"><![CDATA[硬盘]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -3958,33 +3966,6 @@ RayRischpaer 著 杨越 等译 2009 人民出版社 Java ME基础教程]]></cont
 				<wp:meta_value><![CDATA[613063230]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
-	</item>
-	<item>
-		<title>PNG格式与Me中的PNG</title>
-		<link>http://dourok.info/2010/05/11/png%e6%a0%bc%e5%bc%8f%e4%b8%8eme%e4%b8%ad%e7%9a%84png/</link>
-		<pubDate>Mon, 10 May 2010 17:50:01 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://dourok.info/2010/05/png%e6%a0%bc%e5%bc%8f%e4%b8%8eme%e4%b8%ad%e7%9a%84png/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>21</wp:post_id>
-		<wp:post_date>2010-05-11 01:50:01</wp:post_date>
-		<wp:post_date_gmt>2010-05-10 17:50:01</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>png%e6%a0%bc%e5%bc%8f%e4%b8%8eme%e4%b8%ad%e7%9a%84png</wp:post_name>
-		<wp:status>private</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
 	</item>
 	<item>
 		<title>Java ME通用Logger包和控制台</title>
@@ -4826,6 +4807,255 @@ http://kenai.com/downloads/nbandroid/updatecenter/updates.xml
 		</wp:comment>
 	</item>
 	<item>
+		<title>从GBK到Unicode的中文字符映射</title>
+		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/</link>
+		<pubDate>Wed, 23 Jun 2010 16:51:31 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://dourok.info/?p=85</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>前言</h2>
+最近在做MTK开发，需要在程序中将GBK编码的文本文件实时转换为unicode编码，因为MTK只认Unicode。经尝试网上提供的mmi_chset_convert函数在我手上的SDK里没有用，很奇怪这个函数的只是调用了memcpy。无奈之下只能自己动手实现转换，也好趁这个机会摸清以前一直一知半解的字符编码。
+
+说到字符编码，第一误解就是字符集（character set）和字符编码（character encoding）的混淆。以前经常把所有名词都当成字符编码(encoding)，比如我就把GB2312叫成编码，实际上GB2312应该是字符集， 而它用的编码方式应该叫做EUC-CN。对于字符集跟字符编码的区别还是很难理解的（可看维基百科<a href="http://zh.wikipedia.org/zh/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81">这里</a>、<a href="http://zh.wikipedia.org/zh-cn/Gb2312">这里</a>跟<a href="http://zh.wikipedia.org/zh-cn/EUC">这里</a>），我也模糊，再说下我的理解，比如说思密达们用的字符集是<a title="KS X 1001" href="http://zh.wikipedia.org/zh-cn/KS_X_1001">KS X 1001</a>，而他们的编码方式也是EUC，不过是叫做EUC-KR。关于EUC编码方式，实际上就是对于ASCII字符用一个字节（8bit）表示，高位(第一位)为0来表示它是 ASCII字符，而其他字符用两个字节表示（16bit），且每个字节加上0xA0(16进制)，也就将它们的高位置为1，以跟ASCII字符区分开来（后面在我的程序里就可以看到这个应用）。关于这个问题可再参考Blogjava上的两篇系列文章，<a href="#ref1">[1]</a>、<a href="#ref2">[2]</a>。
+
+当然如今把GB2312等同于编码了也不会有任何问题了。Html文档头经常出现的 charset=utf-8 对此贡献不少，这里的charset应该是指encoding，再比如说charset=gb2312实际上指的就是“EUC-CN”（强调一下utf-8、iso-8859-1都是字符编码，unicode才是字符集）。所以关于标题《从GBK到Unicode的中文字符映射》，实际上应该叫做《GBK到UTF-16（UCS2）的中文字符映射》，
+<h2>GBK</h2>
+GBK即汉字内码扩展规范，是“国家标准扩展”三个词的拼音缩写。具体可参考<a href="http://zh.wikipedia.org/zh-cn/GBK">维基百科</a>。
+
+GBK既是字符集也是字符编码(够讨厌的吧…)<a href="#ref2">[2]</a>。不过这不重要，解决问题的关键是摸清GBK的编码方式，才能找到GBK到Unicode的映射规律。在此贴下维基百科上的图片：
+
+<a href="http://dourok.info/wp-content/uploads/2010/06/GBK%E7%BC%96%E7%A0%81%E8%8C%83%E5%9B%B4.jpg"><img title="GBK编码范围" src="http://dourok.info/wp-content/uploads/2010/06/GBK%E7%BC%96%E7%A0%81%E8%8C%83%E5%9B%B4.jpg" alt="" width="415" height="285" /></a>
+
+<img title="GBK" src="http://upload.wikimedia.org/wikipedia/en/thumb/0/0c/GBK_encoding.svg/500px-GBK_encoding.svg.png" alt="" width="500" height="462" />
+
+由上表可见，GBK编码主要将字符分为五个区域。
+
+其中GBK/1、GBK/2就是GB2312的字符集，其编码跟GB2312的编码是一致的，所以说GBK是向下兼容GB2312。GBK/3、GBK4就是GBK新增的汉字，许多繁体字、偏僻字都集中在此。但GBK/4中并不是全都是汉字，或者是不存在Unicode字符集中的汉字，经我统计实际上只有8059个汉字是在Unicode中存在的。剩下的GBK/5跟GBK/1一样存放都是特殊符号。
+<h2>Unicode</h2><!--more-->
+前面提到Unicode是字符集，常用的编码是UTF-8和UTF-16，还有另一种叫UTF-32，因为UTF-32每个字符都要占用4个字节不大实用所以比较少见。UTF-8、UTF-16则都是变长编码，我要实现的实际就是GBK到UTF-16的转换。UTF-16的好处是在0x0到0xFFFF这个区域，也就是说字符编码小于65535的都用2个字节表示，不过因此UTF-16不兼容于ASCII。在此区域UTF-16就等同于UCS-2，所以说UCS-2是UTF-16的子集。GBK中的字符都是属于这个区域，所以这里提到的UTF-16也就是等同于UCS-2（维基百科也将UCS-2重定向到 UTF-16）。<a href="#ref4">[4]</a>
+
+UTF-16还有个历史问题，就是字节序问题，也就是传说中的大尾、小尾问题，比如说<strong>‘A’</strong>的ASCII码是0x41，那么其对应的UTF-16编码是0x0041还是0x4100呢?这个区别就是字节序问题。传说Windows用的就是0x4100即小尾序，苹果的Mac有个性地用0x0041表示，即是大尾序。其他字符也要这样区分，比如汉字‘朱’小尾序表示是0x3167，大尾序表示是0x6731。因为UTF-16有字节序问题，为了区分一般文本编辑器都会在UTF-16编码的文档前面加上0xFFFE（小尾序）或）0xFEFF(大尾序)来区分，这个标记称为BOM，即字节序标记（Byte Order Mark）。<a href="#ref5">[5]</a>
+<h2>转换代码</h2>
+知道了这些基础，接下来就可以开始转换了。由于GBK到Unicode的汉字没有直接的映射关系，传说GBK是按拼音排序，Unicode是按部首排序的。所以要转换之前必须得有个对照表，一开始我就在网上找到这张表(<a href="#add1">附录1)</a>，表的结构如下所示。
+
+<a href="http://dourok.info/wp-content/uploads/2010/06/%E6%B1%89%E5%AD%97%E7%BC%96%E7%A0%81%E5%AF%B9%E7%85%A7%E8%A1%A8.jpg"><img title="汉字编码对照表" src="http://dourok.info/wp-content/uploads/2010/06/%E6%B1%89%E5%AD%97%E7%BC%96%E7%A0%81%E5%AF%B9%E7%85%A7%E8%A1%A8.jpg" alt="" width="589" height="282" /></a>
+
+从上表比较相同汉字的 unicode编码跟gbk编码确实看不出有什么规律。区位码是GB2312的特色，也可以说EUC的特色。注意上表的区位码是十进制的，比如汉字<strong>‘一’</strong>区位码5027，将50转换为16进制得0x32，加上0xa0得0xd2；同样的27+0xa0 = 0x1b+0xa0=0xbb。
+
+该表总共20902个汉字，Unicode范围从0x4e00到0x9fa5。整张表占用空间2.73Mb，是xlt格式的缘故。考虑到我只需做GBK到 UTF-16的单向转换，要对表做一些处理，实际上只需保存unicode编码一项便可，为了让unicode编码方便用gbk编码索引，我先将编码按 GBK的各个范围分段排列，不包括特殊符号只有三个段，分别对应GBK/1、GBK/2、GBK/3。在段内则按编码的数值大小排列。比如表的第一位是 ‘啊’，是GBK/1的第一个字符，而它的UTF-16编码是0x554a。这样出来的结果是这样的：
+
+<a href="http://dourok.info/wp-content/uploads/2010/06/Unicode.jpg"><img title="Unicode" src="http://dourok.info/wp-content/uploads/2010/06/Unicode.jpg" alt="" width="353" height="242" /></a>
+
+我还在表头添加了BOM以便文本编辑器能够识别，在这里用的是小尾序，所以添加的便是0xFFFE。整张表大小40.8KB((20902+1)*2 = 41806  byte)。这样在移动设备中也可以全部读取到内存中。写到这里代码也呼之欲出了。
+
+[cce_c tab_size="2"]
+typedef int S32;
+typedef char S8;
+static S8 ULE[(20902 + 1) * 2 + (1040) * 2]; //Unicode Little-Endian 表，读取自上文所生成的文件。 总共20902个汉字  1040个特殊符号
+const static S32 GBK2_OFFSET = 2; //GBK/2的偏移地址,头两个字符是BOM(0xFFFE)
+const static S32 GBK3_OFFSET = GBK2_OFFSET + 6763 * 2; //GBK/3的偏移地址,GBK/2有6763个字符
+const static S32 GBK4_OFFSET = GBK3_OFFSET + 6080 * 2; //GBK/4的偏移地址,GBK/3有6080个字符
+const static S32 GBK1_OFFSET = 41806; //  GBK/4即gb2312的符号的偏移地址
+const static S32 GBK5_OFFSET = 41806 + 846 * 2; // GBK5符号的偏移地址
+
+/**
+ * dest 输出的UTF-16(UCS-2)编码字符。
+ * src_size
+ * src GBK编码的字符
+ *
+ **/
+S32 gbk_to_ule(S8* dest, S32 src_size, S8* src) {
+	S32 h, l; //h 高位字节  l 低位字节
+	S32 i; //dest的索引
+	S32 j; //src的索引
+	S32 seek; //
+	for (i = 0, j = 0; j &lt; src_size; i += 2) {
+		h = src[j++] &amp; 0xff; //读取一个字节
+		if ((h &amp; 0x80) == 0) { // 高位为0 是Ascii 码
+			l = 0x0;
+		} else {
+			l = src[j++] &amp; 0xff; // 高位为1 为gbk字符集字符,读取下一个字节
+			//将gbk编码映射到ULE表中的位置
+			if (h &gt;= 0xB0 &amp;&amp; h &lt;= 0xF7 &amp;&amp; l &gt;= 0xA1 &amp;&amp; l &lt;= 0xFE) { //GBK/2的编码范围 ,实际上GBK2高字节包含在GBK/4的范围内,只是低字节的范围不同
+			//GBK/2实际就是GB2312,GB2312是区位码,16-87区为汉字编码区，每区有94个字符
+				seek = GBK2_OFFSET + ((h -16 - 0xA0) * 94 + (l -1 - 0xA0)) * 2;//GBK2偏移+区位偏移+区内码数偏移为该GBK字符对应的unicode编码位置.
+				h = ULE[seek];
+				l = ULE[seek + 1];
+			} else if (h &gt;= 0x81 &amp;&amp; h &lt;= 0xA0 &amp;&amp; l &gt;= 0x40 &amp;&amp; l &lt;= 0xFE) { //GBK/3的编码范围
+				seek = GBK3_OFFSET + ((h - 0x81) * 190 + (l - 0x40)
+						- (l &gt; 0x7F ? 1 : 0)) * 2;//GBK3偏移+区位偏移+区内码数偏移因为低位字节0x7F处不编码,所以大于0x7F要-1已更正位置. 190=0xFE -  0x40+1-1 低字节 0x0-0x39 与 0x7F,0xFF 不放  总共空出66个字节
+				h = ULE[seek];
+				l = ULE[seek + 1];
+			} else if (h &gt;= 0xAA &amp;&amp; h &lt;= 0xFE &amp;&amp; l &gt;= 0x40 &amp;&amp; l &lt;= 0xA0) { //GBK/4的编码范围
+				seek = GBK4_OFFSET + ((h - 0xAA) * 96 + (l - 0x40)
+						- (l &gt; 0x7F ? 1 : 0)) * 2;//除了低位字符范围不同外,GBK4与GBK3大致相同
+				h = ULE[seek];
+				l = ULE[seek + 1];
+			}
+			//后来再添加的对GBK/1、GBK/2也就是GBK符号的支持.
+			else if (h &gt;= 0xA1 &amp;&amp; h &lt;= 0xA9 &amp;&amp; l &gt;= 0xA1 &amp;&amp; l &lt;= 0xFE) {
+				seek = GBK1_OFFSET + ((h - 0xA1) * 94 + (l - 0xA1)) * 2;
+				h = ULE[seek];
+				l = ULE[seek + 1];
+			} else if (h &gt;= 0xA8 &amp;&amp; h &lt;= 0xA9 &amp;&amp; l &gt;= 0x40 &amp;&amp; l &lt;= 0xA0) {
+				seek = GBK5_OFFSET + ((h - 0xA8) * 96 + (l - 0x40)- (l &gt; 0x7F ? 1 : 0)) * 2;
+				h = ULE[seek];
+				l = ULE[seek + 1];
+			}
+		}
+		dest[i] = h;
+		dest[i + 1] = l;
+	}
+	//wchar 宽字符字符串的结束标记
+	dest[i] = '\0';
+	dest[i + 1] = '\0';
+	return i;
+}
+[/cce_c]
+
+基于这个函数我实现了一个命令行程序<a href="#add2">gbktoule</a>，来将GBK编码的文件转换为UTF-16 LE 编码的文件。当然这个程序主要是用来测试的，不支持批量转换。
+
+使用时，可以在控制台键入 gbktoule file1 file2 来将GBK文件file1的字符转换到UTF-16的文件file2中。
+
+如 键入gbktoule gbkt.txt ule.txt。结果如下图所示：
+
+<a href="http://dourok.info/wp-content/uploads/2010/06/result.jpg"><img title="result" src="http://dourok.info/wp-content/uploads/2010/06/result.jpg" alt="" width="706" height="491" /></a>
+It work!
+
+程序下载<a href="#add2">点此</a>，其实符号索引是后来才生成。以便能够完整的转换GBK文档，但是GBK/4缺少的那101个字符还是让我觉得很诡异。<a href="#add3">可在附录找到全部GBK符号</a>。
+<h2>参考阅读</h2>
+<hr size="1" />
+<ol>
+	<li><a name="ref1"></a><a href="http://www.blogjava.net/zhenandaci/archive/2008/12/24/248041.html">Java   中的字符集编码入门（二）编码字符集与字符集编码的区别</a></li>
+	<li> <a name="ref2"></a><a href="http://www.blogjava.net/zhenandaci/archive/2008/12/24/248056.html">Java   中的字符集编码入门（三）GB2312，GBK与中文网页</a></li>
+	<li><a name="ref3"></a><a href="http://kore-nordmann.de/blog/0082_charset_versus_encoding.html">Charset   vs. Encoding</a></li>
+	<li><a name="ref4"></a><a href="http://zh.wikipedia.org/zh-cn/UCS-2">http://zh.wikipedia.org/zh-cn/UCS-2</a></li>
+	<li><a name="ref5"></a><a href="http://blog.csdn.net/linuxsystem/archive/2009/06/03/4238089.aspx">字符集编码的文本文件头标识</a></li>
+</ol>
+<h2>附录</h2>
+<hr size="1" />
+<ol>
+	<li><a name="add1"></a><a href="http://dourok.info/wp-content/uploads/2010/06/汉字编码对照表.xls">汉字编码对照表.xls</a></li>
+	<li><a name="add2"></a><a href="http://dourok.info/wp-content/uploads/2010/06/gbktoule.7z">源码、编译的可执行文件、及ULE表都在这里</a></li>
+	<li><a name="add3"></a>GBK/1、GBK/5符号集合，当然在我网页上显示的是UTF-8编码的：</li>
+[ccw]　、。·ˉˇ¨〃々—～‖…‘’“”〔〕〈〉《》「」『』〖〗【】±×÷∶∧∨∑∏∪∩∈∷√⊥∥∠⌒⊙∫∮≡≌≈∽∝≠≮≯≤≥∞∵∴♂♀°′″℃＄¤￠￡‰§№☆★○●◎◇◆□■△▲※→←↑↓〓ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹ⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇①②③④⑤⑥⑦⑧⑨⑩㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ！＂＃￥％＆＇（）＊＋，－．／０１２３４５６７８９：；＜＝＞？＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ［＼］＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｛｜｝￣ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω︵︶︹︺︿﹀︽︾﹁﹂﹃﹄︻︼︷︸︱︳︴АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüêɑńňɡㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄧㄨㄩ─━│┃┄┅┆┇┈┉┊┋┌┍┎┏┐┑┒┓└┕┖┗┘┙┚┛├┝┞┟┠┡┢┣┤┥┦┧┨┩┪┫┬┭┮┯┰┱┲┳┴┵┶┷┸┹┺┻┼┽┾┿╀╁╂╃╄╅╆╇╈╉╊╋ˊˋ˙–―‥‵℅℉↖↗↘↙∕∟∣≒≦≧⊿═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬╭╮╯╰╱╲╳▁▂▃▄▅▆▇?█▉▊▋▌▍▎▏▓▔▕▼▽◢◣◤◥☉⊕〒〝〞〡〢〣〤〥〦〧〨〩㊣㎎㎏㎜㎝㎞㎡㏄㏎㏑㏒㏕︰￢￤℡㈱‐ー゛゜ヽヾ〆ゝゞ﹉﹊﹋﹌﹍﹎﹏﹐﹑﹒﹔﹕﹖﹗﹙﹚﹛﹜﹝﹞﹟﹠﹡?﹢﹣﹤﹥﹦﹨﹩﹪﹫〇[/ccw]
+</ol>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>85</wp:post_id>
+		<wp:post_date>2010-06-24 00:51:31</wp:post_date>
+		<wp:post_date_gmt>2010-06-23 16:51:31</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="keepcoding"><![CDATA[Coder]]></category>
+		<category domain="post_tag" nicename="gbk"><![CDATA[GBK]]></category>
+		<category domain="post_tag" nicename="mtk"><![CDATA[MTK]]></category>
+		<category domain="post_tag" nicename="unicode"><![CDATA[Unicode]]></category>
+		<category domain="post_tag" nicename="%e7%bc%96%e7%a0%81%e8%bd%ac%e6%8d%a2"><![CDATA[编码转换]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>dsq_thread_id</wp:meta_key>
+			<wp:meta_value><![CDATA[796842619]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>46</wp:comment_id>
+			<wp:comment_author><![CDATA[hmm...?]]></wp:comment_author>
+			<wp:comment_author_email>512hermit@yahoo.com</wp:comment_author_email>
+			<wp:comment_author_url>http://bm10reneau.jimdo.com/2010/10/11/how-to-lose-fat-with-natural-diet-programs-and-meals-2284/</wp:comment_author_url>
+			<wp:comment_author_IP>99.111.198.124</wp:comment_author_IP>
+			<wp:comment_date>2010-10-13 18:54:45</wp:comment_date>
+			<wp:comment_date_gmt>2010-10-13 10:54:45</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[thanks]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>dsq_parent_post_id</wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>dsq_post_id</wp:meta_key>
+				<wp:meta_value><![CDATA[613063497]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>49</wp:comment_id>
+			<wp:comment_author><![CDATA[Beau]]></wp:comment_author>
+			<wp:comment_author_email>spbvsx@yahoo.com</wp:comment_author_email>
+			<wp:comment_author_url>http://google.com</wp:comment_author_url>
+			<wp:comment_author_IP>121.52.146.89</wp:comment_author_IP>
+			<wp:comment_date>2010-10-19 02:05:40</wp:comment_date>
+			<wp:comment_date_gmt>2010-10-18 18:05:40</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Google <a href="http://google.com" rel="nofollow">google</a>]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>dsq_parent_post_id</wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>dsq_post_id</wp:meta_key>
+				<wp:meta_value><![CDATA[613063501]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>68</wp:comment_id>
+			<wp:comment_author><![CDATA[从GBK到Unicode的中文字符映射 &#124; 欢迎光临小爱的个人博客]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://www.zdzz.net/20101209/1069.html</wp:comment_author_url>
+			<wp:comment_author_IP>93.185.104.29</wp:comment_author_IP>
+			<wp:comment_date>2010-12-09 21:10:36</wp:comment_date>
+			<wp:comment_date_gmt>2010-12-09 13:10:36</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] GBK既是字符集也是字符编码(够讨厌的吧…)[2]。不过这不重要，解决问题的关键是摸清GBK的编码方式，才能找到GBK到Unicode的映射规律。在此贴下维基百科上的图片： GBK编码范围 [...]]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1291900236.3162";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>609</wp:comment_id>
+			<wp:comment_author><![CDATA[basic coder &raquo; Common Lisp为Babel添加GBK支持]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://basiccoder.com/add-gbk-support-to-babel.html</wp:comment_author_url>
+			<wp:comment_author_IP>74.86.66.202</wp:comment_author_IP>
+			<wp:comment_date>2011-12-22 13:15:09</wp:comment_date>
+			<wp:comment_date_gmt>2011-12-22 05:15:09</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] 可能是我搜索技术不行，搜到的关于GBK的中文正式文档不多，只在维基百科上找到了关于GBK的介绍，虽然没有涉及到具体的GBK到Unicode转码规则，但它提供的关于GBK的介绍也是很有帮助的，发现原来GBK与Unicode的转换并不像UTF-8与Unicode之间的转换那样有固定的规则，而是需要通过查表实现，于是乎我在网上下载到了一个包含所有GBK符号的码表，排列顺序也是按GBK的相关规则来的，解码的过程我参考了这篇文章：从GBK到Unicode的中文字符映射，编码的话就是反其道而行之，原理很简单，参考维基百科上的两个图就可以推算出来。 [...]]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:13:"1324530909.95";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+	</item>
+	<item>
 		<title>Hello world！</title>
 		<link>http://dourok.info/2009/10/14/hello-world%ef%bc%81/</link>
 		<pubDate>Wed, 14 Oct 2009 14:39:55 +0000</pubDate>
@@ -5439,255 +5669,6 @@ Passage，作者<a title="点击访问Jason主页" href="http://hcsoftware.sourc
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>从GBK到Unicode的中文字符映射</title>
-		<link>http://dourok.info/2010/06/24/%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84/</link>
-		<pubDate>Wed, 23 Jun 2010 16:51:31 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://dourok.info/?p=85</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h2>前言</h2>
-最近在做MTK开发，需要在程序中将GBK编码的文本文件实时转换为unicode编码，因为MTK只认Unicode。经尝试网上提供的mmi_chset_convert函数在我手上的SDK里没有用，很奇怪这个函数的只是调用了memcpy。无奈之下只能自己动手实现转换，也好趁这个机会摸清以前一直一知半解的字符编码。
-
-说到字符编码，第一误解就是字符集（character set）和字符编码（character encoding）的混淆。以前经常把所有名词都当成字符编码(encoding)，比如我就把GB2312叫成编码，实际上GB2312应该是字符集， 而它用的编码方式应该叫做EUC-CN。对于字符集跟字符编码的区别还是很难理解的（可看维基百科<a href="http://zh.wikipedia.org/zh/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81">这里</a>、<a href="http://zh.wikipedia.org/zh-cn/Gb2312">这里</a>跟<a href="http://zh.wikipedia.org/zh-cn/EUC">这里</a>），我也模糊，再说下我的理解，比如说思密达们用的字符集是<a title="KS X 1001" href="http://zh.wikipedia.org/zh-cn/KS_X_1001">KS X 1001</a>，而他们的编码方式也是EUC，不过是叫做EUC-KR。关于EUC编码方式，实际上就是对于ASCII字符用一个字节（8bit）表示，高位(第一位)为0来表示它是 ASCII字符，而其他字符用两个字节表示（16bit），且每个字节加上0xA0(16进制)，也就将它们的高位置为1，以跟ASCII字符区分开来（后面在我的程序里就可以看到这个应用）。关于这个问题可再参考Blogjava上的两篇系列文章，<a href="#ref1">[1]</a>、<a href="#ref2">[2]</a>。
-
-当然如今把GB2312等同于编码了也不会有任何问题了。Html文档头经常出现的 charset=utf-8 对此贡献不少，这里的charset应该是指encoding，再比如说charset=gb2312实际上指的就是“EUC-CN”（强调一下utf-8、iso-8859-1都是字符编码，unicode才是字符集）。所以关于标题《从GBK到Unicode的中文字符映射》，实际上应该叫做《GBK到UTF-16（UCS2）的中文字符映射》，
-<h2>GBK</h2>
-GBK即汉字内码扩展规范，是“国家标准扩展”三个词的拼音缩写。具体可参考<a href="http://zh.wikipedia.org/zh-cn/GBK">维基百科</a>。
-
-GBK既是字符集也是字符编码(够讨厌的吧…)<a href="#ref2">[2]</a>。不过这不重要，解决问题的关键是摸清GBK的编码方式，才能找到GBK到Unicode的映射规律。在此贴下维基百科上的图片：
-
-<a href="http://dourok.info/wp-content/uploads/2010/06/GBK%E7%BC%96%E7%A0%81%E8%8C%83%E5%9B%B4.jpg"><img title="GBK编码范围" src="http://dourok.info/wp-content/uploads/2010/06/GBK%E7%BC%96%E7%A0%81%E8%8C%83%E5%9B%B4.jpg" alt="" width="415" height="285" /></a>
-
-<img title="GBK" src="http://upload.wikimedia.org/wikipedia/en/thumb/0/0c/GBK_encoding.svg/500px-GBK_encoding.svg.png" alt="" width="500" height="462" />
-
-由上表可见，GBK编码主要将字符分为五个区域。
-
-其中GBK/1、GBK/2就是GB2312的字符集，其编码跟GB2312的编码是一致的，所以说GBK是向下兼容GB2312。GBK/3、GBK4就是GBK新增的汉字，许多繁体字、偏僻字都集中在此。但GBK/4中并不是全都是汉字，或者是不存在Unicode字符集中的汉字，经我统计实际上只有8059个汉字是在Unicode中存在的。剩下的GBK/5跟GBK/1一样存放都是特殊符号。
-<h2>Unicode</h2><!--more-->
-前面提到Unicode是字符集，常用的编码是UTF-8和UTF-16，还有另一种叫UTF-32，因为UTF-32每个字符都要占用4个字节不大实用所以比较少见。UTF-8、UTF-16则都是变长编码，我要实现的实际就是GBK到UTF-16的转换。UTF-16的好处是在0x0到0xFFFF这个区域，也就是说字符编码小于65535的都用2个字节表示，不过因此UTF-16不兼容于ASCII。在此区域UTF-16就等同于UCS-2，所以说UCS-2是UTF-16的子集。GBK中的字符都是属于这个区域，所以这里提到的UTF-16也就是等同于UCS-2（维基百科也将UCS-2重定向到 UTF-16）。<a href="#ref4">[4]</a>
-
-UTF-16还有个历史问题，就是字节序问题，也就是传说中的大尾、小尾问题，比如说<strong>‘A’</strong>的ASCII码是0x41，那么其对应的UTF-16编码是0x0041还是0x4100呢?这个区别就是字节序问题。传说Windows用的就是0x4100即小尾序，苹果的Mac有个性地用0x0041表示，即是大尾序。其他字符也要这样区分，比如汉字‘朱’小尾序表示是0x3167，大尾序表示是0x6731。因为UTF-16有字节序问题，为了区分一般文本编辑器都会在UTF-16编码的文档前面加上0xFFFE（小尾序）或）0xFEFF(大尾序)来区分，这个标记称为BOM，即字节序标记（Byte Order Mark）。<a href="#ref5">[5]</a>
-<h2>转换代码</h2>
-知道了这些基础，接下来就可以开始转换了。由于GBK到Unicode的汉字没有直接的映射关系，传说GBK是按拼音排序，Unicode是按部首排序的。所以要转换之前必须得有个对照表，一开始我就在网上找到这张表(<a href="#add1">附录1)</a>，表的结构如下所示。
-
-<a href="http://dourok.info/wp-content/uploads/2010/06/%E6%B1%89%E5%AD%97%E7%BC%96%E7%A0%81%E5%AF%B9%E7%85%A7%E8%A1%A8.jpg"><img title="汉字编码对照表" src="http://dourok.info/wp-content/uploads/2010/06/%E6%B1%89%E5%AD%97%E7%BC%96%E7%A0%81%E5%AF%B9%E7%85%A7%E8%A1%A8.jpg" alt="" width="589" height="282" /></a>
-
-从上表比较相同汉字的 unicode编码跟gbk编码确实看不出有什么规律。区位码是GB2312的特色，也可以说EUC的特色。注意上表的区位码是十进制的，比如汉字<strong>‘一’</strong>区位码5027，将50转换为16进制得0x32，加上0xa0得0xd2；同样的27+0xa0 = 0x1b+0xa0=0xbb。
-
-该表总共20902个汉字，Unicode范围从0x4e00到0x9fa5。整张表占用空间2.73Mb，是xlt格式的缘故。考虑到我只需做GBK到 UTF-16的单向转换，要对表做一些处理，实际上只需保存unicode编码一项便可，为了让unicode编码方便用gbk编码索引，我先将编码按 GBK的各个范围分段排列，不包括特殊符号只有三个段，分别对应GBK/1、GBK/2、GBK/3。在段内则按编码的数值大小排列。比如表的第一位是 ‘啊’，是GBK/1的第一个字符，而它的UTF-16编码是0x554a。这样出来的结果是这样的：
-
-<a href="http://dourok.info/wp-content/uploads/2010/06/Unicode.jpg"><img title="Unicode" src="http://dourok.info/wp-content/uploads/2010/06/Unicode.jpg" alt="" width="353" height="242" /></a>
-
-我还在表头添加了BOM以便文本编辑器能够识别，在这里用的是小尾序，所以添加的便是0xFFFE。整张表大小40.8KB((20902+1)*2 = 41806  byte)。这样在移动设备中也可以全部读取到内存中。写到这里代码也呼之欲出了。
-
-[cce_c tab_size="2"]
-typedef int S32;
-typedef char S8;
-static S8 ULE[(20902 + 1) * 2 + (1040) * 2]; //Unicode Little-Endian 表，读取自上文所生成的文件。 总共20902个汉字  1040个特殊符号
-const static S32 GBK2_OFFSET = 2; //GBK/2的偏移地址,头两个字符是BOM(0xFFFE)
-const static S32 GBK3_OFFSET = GBK2_OFFSET + 6763 * 2; //GBK/3的偏移地址,GBK/2有6763个字符
-const static S32 GBK4_OFFSET = GBK3_OFFSET + 6080 * 2; //GBK/4的偏移地址,GBK/3有6080个字符
-const static S32 GBK1_OFFSET = 41806; //  GBK/4即gb2312的符号的偏移地址
-const static S32 GBK5_OFFSET = 41806 + 846 * 2; // GBK5符号的偏移地址
-
-/**
- * dest 输出的UTF-16(UCS-2)编码字符。
- * src_size
- * src GBK编码的字符
- *
- **/
-S32 gbk_to_ule(S8* dest, S32 src_size, S8* src) {
-	S32 h, l; //h 高位字节  l 低位字节
-	S32 i; //dest的索引
-	S32 j; //src的索引
-	S32 seek; //
-	for (i = 0, j = 0; j &lt; src_size; i += 2) {
-		h = src[j++] &amp; 0xff; //读取一个字节
-		if ((h &amp; 0x80) == 0) { // 高位为0 是Ascii 码
-			l = 0x0;
-		} else {
-			l = src[j++] &amp; 0xff; // 高位为1 为gbk字符集字符,读取下一个字节
-			//将gbk编码映射到ULE表中的位置
-			if (h &gt;= 0xB0 &amp;&amp; h &lt;= 0xF7 &amp;&amp; l &gt;= 0xA1 &amp;&amp; l &lt;= 0xFE) { //GBK/2的编码范围 ,实际上GBK2高字节包含在GBK/4的范围内,只是低字节的范围不同
-			//GBK/2实际就是GB2312,GB2312是区位码,16-87区为汉字编码区，每区有94个字符
-				seek = GBK2_OFFSET + ((h -16 - 0xA0) * 94 + (l -1 - 0xA0)) * 2;//GBK2偏移+区位偏移+区内码数偏移为该GBK字符对应的unicode编码位置.
-				h = ULE[seek];
-				l = ULE[seek + 1];
-			} else if (h &gt;= 0x81 &amp;&amp; h &lt;= 0xA0 &amp;&amp; l &gt;= 0x40 &amp;&amp; l &lt;= 0xFE) { //GBK/3的编码范围
-				seek = GBK3_OFFSET + ((h - 0x81) * 190 + (l - 0x40)
-						- (l &gt; 0x7F ? 1 : 0)) * 2;//GBK3偏移+区位偏移+区内码数偏移因为低位字节0x7F处不编码,所以大于0x7F要-1已更正位置. 190=0xFE -  0x40+1-1 低字节 0x0-0x39 与 0x7F,0xFF 不放  总共空出66个字节
-				h = ULE[seek];
-				l = ULE[seek + 1];
-			} else if (h &gt;= 0xAA &amp;&amp; h &lt;= 0xFE &amp;&amp; l &gt;= 0x40 &amp;&amp; l &lt;= 0xA0) { //GBK/4的编码范围
-				seek = GBK4_OFFSET + ((h - 0xAA) * 96 + (l - 0x40)
-						- (l &gt; 0x7F ? 1 : 0)) * 2;//除了低位字符范围不同外,GBK4与GBK3大致相同
-				h = ULE[seek];
-				l = ULE[seek + 1];
-			}
-			//后来再添加的对GBK/1、GBK/2也就是GBK符号的支持.
-			else if (h &gt;= 0xA1 &amp;&amp; h &lt;= 0xA9 &amp;&amp; l &gt;= 0xA1 &amp;&amp; l &lt;= 0xFE) {
-				seek = GBK1_OFFSET + ((h - 0xA1) * 94 + (l - 0xA1)) * 2;
-				h = ULE[seek];
-				l = ULE[seek + 1];
-			} else if (h &gt;= 0xA8 &amp;&amp; h &lt;= 0xA9 &amp;&amp; l &gt;= 0x40 &amp;&amp; l &lt;= 0xA0) {
-				seek = GBK5_OFFSET + ((h - 0xA8) * 96 + (l - 0x40)- (l &gt; 0x7F ? 1 : 0)) * 2;
-				h = ULE[seek];
-				l = ULE[seek + 1];
-			}
-		}
-		dest[i] = h;
-		dest[i + 1] = l;
-	}
-	//wchar 宽字符字符串的结束标记
-	dest[i] = '\0';
-	dest[i + 1] = '\0';
-	return i;
-}
-[/cce_c]
-
-基于这个函数我实现了一个命令行程序<a href="#add2">gbktoule</a>，来将GBK编码的文件转换为UTF-16 LE 编码的文件。当然这个程序主要是用来测试的，不支持批量转换。
-
-使用时，可以在控制台键入 gbktoule file1 file2 来将GBK文件file1的字符转换到UTF-16的文件file2中。
-
-如 键入gbktoule gbkt.txt ule.txt。结果如下图所示：
-
-<a href="http://dourok.info/wp-content/uploads/2010/06/result.jpg"><img title="result" src="http://dourok.info/wp-content/uploads/2010/06/result.jpg" alt="" width="706" height="491" /></a>
-It work!
-
-程序下载<a href="#add2">点此</a>，其实符号索引是后来才生成。以便能够完整的转换GBK文档，但是GBK/4缺少的那101个字符还是让我觉得很诡异。<a href="#add3">可在附录找到全部GBK符号</a>。
-<h2>参考阅读</h2>
-<hr size="1" />
-<ol>
-	<li><a name="ref1"></a><a href="http://www.blogjava.net/zhenandaci/archive/2008/12/24/248041.html">Java   中的字符集编码入门（二）编码字符集与字符集编码的区别</a></li>
-	<li> <a name="ref2"></a><a href="http://www.blogjava.net/zhenandaci/archive/2008/12/24/248056.html">Java   中的字符集编码入门（三）GB2312，GBK与中文网页</a></li>
-	<li><a name="ref3"></a><a href="http://kore-nordmann.de/blog/0082_charset_versus_encoding.html">Charset   vs. Encoding</a></li>
-	<li><a name="ref4"></a><a href="http://zh.wikipedia.org/zh-cn/UCS-2">http://zh.wikipedia.org/zh-cn/UCS-2</a></li>
-	<li><a name="ref5"></a><a href="http://blog.csdn.net/linuxsystem/archive/2009/06/03/4238089.aspx">字符集编码的文本文件头标识</a></li>
-</ol>
-<h2>附录</h2>
-<hr size="1" />
-<ol>
-	<li><a name="add1"></a><a href="http://dourok.info/wp-content/uploads/2010/06/汉字编码对照表.xls">汉字编码对照表.xls</a></li>
-	<li><a name="add2"></a><a href="http://dourok.info/wp-content/uploads/2010/06/gbktoule.7z">源码、编译的可执行文件、及ULE表都在这里</a></li>
-	<li><a name="add3"></a>GBK/1、GBK/5符号集合，当然在我网页上显示的是UTF-8编码的：</li>
-[ccw]　、。·ˉˇ¨〃々—～‖…‘’“”〔〕〈〉《》「」『』〖〗【】±×÷∶∧∨∑∏∪∩∈∷√⊥∥∠⌒⊙∫∮≡≌≈∽∝≠≮≯≤≥∞∵∴♂♀°′″℃＄¤￠￡‰§№☆★○●◎◇◆□■△▲※→←↑↓〓ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹ⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇①②③④⑤⑥⑦⑧⑨⑩㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ！＂＃￥％＆＇（）＊＋，－．／０１２３４５６７８９：；＜＝＞？＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ［＼］＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｛｜｝￣ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω︵︶︹︺︿﹀︽︾﹁﹂﹃﹄︻︼︷︸︱︳︴АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüêɑńňɡㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄧㄨㄩ─━│┃┄┅┆┇┈┉┊┋┌┍┎┏┐┑┒┓└┕┖┗┘┙┚┛├┝┞┟┠┡┢┣┤┥┦┧┨┩┪┫┬┭┮┯┰┱┲┳┴┵┶┷┸┹┺┻┼┽┾┿╀╁╂╃╄╅╆╇╈╉╊╋ˊˋ˙–―‥‵℅℉↖↗↘↙∕∟∣≒≦≧⊿═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬╭╮╯╰╱╲╳▁▂▃▄▅▆▇?█▉▊▋▌▍▎▏▓▔▕▼▽◢◣◤◥☉⊕〒〝〞〡〢〣〤〥〦〧〨〩㊣㎎㎏㎜㎝㎞㎡㏄㏎㏑㏒㏕︰￢￤℡㈱‐ー゛゜ヽヾ〆ゝゞ﹉﹊﹋﹌﹍﹎﹏﹐﹑﹒﹔﹕﹖﹗﹙﹚﹛﹜﹝﹞﹟﹠﹡?﹢﹣﹤﹥﹦﹨﹩﹪﹫〇[/ccw]
-</ol>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>85</wp:post_id>
-		<wp:post_date>2010-06-24 00:51:31</wp:post_date>
-		<wp:post_date_gmt>2010-06-23 16:51:31</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e4%bb%8egbk%e5%88%b0unicode%e7%9a%84%e4%b8%ad%e6%96%87%e5%ad%97%e7%ac%a6%e6%98%a0%e5%b0%84</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="keepcoding"><![CDATA[Coder]]></category>
-		<category domain="post_tag" nicename="gbk"><![CDATA[GBK]]></category>
-		<category domain="post_tag" nicename="mtk"><![CDATA[MTK]]></category>
-		<category domain="post_tag" nicename="unicode"><![CDATA[Unicode]]></category>
-		<category domain="post_tag" nicename="%e7%bc%96%e7%a0%81%e8%bd%ac%e6%8d%a2"><![CDATA[编码转换]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>dsq_thread_id</wp:meta_key>
-			<wp:meta_value><![CDATA[796842619]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>46</wp:comment_id>
-			<wp:comment_author><![CDATA[hmm...?]]></wp:comment_author>
-			<wp:comment_author_email>512hermit@yahoo.com</wp:comment_author_email>
-			<wp:comment_author_url>http://bm10reneau.jimdo.com/2010/10/11/how-to-lose-fat-with-natural-diet-programs-and-meals-2284/</wp:comment_author_url>
-			<wp:comment_author_IP>99.111.198.124</wp:comment_author_IP>
-			<wp:comment_date>2010-10-13 18:54:45</wp:comment_date>
-			<wp:comment_date_gmt>2010-10-13 10:54:45</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[thanks]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-			<wp:commentmeta>
-				<wp:meta_key>dsq_parent_post_id</wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>dsq_post_id</wp:meta_key>
-				<wp:meta_value><![CDATA[613063497]]></wp:meta_value>
-			</wp:commentmeta>
-		</wp:comment>
-		<wp:comment>
-			<wp:comment_id>49</wp:comment_id>
-			<wp:comment_author><![CDATA[Beau]]></wp:comment_author>
-			<wp:comment_author_email>spbvsx@yahoo.com</wp:comment_author_email>
-			<wp:comment_author_url>http://google.com</wp:comment_author_url>
-			<wp:comment_author_IP>121.52.146.89</wp:comment_author_IP>
-			<wp:comment_date>2010-10-19 02:05:40</wp:comment_date>
-			<wp:comment_date_gmt>2010-10-18 18:05:40</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Google <a href="http://google.com" rel="nofollow">google</a>]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-			<wp:commentmeta>
-				<wp:meta_key>dsq_parent_post_id</wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>dsq_post_id</wp:meta_key>
-				<wp:meta_value><![CDATA[613063501]]></wp:meta_value>
-			</wp:commentmeta>
-		</wp:comment>
-		<wp:comment>
-			<wp:comment_id>68</wp:comment_id>
-			<wp:comment_author><![CDATA[从GBK到Unicode的中文字符映射 &#124; 欢迎光临小爱的个人博客]]></wp:comment_author>
-			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://www.zdzz.net/20101209/1069.html</wp:comment_author_url>
-			<wp:comment_author_IP>93.185.104.29</wp:comment_author_IP>
-			<wp:comment_date>2010-12-09 21:10:36</wp:comment_date>
-			<wp:comment_date_gmt>2010-12-09 13:10:36</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[[...] GBK既是字符集也是字符编码(够讨厌的吧…)[2]。不过这不重要，解决问题的关键是摸清GBK的编码方式，才能找到GBK到Unicode的映射规律。在此贴下维基百科上的图片： GBK编码范围 [...]]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type>pingback</wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_result</wp:meta_key>
-				<wp:meta_value><![CDATA[false]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_history</wp:meta_key>
-				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1291900236.3162";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
-			</wp:commentmeta>
-		</wp:comment>
-		<wp:comment>
-			<wp:comment_id>609</wp:comment_id>
-			<wp:comment_author><![CDATA[basic coder &raquo; Common Lisp为Babel添加GBK支持]]></wp:comment_author>
-			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://basiccoder.com/add-gbk-support-to-babel.html</wp:comment_author_url>
-			<wp:comment_author_IP>74.86.66.202</wp:comment_author_IP>
-			<wp:comment_date>2011-12-22 13:15:09</wp:comment_date>
-			<wp:comment_date_gmt>2011-12-22 05:15:09</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[[...] 可能是我搜索技术不行，搜到的关于GBK的中文正式文档不多，只在维基百科上找到了关于GBK的介绍，虽然没有涉及到具体的GBK到Unicode转码规则，但它提供的关于GBK的介绍也是很有帮助的，发现原来GBK与Unicode的转换并不像UTF-8与Unicode之间的转换那样有固定的规则，而是需要通过查表实现，于是乎我在网上下载到了一个包含所有GBK符号的码表，排列顺序也是按GBK的相关规则来的，解码的过程我参考了这篇文章：从GBK到Unicode的中文字符映射，编码的话就是反其道而行之，原理很简单，参考维基百科上的两个图就可以推算出来。 [...]]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type>pingback</wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_history</wp:meta_key>
-				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:13:"1324530909.95";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_result</wp:meta_key>
-				<wp:meta_value><![CDATA[false]]></wp:meta_value>
-			</wp:commentmeta>
-		</wp:comment>
 	</item>
 	<item>
 		<title>让HTC Hero通过我的笔记本无线网卡共享上网</title>
@@ -6775,10 +6756,6 @@ Thanks again, you have lifted my spirits immensely....]]></wp:comment_content>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1344390029.1653";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:5:"admin";}]]></wp:meta_value>
 			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:78:{s:15:"comment_post_ID";s:3:"149";s:14:"comment_author";s:4:"DouO";s:20:"comment_author_email";s:20:"dourokinga@gmail.com";s:18:"comment_author_url";s:19:"http://dourok.info/";s:15:"comment_content";s:178:"<a href="http://dublue.com/plugins/toc/" title="">Table of Contents Plus</a> ，可以在<a href="https://wordpress.org/extend/plugins/table-of-contents-plus/"  >这里</a>下载";s:12:"comment_type";s:0:"";s:14:"comment_parent";s:4:"1249";s:7:"user_ID";s:1:"1";s:7:"user_ip";s:14:"121.10.223.138";s:10:"user_agent";s:98:"Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1161.0 Safari/537.1";s:8:"referrer";s:78:"http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/";s:4:"blog";s:18:"http://dourok.info";s:9:"blog_lang";s:5:"zh_CN";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:78:"http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/";s:9:"user_role";s:13:"administrator";s:21:"akismet_comment_nonce";s:6:"passed";s:12:"POST_comment";s:178:"<a href="http://dublue.com/plugins/toc/" title="">Table of Contents Plus</a> ，可以在<a href="https://wordpress.org/extend/plugins/table-of-contents-plus/"  >这里</a>下载";s:11:"POST_submit";s:12:"发表评论";s:20:"POST_comment_post_ID";s:3:"149";s:19:"POST_comment_parent";s:4:"1249";s:32:"POST__wp_unfiltered_html_comment";s:10:"9981e0d13a";s:26:"POST_akismet_comment_nonce";s:10:"4d83e10348";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"REDIRECT_HANDLER";s:9:"php54-cgi";s:15:"REDIRECT_STATUS";s:3:"200";s:16:"PHP_INI_SCAN_DIR";s:29:"/home/yanni/webapps/douo_blog";s:10:"SCRIPT_URL";s:21:"/wp-comments-post.php";s:10:"SCRIPT_URI";s:39:"http://dourok.info/wp-comments-post.php";s:5:"HTTPS";s:3:"off";s:9:"HTTP_HOST";s:11:"dourok.info";s:21:"HTTP_X_FORWARDED_HOST";s:11:"dourok.info";s:23:"HTTP_X_FORWARDED_SERVER";s:11:"dourok.info";s:20:"HTTP_X_FORWARDED_FOR";s:14:"121.10.223.138";s:20:"HTTP_X_FORWARDED_URI";s:21:"/wp-comments-post.php";s:27:"HTTP_HTTP_X_FORWARDED_PROTO";s:4:"http";s:10:"HTTP_HTTPS";s:3:"off";s:22:"HTTP_X_FORWARDED_PROTO";s:4:"http";s:20:"HTTP_X_FORWARDED_SSL";s:3:"off";s:15:"HTTP_CONNECTION";s:5:"close";s:14:"CONTENT_LENGTH";s:3:"454";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:18:"http://dourok.info";s:15:"HTTP_USER_AGENT";s:98:"Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1161.0 Safari/537.1";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:12:"HTTP_REFERER";s:78:"http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"zh-CN,zh;q=0.8";s:19:"HTTP_ACCEPT_CHARSET";s:13:"UTF-8,*;q=0.5";s:11:"HTTP_COOKIE";s:0:"";s:16:"SERVER_SIGNATURE";s:0:"";s:11:"SERVER_NAME";s:11:"dourok.info";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:14:"121.10.223.138";s:13:"DOCUMENT_ROOT";s:29:"/home/yanni/webapps/douo_blog";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:50:"/home/yanni/webapps/douo_blog/wp-comments-post.php";s:11:"REMOTE_PORT";s:5:"52438";s:12:"REDIRECT_URL";s:21:"/wp-comments-post.php";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.0";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:20:"ORIG_SCRIPT_FILENAME";s:23:"/home/php-cgi/php54.cgi";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:20:"ORIG_PATH_TRANSLATED";s:50:"/home/yanni/webapps/douo_blog/wp-comments-post.php";s:16:"ORIG_SCRIPT_NAME";s:18:"/cgi-bin/php54.cgi";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:18:"REQUEST_TIME_FLOAT";s:15:"1344390028.8521";s:12:"REQUEST_TIME";s:10:"1344390028";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2011-12-25 06:36:51";}]]></wp:meta_value>
-			</wp:commentmeta>
 		</wp:comment>
 		<wp:comment>
 			<wp:comment_id>1249</wp:comment_id>
@@ -6808,10 +6785,6 @@ Thanks again, you have lifted my spirits immensely....]]></wp:comment_content>
 			<wp:commentmeta>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:14:"1344139143.759";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:79:{s:15:"comment_post_ID";s:3:"149";s:14:"comment_author";s:6:"于古";s:20:"comment_author_email";s:14:"3435539@qq.com";s:18:"comment_author_url";s:22:"http://www.yuguseo.com";s:15:"comment_content";s:56:"楼主你这个  目录 [隐藏]是个什么插件呢？";s:12:"comment_type";s:0:"";s:14:"comment_parent";s:1:"0";s:7:"user_ID";s:1:"0";s:7:"user_ip";s:14:"175.25.241.182";s:10:"user_agent";s:99:"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1";s:8:"referrer";s:78:"http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/";s:4:"blog";s:18:"http://dourok.info";s:9:"blog_lang";s:5:"zh_CN";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:78:"http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/";s:21:"akismet_comment_nonce";s:6:"passed";s:11:"POST_author";s:6:"于古";s:10:"POST_email";s:14:"3435539@qq.com";s:8:"POST_url";s:22:"http://www.yuguseo.com";s:12:"POST_comment";s:56:"楼主你这个  目录 [隐藏]是个什么插件呢？";s:11:"POST_submit";s:12:"发表评论";s:20:"POST_comment_post_ID";s:3:"149";s:19:"POST_comment_parent";s:1:"0";s:26:"POST_akismet_comment_nonce";s:10:"24792095c8";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"REDIRECT_HANDLER";s:9:"php54-cgi";s:15:"REDIRECT_STATUS";s:3:"200";s:16:"PHP_INI_SCAN_DIR";s:29:"/home/yanni/webapps/douo_blog";s:10:"SCRIPT_URL";s:21:"/wp-comments-post.php";s:10:"SCRIPT_URI";s:39:"http://dourok.info/wp-comments-post.php";s:5:"HTTPS";s:3:"off";s:9:"HTTP_HOST";s:11:"dourok.info";s:21:"HTTP_X_FORWARDED_HOST";s:11:"dourok.info";s:23:"HTTP_X_FORWARDED_SERVER";s:11:"dourok.info";s:20:"HTTP_X_FORWARDED_FOR";s:14:"175.25.241.182";s:20:"HTTP_X_FORWARDED_URI";s:21:"/wp-comments-post.php";s:27:"HTTP_HTTP_X_FORWARDED_PROTO";s:4:"http";s:10:"HTTP_HTTPS";s:3:"off";s:22:"HTTP_X_FORWARDED_PROTO";s:4:"http";s:20:"HTTP_X_FORWARDED_SSL";s:3:"off";s:15:"HTTP_CONNECTION";s:5:"close";s:14:"CONTENT_LENGTH";s:3:"366";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:18:"http://dourok.info";s:15:"HTTP_USER_AGENT";s:99:"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:12:"HTTP_REFERER";s:78:"http://dourok.info/2010/08/03/codecolorer%e4%b8%ad%e6%96%87%e5%b8%ae%e5%8a%a9/";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"zh-CN,zh;q=0.8";s:19:"HTTP_ACCEPT_CHARSET";s:23:"GBK,utf-8;q=0.7,*;q=0.3";s:11:"HTTP_COOKIE";s:0:"";s:16:"SERVER_SIGNATURE";s:0:"";s:11:"SERVER_NAME";s:11:"dourok.info";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:14:"175.25.241.182";s:13:"DOCUMENT_ROOT";s:29:"/home/yanni/webapps/douo_blog";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:50:"/home/yanni/webapps/douo_blog/wp-comments-post.php";s:11:"REMOTE_PORT";s:5:"53349";s:12:"REDIRECT_URL";s:21:"/wp-comments-post.php";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.0";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:20:"ORIG_SCRIPT_FILENAME";s:23:"/home/php-cgi/php54.cgi";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:20:"ORIG_PATH_TRANSLATED";s:50:"/home/yanni/webapps/douo_blog/wp-comments-post.php";s:16:"ORIG_SCRIPT_NAME";s:18:"/cgi-bin/php54.cgi";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:18:"REQUEST_TIME_FLOAT";s:15:"1344139143.3679";s:12:"REQUEST_TIME";s:10:"1344139143";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2011-12-25 06:36:51";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
 	</item>
@@ -8147,7 +8120,7 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 	</item>
 	<item>
 		<title>更新了下CSS</title>
-		<link>http://dourok.info/2011/05/24/%e6%9b%b4%e6%96%b0%e4%ba%86%e4%b8%8bcss/</link>
+		<link>http://dourok.info/2011/05/24/update_css/</link>
 		<pubDate>Tue, 24 May 2011 14:53:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://dourok.info/?p=513</guid>
@@ -8161,7 +8134,7 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 		<wp:post_date_gmt>2011-05-24 14:53:58</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e6%9b%b4%e6%96%b0%e4%ba%86%e4%b8%8bcss</wp:post_name>
+		<wp:post_name>update_css</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -8184,6 +8157,10 @@ default = https://andreas:AbCdEfGHiJ12@myhgproject.googlecode.com/hg/
 			<wp:meta_key>_aioseop_description</wp:meta_key>
 			<wp:meta_value><![CDATA[在Linux版Chrome11中，自定义字体只能够配置两种，分别是标准字体和宽度固定的字体，经测试分别对应Fantasy和Monospace， 其他通用字体的对应特定字体无法配置。
 要强制指定字体可用下面css配合 Chrome Stylist 实现。但会覆盖其他所有字体。]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e6%9b%b4%e6%96%b0%e4%ba%86%e4%b8%8bcss]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -8930,6 +8907,35 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:13:"1326717118.21";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>1349</wp:comment_id>
+			<wp:comment_author><![CDATA[but]]></wp:comment_author>
+			<wp:comment_author_email>but@rcpt.at</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>140.134.227.203</wp:comment_author_IP>
+			<wp:comment_date>2012-09-15 23:01:34</wp:comment_date>
+			<wp:comment_date_gmt>2012-09-15 15:01:34</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[楼主可以更新下连结吗，谢谢！
+链结消失了。]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1347721294.9572";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_as_submitted</wp:meta_key>
+				<wp:meta_value><![CDATA[a:78:{s:15:"comment_post_ID";s:3:"571";s:14:"comment_author";s:3:"but";s:20:"comment_author_email";s:11:"but@rcpt.at";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:62:"楼主可以更新下连结吗，谢谢！
+链结消失了。";s:12:"comment_type";s:0:"";s:14:"comment_parent";s:1:"0";s:7:"user_ID";s:1:"0";s:7:"user_ip";s:15:"140.134.227.203";s:10:"user_agent";s:70:"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)";s:8:"referrer";s:52:"http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/";s:4:"blog";s:18:"http://dourok.info";s:9:"blog_lang";s:5:"zh_CN";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:52:"http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/";s:21:"akismet_comment_nonce";s:6:"passed";s:11:"POST_author";s:3:"but";s:10:"POST_email";s:11:"but@rcpt.at";s:8:"POST_url";s:0:"";s:12:"POST_comment";s:62:"楼主可以更新下连结吗，谢谢！
+链结消失了。";s:11:"POST_submit";s:12:"发表评论";s:20:"POST_comment_post_ID";s:3:"571";s:19:"POST_comment_parent";s:1:"0";s:26:"POST_akismet_comment_nonce";s:10:"53c9007ec6";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"REDIRECT_HANDLER";s:9:"php54-cgi";s:15:"REDIRECT_STATUS";s:3:"200";s:16:"PHP_INI_SCAN_DIR";s:29:"/home/yanni/webapps/douo_blog";s:10:"SCRIPT_URL";s:21:"/wp-comments-post.php";s:10:"SCRIPT_URI";s:39:"http://dourok.info/wp-comments-post.php";s:5:"HTTPS";s:3:"off";s:9:"HTTP_HOST";s:11:"dourok.info";s:21:"HTTP_X_FORWARDED_HOST";s:11:"dourok.info";s:23:"HTTP_X_FORWARDED_SERVER";s:11:"dourok.info";s:20:"HTTP_X_FORWARDED_FOR";s:15:"140.134.227.203";s:26:"HTTP_FORWARDED_REQUEST_URI";s:21:"/wp-comments-post.php";s:27:"HTTP_HTTP_X_FORWARDED_PROTO";s:4:"http";s:10:"HTTP_HTTPS";s:3:"off";s:22:"HTTP_X_FORWARDED_PROTO";s:4:"http";s:20:"HTTP_X_FORWARDED_SSL";s:3:"off";s:15:"HTTP_CONNECTION";s:5:"close";s:11:"HTTP_ACCEPT";s:37:"text/html, application/xhtml+xml, */*";s:12:"HTTP_REFERER";s:52:"http://dourok.info/2011/08/08/fixed_ttplayer_lrc_py/";s:20:"HTTP_ACCEPT_LANGUAGE";s:5:"zh-TW";s:15:"HTTP_USER_AGENT";s:70:"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:14:"CONTENT_LENGTH";s:3:"342";s:8:"HTTP_DNT";s:1:"1";s:18:"HTTP_CACHE_CONTROL";s:8:"no-cache";s:11:"HTTP_COOKIE";s:0:"";s:16:"SERVER_SIGNATURE";s:0:"";s:11:"SERVER_NAME";s:11:"dourok.info";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:15:"140.134.227.203";s:13:"DOCUMENT_ROOT";s:29:"/home/yanni/webapps/douo_blog";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:50:"/home/yanni/webapps/douo_blog/wp-comments-post.php";s:11:"REMOTE_PORT";s:5:"59065";s:12:"REDIRECT_URL";s:21:"/wp-comments-post.php";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.0";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:20:"ORIG_SCRIPT_FILENAME";s:23:"/home/php-cgi/php54.cgi";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:20:"ORIG_PATH_TRANSLATED";s:50:"/home/yanni/webapps/douo_blog/wp-comments-post.php";s:16:"ORIG_SCRIPT_NAME";s:18:"/cgi-bin/php54.cgi";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:18:"REQUEST_TIME_FLOAT";s:15:"1347721294.3626";s:12:"REQUEST_TIME";s:10:"1347721294";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2011-12-17 16:30:36";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
 	</item>
 	<item>
 		<title>在Netbeans上查看Android源码</title>
@@ -9049,6 +9055,41 @@ Lyrics Grabber2里面的千千静听歌词抓取脚本（TTPlayer(LRC).py）是�
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340521336.6765";s:7:"message";s:32:"Akismet 检查通过了此评论";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
+	</item>
+	<item>
+		<title>Test</title>
+		<link>http://dourok.info/2012/04/14/test/</link>
+		<pubDate>Sat, 14 Apr 2012 08:56:40 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://dourok.info/?p=664</guid>
+		<description></description>
+		<content:encoded><![CDATA[[cci_lisp](tags `processing.js, `Wordpress, `Wordpress Theme, `吐槽) | (comments nil)[/cci_lisp]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>664</wp:post_id>
+		<wp:post_date>2012-04-14 16:56:40</wp:post_date>
+		<wp:post_date_gmt>2012-04-14 08:56:40</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>test</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="ogroan"><![CDATA[Life]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1348061943]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>野花</title>
@@ -9653,7 +9694,7 @@ shell@android:/ $
 			<wp:comment_author_IP>222.125.131.134</wp:comment_author_IP>
 			<wp:comment_date>2012-07-23 15:42:08</wp:comment_date>
 			<wp:comment_date_gmt>2012-07-23 07:42:08</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[楼主牛逼啊，差点被这个问题搞死。]]></wp:comment_content>
+			<wp:comment_content><![CDATA[<del datetime="2012-08-21T16:20:00+00:00">楼主牛逼啊，差点被这个问题搞死。</del> 冒用我郵箱，該死的。]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
 			<wp:comment_type></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>

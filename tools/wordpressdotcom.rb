@@ -120,9 +120,9 @@ module Jekyll
         guid = item.at(:guid).inner_text
 
         if status == "publish" 
-          draft = true
-        else
           draft = false
+        else
+          draft = true
         end
 
 
@@ -153,13 +153,15 @@ module Jekyll
           'title'  => title,
           'tags'   => tags,
           'categories' => categories,
-          'status'   => status,
+          #'status'   => status,
           #'type'   => type,
           'meta'   => metas,
           'postid' => postid,
           'guid'   => guid
         }
         if draft
+          puts 'draft'
+          puts title
           header['type'] = 'draft'
         end
         
@@ -177,7 +179,10 @@ module Jekyll
 
         FileUtils.mkdir_p "_#{type}s"
         File.open("_#{type}s/#{name}", "w") do |f|
+          s = header.to_yaml
+          puts s
           f.puts header.to_yaml
+          
           f.puts '---'
           f.puts @content
         end

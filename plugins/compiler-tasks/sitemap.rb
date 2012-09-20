@@ -74,7 +74,7 @@ class Ruhoh
             end #pages
           }
         end
-        File.open(File.join(target, sitemap_file_name), 'w') { |p| p.puts sitemap.to_xml }
+        File.open(File.join(target, sitemap_file_name), 'w:UTF-8') { |p| p.puts sitemap.to_xml }
         Ruhoh::Friend.say { green "processed: #{sitemap_file_name}" }
       end
     end #Sitemap

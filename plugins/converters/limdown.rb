@@ -1,12 +1,15 @@
+# -*- coding: utf-8 -*-
 require 'redcarpet'
 class LIM_HTML < Redcarpet::Render::HTML
   attr_reader :headers
-   def initialize(options={})
+  def initialize(options={})
      @headers = []
+     @header_count = 0
      super options.merge(:with_toc_data => true)
   end
   def header(text, level)
-    @headers << {:text => text, :level => level}
+    @headers << {:text => text, :level => level, :count => @header_count}
+    @header_count = @header_count +1
     "<h#{level}>#{text}</h#{level}>"
   end
   def block_code(code, language)
@@ -52,7 +55,7 @@ class Tree
   def to_html 
     s = ""
     if @value.key? :text
-      s << "<li>#{@value[:text]}</li>"
+      s << "<li><a href=\"#toc_#{@value[:count]}\">#{@value[:text]}</a></li>"
     end
     if @children != []
       s << "<ul>"
@@ -79,7 +82,13 @@ class TOC
       note = note << h
       stack.push note
     end
-    root.to_html
+    s = ""
+    if root.children.size > 4
+      s = '<div id="toc_container" class="toc_wrap_right toc_black no_bullets" style="display: none; "><p class="toc_title">目录</p><ul class="toc_list">'
+      root.children.each {|child| s << child.to_html}
+      s << '</ul></div>'
+    end
+    s
   end
 end
 

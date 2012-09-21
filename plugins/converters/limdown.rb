@@ -3,15 +3,17 @@ require 'redcarpet'
 class LIM_HTML < Redcarpet::Render::HTML
   attr_reader :headers
   def initialize(options={})
-     @headers = []
-     @header_count = 0
-     super options.merge(:with_toc_data => true)
+    @headers = []
+    @header_count = 0
+    super options
   end
+
   def header(text, level)
     @headers << {:text => text, :level => level, :count => @header_count}
     @header_count = @header_count +1
-    "<h#{level}>#{text}</h#{level}>"
+    "<h#{level} id=\"toc_#{@header_count-1}\">#{text}</h#{level}>"
   end
+
   def block_code(code, language)
     if language == 'mathjax'
       "<script type=\"math/tex; mode=display\">
@@ -24,6 +26,10 @@ class LIM_HTML < Redcarpet::Render::HTML
     end
   end
   
+  def image(link, title, alt_text)
+    "<img class=\"lazy\" src=\"http://dourok.info/wp-content/plugins/jquery-image-lazy-loading/images/grey.gif\" data-original=\"#{link}\" title=\"#{title}\">"
+  end
+
   def codespan(code)
     if code[0] == "$" && code[-1] == "$"
       code.gsub!(/^\$/,'')
@@ -48,10 +54,16 @@ class Tree
     @children << subtree
     return subtree
   end
+
   def depth
     @children==[]? 0 : (@children.map {|child| child.depth}.max+1)
   end
   
+  def size 
+    @children.reduce(@children.size){|s,c| s+c.size}
+  end
+
+    
   def to_html 
     s = ""
     if @value.key? :text
@@ -83,8 +95,9 @@ class TOC
       stack.push note
     end
     s = ""
-    if root.children.size > 4
-      s = '<div id="toc_container" class="toc_wrap_right toc_black no_bullets" style="display: none; "><p class="toc_title">目录</p><ul class="toc_list">'
+
+    if root.size > 4
+      s = '<div class="cf"></div><div id="toc_container" class="toc_wrap_right toc_black no_bullets" ><p class="toc_title">目录</p><ul class="toc_list">'
       root.children.each {|child| s << child.to_html}
       s << '</ul></div>'
     end
@@ -102,12 +115,13 @@ class Ruhoh
         require 'redcarpet'
         html_render = LIM_HTML.new
         markdown = Redcarpet::Markdown.new(html_render,
-          :autolink => true, 
-          :fenced_code_blocks => true, 
-        )
+                                           :autolink => true, 
+                                           :fenced_code_blocks => true, 
+                                           :no_intra_emphasis => true
+                                           )
         result = markdown.render(content)
-        result << TOC.render(html_render.headers)
-        result
+        TOC.render(html_render.headers) << result
+
       end
     end
   end

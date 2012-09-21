@@ -40,7 +40,7 @@ module Jekyll
         key = "[[tex#{i}]]"
         i = i+1
         # @holder[key] = "\n<script type=\"math/tex; mode=display\">#{res['content']}</script>\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
-        @holder[key] =  "```mathjax\n#{res['content']}\n```".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
+        @holder[key] =  "\n```mathjax\n#{res['content']}\n```\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
         @content.sub!(reg1,key)
       end
       while res = @content.match(reg)

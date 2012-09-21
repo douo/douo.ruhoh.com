@@ -61,7 +61,7 @@ module Jekyll
       html.css('a').select{|a| !a.css('img').empty?}.each do |a|
         a.css('img').each do |img|
           if src = img['src'].match(regex)
-            key = "#{i}.png"
+            key = "#{i}.veryhighentropy"
             i = i+1
             imgurl << {:url => src[0].gsub("\\",""),:file => "media/#{src[1].gsub("\\","")}"}
             img['src'] = "#{key}"

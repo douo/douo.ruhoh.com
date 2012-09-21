@@ -31,9 +31,9 @@ module Jekyll
       i = 0
       reg1 = /(?<=[\r\n])\[tex\](?<content>((?!\[tex\]).)*?)\[\/tex\]/im
 
-      if @content =~ reg
-        @content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
-      end
+      # if @content =~ reg
+      #   @content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
+      # end
 
       while res = @content.match(reg1)
         #        puts res

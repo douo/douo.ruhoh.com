@@ -3,7 +3,8 @@
     "default" : [
       "bootstrap.min.css",
       "bootstrap-responsive.min.css",
-      "style.css"
+      "style.css",
+      "screen.css"
     ],
     
     "widgets" : {
@@ -15,7 +16,11 @@
   "javascripts" : {
     "default" : [
     "jquery-1.8.0.js",
-    "bootstrap.js"
+    "bootstrap.js",
+    "jquery.smooth-scroll.min.js",
+    "front.js",
+    "jquery.c.min.js",
+    "jquery.lazyload.min.js"
     ]
   }
   

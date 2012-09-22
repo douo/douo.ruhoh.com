@@ -8,6 +8,7 @@
     ],
     
     "widgets" : {
+      "toc" : "screen.css"
       "google_prettify" : "moon.css"
     }
     

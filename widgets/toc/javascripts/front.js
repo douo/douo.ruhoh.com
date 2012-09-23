@@ -1,4 +1,5 @@
 var tocplus = {"visibility_show":"\u663e\u793a","visibility_hide":"\u9690\u85cf","width":"275px"};
+
 jQuery(document).ready(function($) {
 
 	if ( $.smoothScroll ) {
@@ -43,7 +44,7 @@ jQuery(document).ready(function($) {
 				}
 				
 				// check offset setting
-				var offset = -30;
+				var offset = -10;
 				if (typeof tocplus != 'undefined')
 					if (typeof tocplus.smooth_scroll_offset != 'undefined')
 						offset = -1 * tocplus.smooth_scroll_offset;

@@ -4,11 +4,11 @@
       "bootstrap.min.css",
       "bootstrap-responsive.min.css",
       "style.css",
-      "screen.css"
+      "jquery.fancybox.css"
     ],
     
     "widgets" : {
-      "toc" : "screen.css"
+      "toc" : "screen.css",
       "google_prettify" : "moon.css"
     }
     
@@ -18,10 +18,9 @@
     "default" : [
     "jquery-1.8.0.js",
     "bootstrap.js",
-    "jquery.smooth-scroll.min.js",
-    "front.js",
-    "jquery.c.min.js",
-    "jquery.lazyload.min.js"
+    "jquery.lazyload.min.js",
+    "jquery.mousewheel-3.0.6.pack.js",
+    "jquery.fancybox.pack.js"
     ]
   }
   

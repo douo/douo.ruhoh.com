@@ -1,5 +1,5 @@
 javascripts: 
-    [processing-1.4.1.min.js]
-layout: processing
+    [front.js, jquery.c.min.js,jquery.smooth-scroll.min.js]
+
 
   

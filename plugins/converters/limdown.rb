@@ -28,16 +28,25 @@ module Lim
       end
     end
     
-    def image(link, title, alt_text)
-      "<img class=\"lazy\" src=\"http://dourok.info/wp-content/plugins/jquery-image-lazy-loading/images/grey.gif\" data-original=\"#{link}\" title=\"#{title}\">"
-    end
+     def image(link, title, alt_text)
+       "<img class=\"lazy\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
+     end
     
+     def link(link, title, content)
+       if content =~ /<img.*>/
+         "<a class=\"fancybox\" rel=\"group\" href=\"#{link}\" title=\"#{title}\">#{content}</a>"
+       else 
+         "<a href=\"#{link}\" title=\"#{title}\">#{content}</a>"
+       end
+     end
+
     def codespan(code)
       if code[0] == "$" && code[-1] == "$"
         code.gsub!(/^\$/,'')
         code.gsub!(/\$$/,'')
         "<script type=\"math/tex\">#{code}</script>"
       else
+        code = CGI.escapeHTML code
         "<code>#{code}</code>"
       end
     end

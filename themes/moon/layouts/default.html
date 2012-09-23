@@ -15,8 +15,23 @@
     
     <!-- Le styles -->
     {{{ assets }}}
+
+
+    <!-- lazyload -->
     <script type="text/javascript">
-      $("img.lazy").lazyload();
+       jQuery(document).ready(function($){
+          if (navigator.platform == "iPad") return;
+          jQuery("img.lazy").not(".cycle img").lazyload({
+             effect:"fadeIn",
+             placeholder: "{{urls.media}}/ajax-loader.gif"
+          });
+       });
+    </script>
+
+    <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
     </script>
 
        <link rel="shortcut icon" href="{{urls.media}}/favicon.ico">

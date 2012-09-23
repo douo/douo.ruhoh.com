@@ -151,8 +151,6 @@ module Ruhoh
                 "test.md",
                ]
 
-      
-
       import_count = Hash.new(0)
       doc = Hpricot::XML(File.read(filename))
       (doc/:channel/:item).each do |item|

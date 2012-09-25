@@ -57,7 +57,7 @@ class Ruhoh
               page.change(post_id)
               xml.url {
                 xml.loc_ "#{production_url}#{post['url']}"
-                xml.lastmod_ File.mtime(post_id)
+                xml.lastmod_ File.mtime(post_id).strftime("%a, %d %b %Y %H:%M:%S %z")
                 xml.priority_ (post[priority_custom_name] ? post[priority_custom_name] : '0.2') 
                 xml.changefreq_ (post[change_frequency_custom_name] ? post[change_frequency_custom_name] : 'monthly') 
               }
@@ -67,7 +67,7 @@ class Ruhoh
               next if exclude_id.include? id
               xml.url {
                 xml.loc_ "#{production_url}#{page['url']}"
-                xml.lastmod_ File.mtime("pages/#{id}")
+                xml.lastmod_ File.mtime("pages/#{id}").strftime("%a, %d %b %Y %H:%M:%S %z")
                 xml.priority_ (page[priority_custom_name] ? page[priority_custom_name] : (page['url']=='/' ? '1.0':'0.2')) 
                 xml.changefreq_ (page[change_frequency_custom_name] ? page[change_frequency_custom_name] : (page['url']=='/' ? 'daily':'monthly')) 
               }

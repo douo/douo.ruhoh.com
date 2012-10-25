@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'redcarpet'
-
+#require 'fastimage'
 module Lim
   class HTML < Redcarpet::Render::HTML
     
@@ -29,7 +29,16 @@ module Lim
     end
     
      def image(link, title, alt_text)
-       "<img class=\"lazy\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
+       ## 为本地的图片声明宽和高,需要 fastimage
+       ## gem install fastimage
+       ## https://github.com/sdsykes/fastimage
+       # if(link.match(Regexp.new("^#{Ruhoh.urls.media}")))
+       #   file = link.sub(Ruhoh.urls.media,Ruhoh.paths.media)
+       #   w,h = FastImage.size(file)         
+       #   "<img class=\"lazy\" src=\"#{link}\" width=\"#{w}\" height=\"#{h}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
+       # else
+         "<img class=\"lazy\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
+       #end
      end
     
      def link(link, title, content)

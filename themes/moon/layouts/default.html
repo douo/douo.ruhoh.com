@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset="utf-8">
-  <title>{{# page.home}}{{/ page.home}}{{^ page.home}}{{page.title}} | {{/ page.home}}{{ site.title }}</title>
+
+  <title>{{# page.home}}{{/ page.home}}{{^ page.home}}
+    {{page.title}} | 
+    {{/ page.home}}
+   {{ site.title }}
+  </title>
+
   {{# page.description }}
     <meta name="description" content="{{ . }}">
   {{/ page.description }}

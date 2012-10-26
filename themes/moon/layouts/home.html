@@ -2,7 +2,7 @@
 layout : default
 ---
 {{# posts_latest }}
-<article class="post box">
+<article class="post">
 <ul class="category-label">
 {{# categories?to_categories }}
 <li><a href="{{url}}" class="{{name}}">{{ name }}</a></li>
@@ -18,7 +18,7 @@ layout : default
 </div>
 </article>
 {{/ posts_latest }}
-<div class="box">
+<div class="post">
   <div class="row-fluid">
   <div class="span6">
   <div id="recentcomments" class="dsq-widget"><h3
@@ -39,6 +39,6 @@ layout : default
   </div>
   
 </div>
-<center><a href="/archives">~~ 全部文章 ~~</a></center>
+<center><a href="/archive">~~ 全部文章 ~~</a></center>
 <hr>
 

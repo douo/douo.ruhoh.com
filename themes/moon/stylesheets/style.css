@@ -1,63 +1,35 @@
-.header > h1 {
-    font-size: 2em;
-    line-height: 20px;
-    margin-top: 25px;
-}
-
-.header > blockquote{
-    font-weight: normal;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-/* .box { */
-/*     background-color: white; */
-/*     margin: 10px 0px 50px 0px; */
-/*     padding: 10px 20px; */
-/*     moz-border-radius: 5px; */
-/*     webkit-moz-border-radius: 5px; */
-/*     border-radius: 5px; */
-/*     -webkit-box-shadow: 0px 1px 3px #A8ABAB; */
-/*     -moz-box-shadow: 0px 1px 3px #A8ABAB; */
-/*     box-shadow: 0px 1px 3px #A8ABAB; */
-/* } */
-
-.box  
-{  
-    position: relative;  
-    background-color: white; 
-     margin: 10px 0px 50px 0px; 
-     padding: 10px 20px; 
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),  0 0 50px rgba(0, 0, 0, 0.1);  
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),  0 0 50px rgba(0, 0, 0, 0.1);  
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2),  0 0 50px rgba(0, 0, 0, 0.1);  
-}  
-
-
-/* 內文樣式 */
+/* posts index */
 .post > h2.title {
   position:relative;
   font-size: 1.8em;
 }
-
 .post > h2.title span.date { 
   position:absolute;
   right:0;
   font-size:0.9em;
 }
-
 .post > .more {
   margin:10px 0;
   text-align:left;
 }
 
+.post {
+    background-color: white;
+    margin: 10px 0px 50px 0px;
+    padding: 10px 20px;
+    moz-border-radius: 5px;
+    webkit-moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px #A8ABAB;
+    -moz-box-shadow: 0px 1px 3px #A8ABAB;
+    box-shadow: 0px 1px 3px #A8ABAB;
+}
 .post p{
-    font-size:15px;
-    line-height:25px;
+    font-size:1.12em;
+    line-height:1.6em;
 
 }
 
-/* 通用圖片樣式 :fixme */
 .post img{
     border: 1px solid #DDD;
     padding: 6px;
@@ -71,13 +43,6 @@
     height: auto;
 }
 
-.post canvas{
-    display: block;
-    margin: 10px 0 10px 0
-}
-
-
-/* 左側導航欄 */
 .moon-nav-list {
     font-size: 1.1em;
     text-transform: uppercase;
@@ -128,8 +93,18 @@
     top: 20px;
 }
 
+.header > h1 {
+    font-size: 2em;
+    line-height: 20px;
+    margin-top: 25px;
+}
 
-/* 移動設備導航欄 */
+.header > blockquote{
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
 .listing-item {
     line-height: 24px;
 }
@@ -145,7 +120,8 @@
 }
 
 
-/* 標籤 & 分類 */
+/* tag_box ======================================================== */
+
 .tag_box {
   list-style:none;
   margin:0;
@@ -176,37 +152,12 @@
   color:#FFF;
 }
 
-.category {
-    text-transform: capitalize;
-}
-
-
-/* footer */
-.footer{
-    margin-top:3.5em;
-    margin-bottom:-0.7em
-}
-.footer >.date {
-    position:relative;
-    float: right;
-    top:-1.4em;
-    font-size:1.2em
-}
-
-.statement > .license{
-    float:right;
-}
-
-/* 右上角分類標籤 */
 .category-label {
     position:relative;
     float: right;
     list-style-type: none;
     top: -11px;
-    margin: 0 0 5px 5px;
 }
-
-/* kang from bootstrap */
 .category-label a{
     -moz-border-radius-bottomleft: 5px;
     -webkit-border-bottom-left-radius: 5px;
@@ -242,38 +193,27 @@
 .category-label .otaku{
     background-color: #999;
 }
+.category {
+    text-transform: capitalize;
+}
 
 
+.footer{
+    margin-top:3.5em;
+    margin-bottom:-0.7em
+}
+.footer >.date {
+    position:relative;
+    float: right;
+    top:-1.4em;
+    font-size:1.2em
+}
 
 .jiathis_style{
     position:relative;
     float: right;
 }
 
-/**
- * 
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
+.statement > .license{
+    float:right;
 }

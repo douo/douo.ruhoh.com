@@ -19,8 +19,8 @@ nav :
   - title: home
     url: /
     describe: 主頁
-  - title: archives
-    url: /archives
+  - title: archive
+    url: /archive
     describe: 歸檔
   - title: wiki
     url: http://wiki.dourok.info

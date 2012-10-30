@@ -9,38 +9,69 @@ require 'yaml'
 require 'time'
 require 'pandoc-ruby'
 require 'open-uri'
-
-module Jekyll
+require 'cgi'
+module Ruhoh
   # This importer takes a wordpress.xml file, which can be exported from your
   # wordpress.com blog (/wp-admin/export.php).
-  module WordpressDotCom
+  module WordpressPraser
   
-    def self.convertCode!()
+    def self.hackCode!()
       ## 转换codecolor 短标签的代码
 
-      reg1 = /\[(?<tag>cc(?<opti>[a-zA-Z]*)) +(lang="(?<lang>\w+)")\](?<content>.*?)(\[\/\k<tag>\])/m
-      reg = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)\](?<content>.*?)(\[\/\k<tag>\])/m
-      @content.gsub!(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
-      @content.gsub!(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
+      @content.sub!(/<\/q>/,'')
+      i = 0
+      short1 = /\[(?<tag>cc(?<opti>[a-zA-Z]*)) +(lang="(?<lang>\w+)")[^\]]*\](?<content>.*?)(\[\/(\k<tag>)\])/m
+      short2 = /\[(?<tag>cc(?<opti>[a-zA-Z]*)(_(?<lang>\w+))?)[^\]]*\](?<content>.*?)(\[\/(\k<tag>)\])/m
+      long1 = /<code +(lang="(?<lang>\w+)")[^>]*>(?<content>.*?)<\/code>/m
+      long2 = /<code +(?<inline>inline="true")>(?<content>.*?)<\/code>/m
+      [short1,short2,long1,long2].each do |reg|
+
+        while res = @content.match(reg)
+          key  = "placeholderfor#{i}code"
+          i = i + 1
+          content = ""
+
+          if (res.names.include? 'inline') || ((res.names.include? 'opti') && (res['opti'] =~ /i/))
+            @holder[key] = "`#{res['content']}`"
+          else
+            if res['content'].start_with?("\n")
+              content << res['content']
+            else
+              content << "\n" << res['content']
+            end
+            if content.end_with?("\n") == false
+              content << "\n"
+            end
+            content=CGI.unescapeHTML(content)
+            @holder[key] = "\n\n```#{res['lang']}#{content}```\n\n"
+          end
+          # puts key ,content
+          @content.sub!(reg,key)
+        end
+      end
+      
+      
+      # @content.gsub!(reg,'<pre><code class="\k<lang>">\k<content></code></pre>')
+      # @content.gsub!(reg1,'<pre><code class="\k<lang>">\k<content></code></pre>')
     end
 
-    def self.convertTex!()
+    def self.hackTex!()
       
       reg = /\[tex\](?<content>.*?)\[\/tex\]/im
       #rep = "\n<script type=\"math/tex; mode=display\">\n\k<content>\n</script>\n"
       i = 0
       reg1 = /(?<=[\r\n])\[tex\](?<content>((?!\[tex\]).)*?)\[\/tex\]/im
 
-      if @content =~ reg
-        @content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
-      end
+      # if @content =~ reg
+      #   @content.gsub!(/(?!([\r\n].+))_(?<c>.+?)_/,'\_\k<c>\_')
+      # end
 
       while res = @content.match(reg1)
         #        puts res
         key = "[[tex#{i}]]"
         i = i+1
         # @holder[key] = "\n<script type=\"math/tex; mode=display\">#{res['content']}</script>\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
-        @holder[key] =  "```mathjax\n#{res['content']}\n```".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
+        @holder[key] =  "\n```mathjax\n#{res['content']}\n```\n".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
         @content.sub!(reg1,key)
       end
       while res = @content.match(reg)
@@ -50,10 +81,20 @@ module Jekyll
         @holder[key] =  "`$#{res['content']}$`".gsub('\\\\','\\\\\\\\\\\\\\\\').gsub('&amp;','&')
         @content.sub!(reg,key)
       end
-      
     end
 
-    def self.convertImg()
+    def self.hackPjs!()
+      reg = /<canvas.+?><\/canvas>/
+      i = 0 
+      while res = @content.match(reg)
+        key = "hightentropyp#{i}js"
+        i = i+1
+        @holder[key] = res[0].sub(/http:\/\/dourok.info/,'{{urls.media}}')
+        @content.sub!(reg,key)
+      end
+    end
+
+    def self.hackImg()
       html =  Nokogiri::HTML(@content)
       imgurl = []
       i = 0
@@ -61,7 +102,7 @@ module Jekyll
       html.css('a').select{|a| !a.css('img').empty?}.each do |a|
         a.css('img').each do |img|
           if src = img['src'].match(regex)
-            key = "#{i}.png"
+            key = "#{i}.veryhighentropy"
             i = i+1
             imgurl << {:url => src[0].gsub("\\",""),:file => "media/#{src[1].gsub("\\","")}"}
             img['src'] = "#{key}"
@@ -84,7 +125,7 @@ module Jekyll
     end
     
     def self.dlImg(imgurl)
-      puts imgurl
+      
       imgurl.each do |i|
         FileUtils.mkdir_p File.dirname(i[:file])
         File.open(i[:file], 'wb') do |f|
@@ -95,10 +136,21 @@ module Jekyll
       
     
     def self.prepocess!()
-      methods(false).find_all {|m| m=~ /convert.*/}.each {|m| __send__(m)}
+      methods(false).find_all {|m| m=~ /hack.*/}.each {|m| __send__(m)}
     end
     
+    
+
     def self.process(filename = "wordpress.xml")
+      exnames =[
+                "男子因压力大跳桥自杀-9岁儿子跪求未果.md",
+                "方格图的最短路径探讨.md",
+                "方格图的最短路径探讨-2.md",
+                "png格式与me中的png.md",
+                "hello-world！.md",
+                "test.md",
+               ]
+
       import_count = Hash.new(0)
       doc = Hpricot::XML(File.read(filename))
       (doc/:channel/:item).each do |item|
@@ -109,6 +161,10 @@ module Jekyll
         end
         
         title = item.at(:title).inner_text.strip
+        # if !(title =~ /Codecolorer/i)
+        #   next
+        # end
+
         permalink_title = item.at('wp:post_name').inner_text
         # Fallback to "prettified" title if post_name is empty (can happen)
         if permalink_title == ""
@@ -149,6 +205,11 @@ module Jekyll
         end
 
         name = "#{URI.unescape(permalink_title)}.md"
+        
+
+        next if exnames.any? {|w| w == name } 
+
+
         header = {
           'date'   => date.strftime('%Y-%m-%d'),
           'layout' => type,
@@ -162,8 +223,6 @@ module Jekyll
           'guid'   => guid
         }
         if draft
-          puts 'draft'
-          puts title
           header['type'] = 'draft'
         end
         
@@ -177,12 +236,19 @@ module Jekyll
         @content = PandocRuby.convert(@content, :from => :html, :to => :'markdown')
         
         # pp @holder if @holder != {}
-        @holder.each {|k,v| @content.gsub!(k,v)}
 
-        FileUtils.mkdir_p "_#{type}s"
-        File.open("_#{type}s/#{name}", "w") do |f|
+        @holder.each {|k,v| 
+          #puts k,v  if k =~ /placeholder.*/ 
+          @content.gsub!(k,v)
+        }
+
+        
+        
+        #FileUtils.mkdir_p "_#{type}s"
+        #File.open("_#{type}s/#{name}", "w") do |f|
+        FileUtils.mkdir_p "../posts/wp"
+        File.open("../posts/wp/#{name}", "w") do |f|
           s = header.to_yaml
-          puts s
           f.puts header.to_yaml
           
           f.puts '---'
@@ -198,4 +264,5 @@ module Jekyll
   end
 end
 
-Jekyll::WordpressDotCom.process("wordpress.xml")
+Ruhoh::WordpressPraser.process("wordpress.xml")
+

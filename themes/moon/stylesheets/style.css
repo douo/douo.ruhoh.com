@@ -1,7 +1,10 @@
+body {
+    font-size: 16px;
+}
 .header > h1 {
-    font-size: 2em;
-    line-height: 20px;
-    margin-top: 25px;
+    font-size: 1.8em;
+    line-height: 1em;
+    margin-top: 0.7em;
 }
 
 .header > blockquote{
@@ -26,13 +29,16 @@
 {  
     position: relative;  
     background-color: white; 
-     margin: 10px 0px 50px 0px; 
-     padding: 10px 20px; 
+    margin: 0.7em 0px 3em 0px; 
+    padding: 1.5em 1.5em 0.5em 1.5em;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),  0 0 50px rgba(0, 0, 0, 0.1);  
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),  0 0 50px rgba(0, 0, 0, 0.1);  
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2),  0 0 50px rgba(0, 0, 0, 0.1);  
 }  
 
+article li {
+    line-height: 1.5em;
+}
 
 /* 內文樣式 */
 .post > h2.title {
@@ -43,18 +49,19 @@
 .post > h2.title span.date { 
   position:absolute;
   right:0;
-  font-size:0.9em;
+  font-size:0.7em;
 }
 
 .post > .more {
-  margin:10px 0;
+  margin:.8em 0;
   text-align:left;
 }
 
 .post p{
-    font-size:15px;
-    line-height:25px;
-
+    font-size:1em;
+    line-height:1.5em;
+    margin: 0 0 1.5em 0;
+    text-align: justify;
 }
 
 /* 通用圖片樣式 :fixme */
@@ -79,7 +86,7 @@
 
 /* 左側導航欄 */
 .moon-nav-list {
-    font-size: 1.1em;
+    font-size: 1em;
     text-transform: uppercase;
     width: 10em;
     margin-left: -12em;
@@ -202,8 +209,8 @@
     position:relative;
     float: right;
     list-style-type: none;
-    top: -11px;
-    margin: 0 0 5px 5px;
+    top: -1.7em;
+    margin: 0 0 0.3em 0.3em;
 }
 
 /* kang from bootstrap */
@@ -243,8 +250,6 @@
     background-color: #999;
 }
 
-
-
 .jiathis_style{
     position:relative;
     float: right;
@@ -277,3 +282,4 @@
 .cf {
     *zoom: 1;
 }
+

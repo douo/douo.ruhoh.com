@@ -6,7 +6,12 @@
       "style.css",
       "jquery.fancybox.css"
     ],
-    
+    "note" : [
+      "bootstrap.min.css",
+      "bootstrap-responsive.min.css",
+      "note.css",
+      "jquery.fancybox.css"
+      ],
     "widgets" : {
       "toc" : "screen.css",
       "google_prettify" : "moon.css"
@@ -16,6 +21,13 @@
   
   "javascripts" : {
     "default" : [
+    "jquery-1.8.2.min.js", 
+    "bootstrap.js",
+    "jquery.lazyload.min.js",
+    "jquery.mousewheel-3.0.6.pack.js",
+    "jquery.fancybox.pack.js"
+    ],
+    "note" : [
     "jquery-1.8.2.min.js", 
     "bootstrap.js",
     "jquery.lazyload.min.js",

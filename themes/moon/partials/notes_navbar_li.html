@@ -1,0 +1,10 @@
+{{#parent}}
+<li class="{{#submenu}}dropdown-submenu{{/submenu}}{{^submenu}}dropdown{{/submenu}}"><a href="{{ url }}" data-toggle="dropdown" class="dropdown-toggle">{{ title }}
+{{#submenu}}{{/submenu}}{{^submenu}}<b class="caret"></b>{{/submenu}}
+{{/parent}}
+{{^parent}}
+<li><a href="{{ url }}">{{ title }}</b>
+{{/parent}}
+</a>
+{{{ sub }}}
+</li>

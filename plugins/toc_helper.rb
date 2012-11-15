@@ -1,32 +1,4 @@
 # -*- coding: utf-8 -*-
-class Ruhoh
-  module Templaters
-    module Helpers
-      def greeting
-        "Hello there! How are you?"
-      end
-
-      def raw_code(sub_context)
-        code = sub_context.gsub('{', '&#123;').gsub('}', '&#125;').gsub('<', '&lt;').gsub('>', '&gt;')
-        "<pre><code>#{code}</code></pre>"
-      end
-      
-      def to_what(sub_context)
-        puts sub_context
-      end
-      
-      def toc
-        html_render = Lim::HTML.new
-        markdown = Redcarpet::Markdown.new(html_render)
-        markdown.render(get_page_content[0]) #[content , id]
-        html_render.toc
-      end
-      
-
-    end
-  end
-end
-
 module Lim
   class HTML < Redcarpet::Render::HTML
 
@@ -77,6 +49,21 @@ module Lim
         html << "</ul>"
       end
       html
+    end
+  end
+end
+
+class Ruhoh
+  module Templaters
+    module TOCHelpers
+      puts "toc helpers"
+      def toc
+        html_render = Lim::HTML.new
+        markdown = Redcarpet::Markdown.new(html_render)
+        markdown.render(content)
+        markdown.toc
+        end
+      
     end
   end
 end

@@ -211,6 +211,8 @@ article li {
     list-style-type: none;
     top: -1.7em;
     margin: 0 0 0.3em 0.3em;
+    height: 0;
+    overflow: visible;
 }
 
 /* kang from bootstrap */
@@ -267,7 +269,7 @@ article li {
  */
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
+    content: ""; /* 1 */
     display: table; /* 2 */
 }
 

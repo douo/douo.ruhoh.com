@@ -49,11 +49,24 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
 </head>
-
+<body>
 {{{ navigation }}}
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>{{page.title}}</h1>
+    <p class="lead">{{page.description}}</p>
+  </div>
+</header>
+<!-- <div class="container row"> -->
 <article class="span10">
 {{{ content }}}
 </article>
+<div class="span2  bs-docs-sidebar">
+{{#toc_wrapper}}
+toc_wrapper_note
+{{/toc_wrapper}}
+</div>
+<!-- </div> -->
 {{{ math }}}
 {{{ google_prettify }}}
 {{{ analytics }}}

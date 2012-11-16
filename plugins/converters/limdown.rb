@@ -3,19 +3,10 @@ require 'redcarpet'
 #require 'fastimage'
 module Lim
   class HTML < Redcarpet::Render::HTML
-    
     def preprocess(full_document)
-      @headers = []
-      @header_count = 0
+      @helper = Ruhoh::TOC::TOCHelper.new
       full_document
     end
-    
-    def header(text, level)
-      @headers << {:text => text, :level => level, :count => @header_count}
-      @header_count = @header_count +1
-      "<h#{level} id=\"toc_#{@header_count-1}\">#{text}</h#{level}>"
-    end
-    
     def block_code(code, language)
       if language == 'mathjax'
         "<script type=\"math/tex; mode=display\">
@@ -28,26 +19,26 @@ module Lim
       end
     end
     
-     def image(link, title, alt_text)
-       ## 为本地的图片声明宽和高,需要 fastimage
-       ## gem install fastimage
-       ## https://github.com/sdsykes/fastimage
-       # if(link.match(Regexp.new("^#{Ruhoh.urls.media}")))
-       #   file = link.sub(Ruhoh.urls.media,Ruhoh.paths.media)
-       #   w,h = FastImage.size(file)         
-       #   "<img class=\"lazy\" src=\"#{link}\" width=\"#{w}\" height=\"#{h}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
-       # else
-         "<img class=\"lazy\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
-       #end
-     end
+    def image(link, title, alt_text)
+      ## 为本地的图片声明宽和高,需要 fastimage
+      ## gem install fastimage
+      ## https://github.com/sdsykes/fastimage
+      # if(link.match(Regexp.new("^#{Ruhoh.urls.media}")))
+      #   file = link.sub(Ruhoh.urls.media,Ruhoh.paths.media)
+      #   w,h = FastImage.size(file)         
+      #   "<img class=\"lazy\" src=\"#{link}\" width=\"#{w}\" height=\"#{h}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
+      # else
+      "<img class=\"lazy\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
+      #end
+    end
     
-     def link(link, title, content)
-       if content =~ /<img.*>/
-         "<a class=\"fancybox\" rel=\"group\" href=\"#{link}\" title=\"#{title}\">#{content}</a>"
-       else 
-         "<a href=\"#{link}\" title=\"#{title}\">#{content}</a>"
-       end
-     end
+    def link(link, title, content)
+      if content =~ /<img.*>/
+        "<a class=\"fancybox\" rel=\"group\" href=\"#{link}\" title=\"#{title}\">#{content}</a>"
+      else 
+        "<a href=\"#{link}\" title=\"#{title}\">#{content}</a>"
+      end
+    end
 
     def codespan(code)
       if code[0] == "$" && code[-1] == "$"
@@ -59,46 +50,8 @@ module Lim
         "<code>#{code}</code>"
       end
     end
-
-    def postprocess(full_document)
-      toc << full_document
-    end
-    
-    def toc
-      root = Tree.new({:level => 0})
-      stack = [root]
-      @headers.each do |h|
-        while stack.last.value[:level] > h[:level]
-          stack.pop
-        end
-        node = stack.last
-        if h[:level] == node.value[:level] 
-          stack.pop
-          node = stack.last
-        end
-        node = node << h
-        stack.push node
-      end
-      result = ""
-      if root.size > 4
-        result = '<div class="cf"></div><div id="toc_container" class="toc_wrap_right toc_black no_bullets" ><p class="toc_title">目录</p><ul class="toc_list">'
-        root.children.each {|child| result << tree_html(child)}
-        result << '</ul></div>'
-      end
-      result
-    end
-    
-    def tree_html node # Tree
-      value = node.value
-      children = node.children
-      html = ""
-      html << "<li><a href=\"#toc_#{value[:count]}\">#{value[:text]}</a></li>" if value.key? :text
-      if children != []
-        html << "<ul>"
-        children.each {|child| html << tree_html(child) }
-        html << "</ul>"
-      end
-      html
+    def header(text, level)
+      @helper.header(text,level)
     end
   end
 end

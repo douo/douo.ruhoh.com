@@ -17,9 +17,12 @@ class Ruhoh
       
       # 與toc 相同,但可以通過 sub_content指定 toc_wrapper
       def toc_wrapper(sub_content)
+        puts sub_content
+        puts sub_content.lines.first.chomp
+       
         html_render = Ruhoh::TOC::TOCRender.new
         html_render.setup(get_page_content[0]) #[content , id]
-        html_render.toc sub_content
+        html_render.toc sub_content.split("\n").first.strip
       end
 
       def toc

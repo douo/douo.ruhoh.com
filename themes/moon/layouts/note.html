@@ -50,23 +50,30 @@
   -->
 </head>
 <body>
-{{{ navigation }}}
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+    <a class="brand" href="{{ site.note.url }}">{{ site.note.title }}</a>
+    {{{ navigation }}}
+    </div>
+  </div>
+</div>
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>{{page.title}}</h1>
     <p class="lead">{{page.description}}</p>
   </div>
-</header>
-<!-- <div class="container row"> -->
-<article class="span10">
-{{{ content }}}
-</article>
-<div class="span2  bs-docs-sidebar">
-{{#toc_wrapper}}
-toc_wrapper_note
-{{/toc_wrapper}}
-</div>
-<!-- </div> -->
+  </header>
+  <div class="container">
+  <div class="row">
+    {{#toc_wrapper}}
+    toc_wrapper_note
+    {{/toc_wrapper}}
+  <article class="span9">
+  {{{ content }}}
+  </article>
+  </div>
+</div> <!-- container-->
 {{{ math }}}
 {{{ google_prettify }}}
 {{{ analytics }}}

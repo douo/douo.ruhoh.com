@@ -16,8 +16,6 @@ class Ruhoh
       end
       
       def toc(toc_wrapper = 'toc_wrapper')
-
-        toc_wrapper = toc_wrapper.to_sym
         root = Tree.new({:level => 0})
         stack = [root]
         # build tree

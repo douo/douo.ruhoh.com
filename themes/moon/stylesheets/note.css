@@ -1,11 +1,30 @@
 
 body {
-    padding-top: 60px
+    background-color: #FFF3D8;
+    padding-top: 40px
 }
 
-.sidebar-nav {
-    padding: 9px 0;
+#overview{
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    background-color: #F6DDAE;
 }
+
+.toc{
+    min-height: 1px;
+}
+
+.toc-list.affix{
+    top: 40px;
+}
+
+.toc-list {
+    width: 228px;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+
 
 .dropdown-menu .sub-menu {
     left: 100%;

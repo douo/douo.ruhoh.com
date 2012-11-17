@@ -3,12 +3,15 @@
     "default" : [
       "bootstrap.min.css",
       "bootstrap-responsive.min.css",
+      "toc.css",
       "style.css",
       "jquery.fancybox.css"
+
     ],
     "note" : [
       "bootstrap.min.css",
       "bootstrap-responsive.min.css",
+      "toc.css",
       "note.css",
       "jquery.fancybox.css"
       ],
@@ -25,7 +28,11 @@
     "bootstrap.js",
     "jquery.lazyload.min.js",
     "jquery.mousewheel-3.0.6.pack.js",
-    "jquery.fancybox.pack.js"
+    "jquery.fancybox.pack.js",
+    # TOC 
+    "jquery.smooth-scroll.min.js",
+    "jquery.c.min.js",
+    "front.js"
     ],
     "note" : [
     "jquery-1.8.2.min.js", 
@@ -33,6 +40,10 @@
     "jquery.lazyload.min.js",
     "jquery.mousewheel-3.0.6.pack.js",
     "jquery.fancybox.pack.js"
+    # TOC 
+    "jquery.smooth-scroll.min.js",
+    "jquery.c.min.js",
+    "front.js"
     ]
   }
   

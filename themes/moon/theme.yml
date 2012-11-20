@@ -38,7 +38,7 @@
     "bootstrap.js",
     "jquery.lazyload.min.js",
     "jquery.mousewheel-3.0.6.pack.js",
-    "jquery.fancybox.pack.js"
+    "jquery.fancybox.pack.js",
     # TOC 
     "jquery.smooth-scroll.min.js",
     ]

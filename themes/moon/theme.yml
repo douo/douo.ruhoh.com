@@ -40,6 +40,7 @@
     "jquery.mousewheel-3.0.6.pack.js",
     "jquery.fancybox.pack.js",
     # TOC 
+    "front.js"
     "jquery.smooth-scroll.min.js",
     ]
   }

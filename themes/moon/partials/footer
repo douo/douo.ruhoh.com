@@ -1,0 +1,9 @@
+<footer class="statement">
+  <small class＝"copyright">&copy;2009-2012 {{ site.title }} |</small>
+  <small class= "power">基於 <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+    和 <a href="http://twitter.github.com/bootstrap/"
+	  target="_blank">Twitter Bootstrap</a></small>
+  <small class="license">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh"><img title="知识共享许可协议" style="border-width: 0px; vertical-align: middle; display: inline; " src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" original="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png"></a>		
+  </small>
+</footer>

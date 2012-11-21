@@ -1204,12 +1204,12 @@
     $('[data-spy="affix"]').each(function () {
       var $spy = $(this)
         , data = $spy.data()
-
+	
       data.offset = data.offset || {}
 
       data.offsetBottom && (data.offset.bottom = data.offsetBottom)
       data.offsetTop && (data.offset.top = data.offsetTop)
-
+	console.log(data)
       $spy.affix(data)
     })
   })

@@ -344,6 +344,15 @@ background-image: url("glyphicons-halflings.png");
     border-bottom: 1px solid white;
 }
 
+button.btn-navbar {
+    display: none;
+}
+
+.nav-collapse.collapse {
+height: auto!important;
+overflow: visible!important;
+}
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -402,4 +411,9 @@ background-image: url("glyphicons-halflings.png");
     display: none;
 }
 
+button.btn-navbar {
+    display: block;
 }
+
+}
+

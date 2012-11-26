@@ -64,3 +64,13 @@ body {
     left: -6px;
 }
 ​
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+.toc-list.affix {
+    position:static;
+}
+
+}

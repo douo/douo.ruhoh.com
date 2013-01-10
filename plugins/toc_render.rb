@@ -82,7 +82,7 @@ class Ruhoh
         end
       end
       def header(text,level)
-        value = {:text => text, :level => level, :count => @header_count ,:anchor => "#{Ruhoh::Urls.to_url_slug(text)}"}
+        value = {:text => text, :level => level, :count => @header_count ,:anchor => "#{Ruhoh::Utils.to_url_slug(text)}"}
         @headers << value
         @header_count = @header_count +1
         "<h#{level} id=\"#{TOCHelper.get_anchor(value)}\">#{text}</h#{level}>"

@@ -1,9 +1,12 @@
 ---
 # Usage: http://ruhoh.com/usage/configure/ 
 
-RuhohSpec: '1.1'
-theme : moon
+RuhohSpec: '2.0.alpha'
+
 production_url : http://dourok.info
+
+theme:
+  name: 'moon'
 
 posts:
   permalink: /:year/:month/:day/:filename/

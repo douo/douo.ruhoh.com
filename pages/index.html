@@ -6,12 +6,12 @@ home: 1
 ---
 
 
-{{# posts_latest }}
+{{# posts.paginator }}
 <article class="post box">
 <ul class="category-label">
-{{# categories?to_categories }}
+{{# categories }}
 <li><a href="{{url}}" class="{{name}}">{{ name }}</a></li>
-{{/ categories?to_categories}}
+{{/ categories }}
 </ul>
 <h2 class="title clearfix">
 <a href="{{url}}">{{title}}</a>
@@ -23,7 +23,7 @@ home: 1
   <a href="{{url}}" class="btn">更多..</a>
 </div>
 </article>
-{{/ posts_latest }}
+{{/ posts.paginator }}
 <div class="box">
   <div class="row-fluid">
   <div class="span6">
@@ -36,9 +36,9 @@ home: 1
     <div class="span6 friends">
       <h3>友情链接</h3>
       <ul class="blogroll">
-	{{# site.links}}
+	{{# data.links}}
 	<li><a href="{{url}}" rel="friend" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','{{url}}']);">{{title}}</a></li>
-	{{/ site.links}}
+	{{/ data.links}}
       </ul>
     </div>
     

@@ -7,12 +7,6 @@ author :
   twitter : dourok
   feedburner : douo
 
-navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
-  - about.md
 
 # 自己重新實現的導航
 nav :

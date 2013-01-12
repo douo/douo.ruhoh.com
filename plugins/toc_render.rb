@@ -15,7 +15,7 @@ class Ruhoh
         markdown.render(content)
       end
       
-      def toc(toc_wrapper = 'toc_wrapper')
+      def toc(toc_wrapper)
         root = Tree.new({:level => 0})
         stack = [root]
         # build tree
@@ -35,11 +35,8 @@ class Ruhoh
         if root.size > @limit
           result = ''
           root.children.each {|child| result << tree_html(child)}
-
-          if Ruhoh::DB.partials[toc_wrapper]
-            result = Mustache.render(Ruhoh::DB.partials[toc_wrapper],
+          result = Mustache.render(toc_wrapper,
                                      :toc => result)
-          end
           result
         else
           nil

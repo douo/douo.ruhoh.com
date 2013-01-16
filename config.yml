@@ -13,5 +13,17 @@ posts:
   summary_lines: 7
   latest: 10
 
+paginator:
+  enable: false
+
 pages:
   permalink: 'pretty'
+
+diary:
+  url: 'diary'
+
+notes:
+  title:  DouO's Note
+  url: /notes
+  tag_url: /notes/tags
+  default: misc

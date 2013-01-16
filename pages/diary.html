@@ -1,0 +1,14 @@
+{{{ diaries }}}
+{{#diaries.collated }}
+
+<h2>{{year}}</h2>
+{{#months}}
+  <h3>{{month}}</h3>
+  <ul>
+  {{#posts?to_diaries}}
+    <li><a href="{{url}}">{{title}}</a></li>
+  {{/posts?to_diaries}}
+  </ul>
+{{/months}}
+
+{{/diaries.collated }}

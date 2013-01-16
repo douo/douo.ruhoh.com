@@ -32,8 +32,3 @@ links:
   - title: 驴子博客
     url: http://www.cnlvzi.com/
 
-note:
-  title:  DouO's Note
-  url: /notes
-  tag_url: /notes/tags
-  default: misc

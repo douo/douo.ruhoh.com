@@ -30,6 +30,21 @@ module PageModelViewAddons
     html_render.toc(@ruhoh.db.partials["toc_wrapper"])
   end
 
+  def post_next
+    if pointer['resource'] != 'pages'
+      self.next
+    else
+      nil
+    end
+  end
+
+  def post_previous
+    if pointer['resource'] != 'pages'
+      self.previous
+    else
+      nil
+    end
+  end
 end
 
 Ruhoh::Resources::Page::ModelView.send(:include, PageModelViewAddons)

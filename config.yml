@@ -13,5 +13,17 @@ posts:
   summary_lines: 7
   latest: 10
 
+paginator:
+  enable: false
+
 pages:
   permalink: 'pretty'
+
+diary:
+  url: 'diary'
+
+notes:
+  url: /notes
+  index: index.md
+  tag_url: /notes/tags
+  default: misc

@@ -70,7 +70,7 @@ class Ruhoh
         markdown = Redcarpet::Markdown.new(html_render,
                                            :autolink => true, 
                                            :fenced_code_blocks => true, 
-                                           :no_intra_emphasis => true
+                                           :no_intra_emphasis => false
                                            )
         markdown.render(content)
       end

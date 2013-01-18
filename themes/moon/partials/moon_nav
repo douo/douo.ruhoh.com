@@ -5,20 +5,20 @@
       <li><a href="{{url}}" rel="tooltip" data-placement="top" title="{{describe}}">{{title}}</a></li>
       {{/ data.nav }}
       <li  class="separate"></li>
-      {{# page.next }}
+      {{# page.post_next }}
       <li> 
 	<a class="meta-nav next" href="{{ url }}">
 	  <span>←<br></span>{{ title }}
 	</a>
       </li>
-      {{/ page.next }}
-      {{# page.previous }}
+      {{/ page.post_next }}
+      {{# page.post_previous }}
       <li>
 	<a class="meta-nav previous" href="{{ url }}">
 	  {{ title }}<span><br>→</span>
 	</a>
       </li>
-      {{/ page.previous }}
+      {{/ page.post_previous }}
     </ul>
   </nav>
 </div>

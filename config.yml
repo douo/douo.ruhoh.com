@@ -23,7 +23,7 @@ diary:
   url: 'diary'
 
 notes:
-  title:  DouO's Note
   url: /notes
+  index: index.md
   tag_url: /notes/tags
   default: misc

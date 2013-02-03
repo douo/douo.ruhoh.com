@@ -1,5 +1,5 @@
 <footer class="statement">
-  <small class＝"copyright">&copy;2009-2012 {{ site.title }} |</small>
+  <small class＝"copyright">&copy;2009-2013 {{ site.title }} |</small>
   <small class= "power">基於 <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
     和 <a href="http://twitter.github.com/bootstrap/"
 	  target="_blank">Twitter Bootstrap</a></small>

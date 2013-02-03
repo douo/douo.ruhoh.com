@@ -1,17 +1,53 @@
 
 body {
-    background-color: #FFF3D8;
-    padding-top: 40px
+    background-color: #232323 ;
+    padding-top: 40px;
+    color: #E6E1DC;
+}
+
+blockquote {
+font-family: Georgia, serif;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #7a7a7a;
+border-left: 0;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -10px;
+top: -20px;
+color: #7a7a7a;
 }
 
 #overview{
     text-align: left;
     border-bottom: 1px solid #DDD;
-    background-color: #F6DDAE;
+    background-color: #333;
 }
 
 .toc{
     min-height: 1px;
+}
+
+h1,h2,h3, h4 {
+    text-shadow: 2px 2px 2px #444;
+}
+h3,h4,h5 {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+h3,h4,h5,h6 {
+    color: #7a7a7a;
+
 }
 
 .toc-list.affix{
@@ -25,6 +61,9 @@ body {
 }
 
 
+article {
+    margin: 0.7em 0px 3em 0px;
+}
 
 .dropdown-menu .sub-menu {
     left: 100%;
@@ -63,7 +102,16 @@ body {
     top: 11px;
     left: -6px;
 }
-​
+/* footer */
+.footer {
+    border-top: 1px solid #CCCCCC;
+    margin-top:2em;
+    padding-bottom:0.5em;
+}
+
+.statement > .license{
+    float:right;
+}
 
 @media (min-width: 768px) {
 }

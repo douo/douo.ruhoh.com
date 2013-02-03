@@ -15,9 +15,9 @@ nav :
     describe: 主頁
   - title: archives
     url: /archives
-    describe: 歸檔
-  - title: wiki
-    url: http://wiki.dourok.info
+    describe: 文章歸檔
+  - title: notes
+    url: /notes
     describe: 我的個人筆記
   - title: feed
     url: /rss.xml

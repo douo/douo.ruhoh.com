@@ -1,8 +1,8 @@
 require 'rack'
-require 'rack-livereload'
+# require 'rack-livereload'
 require 'ruhoh'
 
-use Rack::LiveReload
+# use Rack::LiveReload
 
 # run Ruhoh::Program.preview
 

@@ -71,6 +71,7 @@ class Ruhoh
         @headers = []
         @header_count = 0
       end
+
       def self.get_anchor node
         if @anchor
           node[:anchor]
@@ -78,6 +79,7 @@ class Ruhoh
           "toc_#{node[:count]}"
         end
       end
+
       def header(text,level)
         value = {:text => text, :level => level, :count => @header_count ,:anchor => "#{Ruhoh::Utils.to_url_slug(text)}"}
         @headers << value
@@ -87,4 +89,3 @@ class Ruhoh
     end
   end
 end
-

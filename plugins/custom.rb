@@ -27,6 +27,12 @@ module PageModelViewAddons
     html_render.toc(@ruhoh.db.partials["toc_wrapper"])
   end
 
+  def ttoc
+    html_render = Ruhoh::TOC::TOCRender.new
+    html_render.setup(get_page_content[0]) #[content , id]
+    html_render.ttoc
+  end
+    
   def post_next
     if pointer['resource'] != 'pages'
       self.next

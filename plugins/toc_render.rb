@@ -15,7 +15,7 @@ class Ruhoh
         markdown.render(content)
       end
       
-      def ttoc()
+      def toc()
         root = {:level => 0,:children => []}
         stack = [root]
         # build tree
@@ -28,15 +28,14 @@ class Ruhoh
             stack.pop
             node = stack.last
           end
-          node[:children] ||= []
           h[:children] ||= []
           node[:children] <<  h
-          stack.push node
+          stack.push h
         end
         root
       end
 
-      def toc(toc_wrapper)
+      def _toc(toc_wrapper)
        
       end
       

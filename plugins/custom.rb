@@ -30,8 +30,7 @@ module PageModelViewAddons
   def toc
     html_render = Ruhoh::TOC::TOCRender.new
     html_render.setup(get_page_content[0]) #[content , id]
-    puts "ttoc"
-    html_render.ttoc
+    html_render.toc
   end
     
   def post_next

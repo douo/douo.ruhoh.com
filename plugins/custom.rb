@@ -21,15 +21,16 @@ module PageModelViewAddons
     html_render.toc(@ruhoh.db.partials[sub_content.split("\n").first.strip])
   end
 
-  def toc
+  def _toc
     html_render = Ruhoh::TOC::TOCRender.new
     html_render.setup(get_page_content[0]) #[content , id]
     html_render.toc(@ruhoh.db.partials["toc_wrapper"])
   end
 
-  def ttoc
+  def toc
     html_render = Ruhoh::TOC::TOCRender.new
     html_render.setup(get_page_content[0]) #[content , id]
+    puts "ttoc"
     html_render.ttoc
   end
     

@@ -16,7 +16,7 @@ class Ruhoh
       end
       
       def ttoc()
-        root = Tree.new({:level => 0,:children => []})
+        root = {:level => 0,:children => []}
         stack = [root]
         # build tree
         @helper.headers.each do |h|
@@ -29,41 +29,15 @@ class Ruhoh
             node = stack.last
           end
           node[:children] ||= []
-          node[:children] << h
+          h[:children] ||= []
+          node[:children] <<  h
           stack.push node
         end
-        require 'pp'
-        pp root
         root
       end
 
       def toc(toc_wrapper)
-        root = Tree.new({:level => 0,:children => []})
-        stack = [root]
-        # build tree
-        @helper.headers.each do |h|
-          while stack.last[:level] > h[:level]
-            stack.pop
-          end
-          node = stack.last
-          if h[:level] == node[:level] 
-            stack.pop
-            node = stack.last
-          end
-          node[:children] ||= []
-          node[:children] << h
-          stack.push node
-        end
-        # gen code
-        if root.size > @limit
-          result = ''
-          root.children.each {|child| result << tree_html(child)}
-          result = Mustache.render(toc_wrapper,
-                                     :toc => result)
-          result
-        else
-          nil
-        end
+       
       end
       
       def tree_html node # Tree

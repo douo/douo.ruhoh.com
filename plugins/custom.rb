@@ -14,20 +14,9 @@ module PageModelViewAddons
     puts sub_context
   end
   
-  # 與toc 相同,但可以通過 sub_content指定 toc_wrapper
-  def toc_wrapper(sub_content)
-    html_render = Ruhoh::TOC::TOCRender.new
-    html_render.setup(get_page_content[0]) #[content , id]
-    html_render.toc(@ruhoh.db.partials[sub_content.split("\n").first.strip])
-  end
-
-  def _toc
-    html_render = Ruhoh::TOC::TOCRender.new
-    html_render.setup(get_page_content[0]) #[content , id]
-    html_render.toc(@ruhoh.db.partials["toc_wrapper"])
-  end
 
   def toc
+    # @ruhoh.config['toc']['friendly_anchor']
     html_render = Ruhoh::TOC::TOCRender.new
     html_render.setup(get_page_content[0]) #[content , id]
     html_render.toc

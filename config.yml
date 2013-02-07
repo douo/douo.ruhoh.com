@@ -27,3 +27,6 @@ notes:
   index: index.md
   tag_url: /notes/tags
   default: misc
+
+toc:
+  friendly_anchor: true  # convertor 不能再如配置,暂时没用

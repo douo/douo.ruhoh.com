@@ -14,6 +14,16 @@ module PageModelViewAddons
     puts sub_context
   end
   
+  
+  def breadcrumb
+    path = []
+    id = pointer['id']
+    id.split('/').reduce{|s,p|
+      path <<  @ruhoh.db.notes[s]
+      s = "#{s}/#{p}"
+    }
+    path
+  end
 
   def toc
     # @ruhoh.config['toc']['friendly_anchor']

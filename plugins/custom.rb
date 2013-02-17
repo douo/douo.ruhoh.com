@@ -50,3 +50,33 @@ module PageModelViewAddons
 end
 
 Ruhoh::Resources::Page::ModelView.send(:include, PageModelViewAddons)
+
+class Ruhoh::Resources::Page::CollectionView
+  # 分类文章列表应该根据日期排序
+   def categories_sorted
+      categories_url = nil
+      [@ruhoh.to_url("categories"), @ruhoh.to_url("categories.html")].each { |url|
+        categories_url = url and break if @ruhoh.db.routes.key?(url)
+      }
+      dict = {}
+     @ruhoh.db.__send__(resource_name).values.sort{|a,b| b["date"] <=> a["date"]}.each do |resource|
+        Array(resource['categories']).each do |cat|
+          cat = Array(cat).join('/')
+          if dict[cat]
+            dict[cat]['count'] += 1
+          else
+            dict[cat] = { 
+              'count' => 1, 
+              'name' => cat, 
+              resource_name => [],
+              'url' => "#{categories_url}##{cat}-ref"
+            }
+          end 
+
+          dict[cat][resource_name] << resource['id']
+        end
+      end  
+      dict["all"] = dict.each_value.map { |cat| cat }
+      dict
+    end
+end

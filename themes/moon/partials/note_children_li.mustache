@@ -1,0 +1,8 @@
+<li><a href="{{ url }}">{{ title }}</a>
+{{#parent}}
+  <ul>
+    {{#children}}
+      {{> note_children_li }}
+    {{/children}}
+  </ul>
+{{/parent}}

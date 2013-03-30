@@ -67,18 +67,22 @@ article li {
     text-indent: 2em;
 }
 
-/* 通用圖片樣式 :fixme */
-.post img{
-    border: 1px solid #DDD;
-    padding: 6px;
+/* 通用圖片樣式 */
+img.display {
     max-width: 97.5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     width: auto;
     height: auto;
+}
+img.pull-left {
+    margin-right: 0.5em;
+}
+img.pull-right {
+    margin-left: 0.5em;
 }
 
 .post canvas{

@@ -28,8 +28,19 @@ module Lim
       #   w,h = FastImage.size(file)         
       #   "<img class=\"lazy\" src=\"#{link}\" width=\"#{w}\" height=\"#{h}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
       # else
-      "<img class=\"lazy\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
-      #end
+      
+      # alt_text
+      cls = "lazy img-polaroid"
+      if alt_text
+        if alt_text[0]=="-" # inline
+          return"<img src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text[1..-1]}\">"
+        elsif alt_text[0]==">" # 
+          return "<img class=\"#{cls} pull-right\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text[1..-1]}\">"
+        elsif alt_text[0]=="<" 
+          return "<img class=\"#{cls} pull-left\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text[1..-1]}\">"
+        end
+      end
+      "<img class=\"#{cls} display\" src=\"#{link}\" title=\"#{title}\"  alt=\"#{alt_text}\">"
     end
     
     def link(link, title, content)

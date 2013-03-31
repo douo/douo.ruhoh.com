@@ -65,6 +65,24 @@ article {
     margin: 0.7em 0px 3em 0px;
 }
 
+/* 通用圖片樣式 */
+img.display {
+    max-width: 97.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: auto;
+    height: auto;
+}
+img.pull-left {
+    margin-right: 0.5em;
+}
+img.pull-right {
+    margin-left: 0.5em;
+}
+
 .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;

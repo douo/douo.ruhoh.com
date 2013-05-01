@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'redcarpet'
 class Ruhoh
   module TOC
     class TOCRender < Redcarpet::Render::HTML

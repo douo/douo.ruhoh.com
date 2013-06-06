@@ -20,3 +20,5 @@ tramp
 _*
 
 wp/*
+
+.gradle/*

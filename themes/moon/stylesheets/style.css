@@ -90,6 +90,31 @@ img.pull-right {
     margin: 10px 0 10px 0
 }
 
+#gotop{ 
+	display:block;  
+	width:36px; 
+	height:36px;
+	position:fixed;  
+	bottom:40px;  
+	right:30px; 
+	border-radius:7px;
+	text-decoration:none;  
+	display:none;  
+	background-color:#999999;     
+}
+#gotop span{ 
+	display:block; 
+	color:#dddddd; 
+} 
+#gotop span:hover{ 
+	color:#cccccc; 
+} 
+#gotop span{ 
+	font-size:24px; 
+	text-align:center; 
+	margin-top:7px; 
+}
+
 /* 移動設備導航欄 */
 .listing-item {
     line-height: 24px;

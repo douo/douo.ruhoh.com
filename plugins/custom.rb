@@ -28,12 +28,13 @@ module PageModelViewAddons
   def toc
     # @ruhoh.config['toc']['friendly_anchor']
     html_render = Ruhoh::TOC::TOCRender.new
-    html_render.setup(get_page_content[0]) #[content , id]
-    html_render.toc
+    html_render.setup(content) #[content , id]
+    s = html_render.toc
+    puts s
   end
     
   def post_next
-    if pointer['resource'] != 'pages'
+    if pointer['resource'] != '_root'
       self.next
     else
       nil
@@ -41,7 +42,7 @@ module PageModelViewAddons
   end
 
   def post_previous
-    if pointer['resource'] != 'pages'
+    if pointer['resource'] != '_root'
       self.previous
     else
       nil
@@ -49,9 +50,9 @@ module PageModelViewAddons
   end
 end
 
-Ruhoh::Resources::Page::ModelView.send(:include, PageModelViewAddons)
+Ruhoh.model('pages').send(:include, PageModelViewAddons)
 
-class Ruhoh::Resources::Page::CollectionView
+module PageCollectionViewAddons
   # 分类文章列表应该根据日期排序
   def categories_sorted
     categories_url = nil
@@ -80,3 +81,5 @@ class Ruhoh::Resources::Page::CollectionView
     dict
   end
 end
+
+Ruhoh.collection('pages').send(:include, PageCollectionViewAddons)

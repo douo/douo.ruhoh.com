@@ -102,3 +102,14 @@ widgets :
 
   google_prettify :
     linenums : true
+
+# ignore
+
+img :
+  use : "ignore"
+
+images :
+  use : "ignore"
+
+tools :
+  use : "ignore"

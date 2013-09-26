@@ -53,15 +53,15 @@ end
 Ruhoh.model('pages').send(:include, PageModelViewAddons)
 
 module PageCollectionViewAddons
-  # 分类文章列表应该根据日期排序
+ # 分类文章列表应该根据日期排序
   def categories_sorted
     categories_url = nil
-    [@ruhoh.to_url("categories"), @ruhoh.to_url("categories.html")].each { |url|
-      categories_url = url and break if @ruhoh.db.routes.key?(url)
+    [ruhoh.to_url("categories"), ruhoh.to_url("categories.html")].each { |url|
+      categories_url = url and break if ruhoh.routes.find(url)
     }
     dict = {}
-    @ruhoh.db.__send__(resource_name).values.sort{|a,b| b["date"] <=> a["date"]}.each do |resource|
-      Array(resource['categories']).each do |cat|
+    dictionary.values.sort{|a,b| b["date"] <=> a["date"]}.each do |model|
+      Array(model.data['categories']).each do |cat|
         cat = Array(cat).join('/')
         if dict[cat]
           dict[cat]['count'] += 1
@@ -74,7 +74,7 @@ module PageCollectionViewAddons
           }
         end 
 
-        dict[cat][resource_name] << resource['id']
+        dict[cat][resource_name] << model.id
       end
     end  
     dict["all"] = dict.each_value.map { |cat| cat }

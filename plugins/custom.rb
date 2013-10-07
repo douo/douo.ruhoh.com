@@ -34,6 +34,7 @@ module PageModelViewAddons
   end
     
   def post_next
+    puts "post_previous"
     if pointer['resource'] != '_root'
       self.next
     else
@@ -51,6 +52,7 @@ module PageModelViewAddons
 end
 
 Ruhoh.model('pages').send(:include, PageModelViewAddons)
+Ruhoh.model('diary').send(:include, PageModelViewAddons)
 
 module PageCollectionViewAddons
   # 分类文章列表应该根据日期排序

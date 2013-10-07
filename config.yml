@@ -114,6 +114,10 @@ images :
 tools :
   use : "ignore"
 
+# ignore tmp folder in server
+tmp :
+  use : "ignore"
+
 notes :
    paginator:
     enable: false

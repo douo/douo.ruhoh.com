@@ -23,6 +23,12 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { background: #373737; }
 .prettyprint {
   padding: 8px;
   border: 1px solid #e1e1e8;
+  width: auto;
+  overflow: auto;
+}
+/* 保护 li 不被换行 */
+.prettyprint li{
+  white-space: nowrap;
 }
 
 .prettyprint.linenums {
@@ -30,6 +36,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { background: #373737; }
      -moz-box-shadow: inset 40px 0 0 #373737;
           box-shadow: inset 40px 0 0 #373737;
 }
+
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums {

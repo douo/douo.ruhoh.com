@@ -77,16 +77,16 @@ widgets :
   analytics :
     use : google
     # -- config for google --
-    tracking_id : 'UA-123-12'
+    tracking_id : 'UA-12243999-3'
 
     # -- config for getclicky  --
     # site_id :
 
   comments :
-    use : disqus
+    use : my_disqus
     enable : true
     # -- config for disqus --
-    short_name : jekyllbootstrap # Change This!
+    short_name : doousblog # Change This!
 
     # -- config for livefyre --
     # site_id : 123
@@ -101,7 +101,20 @@ widgets :
     # colorscheme: light
 
   google_prettify :
-    linenums : true
+    use : static_file
+   
+  gplus :
+     enable : true
+    
+  jiathis :
+     enable : true
+     uid : 1677096
+    
+  math :
+     enable : false
+     
+  processing_js‎ : 
+     enable : false
 
 # ignore
 

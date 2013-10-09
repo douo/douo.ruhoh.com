@@ -1,0 +1,14 @@
+
+
+<script src="{{this_path}}/javascripts/jquery.lazyload.min.js"></script>
+    <!-- lazyload -->
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+      if (navigator.platform == "iPad") return;
+      jQuery("img.lazy").not(".cycle img").lazyload({
+      effect:"fadeIn",
+      placeholder: "{{urls.media}}/ajax-loader.gif"
+      });
+      });
+    </script>
+   

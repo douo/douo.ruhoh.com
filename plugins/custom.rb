@@ -27,14 +27,13 @@ module PageModelViewAddons
 
   def toc
     # @ruhoh.config['toc']['friendly_anchor']
+    content = __getobj__.content # 这个方法在 model_view 调用来获取正在的model.content 才是未经处理的
     html_render = Ruhoh::TOC::TOCRender.new
     html_render.setup(content) #[content , id]
-    s = html_render.toc
-    puts s
+    html_render.toc
   end
-    
-  def post_next
-    puts "post_previous"
+  
+    def post_next
     if pointer['resource'] != '_root'
       self.next
     else

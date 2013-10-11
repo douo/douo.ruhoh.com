@@ -344,7 +344,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.8) url(../images/loader-large.gif) no-repeat 50% 50%;
+  background: rgba(255, 255, 255, 0.8) url(../media/images/loader-large.gif) no-repeat 50% 50%;
   visibility: visible;
 }
 /*******************************
@@ -1439,7 +1439,7 @@ body > .ui.grid {
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.8) url(../images/loader-large.gif) no-repeat 50% 50%;
+  background: rgba(255, 255, 255, 0.8) url(../media/images/loader-large.gif) no-repeat 50% 50%;
   visibility: visible;
 }
 /*******************************
@@ -3233,8 +3233,8 @@ body > .ui.grid {
 *******************************/
 @font-face {
   font-family: 'Basic Icons';
-  src: url(../fonts/basic.icons.eot);
-  src: url(../fonts/basic.icons.eot?#iefix) format('embedded-opentype'), url(../fonts/basic.icons.woff) format('woff'), url(../fonts/basic.icons.ttf) format('truetype'), url(../fonts/basic.icons.svg#basic.icons) format('svg');
+  src: url(../media/fonts/basic.icons.eot);
+  src: url(../media/fonts/basic.icons.eot?#iefix) format('embedded-opentype'), url(../media/fonts/basic.icons.woff) format('woff'), url(../media/fonts/basic.icons.ttf) format('truetype'), url(../media/fonts/basic.icons.svg#basic.icons) format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4246,7 +4246,7 @@ i.massive.basic.icon {
   width: 100%;
   height: 100%;
   content: '';
-  background: transparent url(../images/loader-mini.gif) no-repeat 50% 50%;
+  background: transparent url(../media/images/loader-mini.gif) no-repeat 50% 50%;
 }
 .ui.labeled.icon.loading.button .icon {
   background-color: transparent;
@@ -4331,17 +4331,17 @@ i.massive.basic.icon {
 }
 /* loading */
 .ui.huge.loading.button:after {
-  background-image: url(../images/loader-small.gif);
+  background-image: url(../media/images/loader-small.gif);
 }
 .ui.massive.buttons .loading.button:after,
 .ui.gigantic.buttons .loading.button:after,
 .ui.massive.loading.button:after,
 .ui.gigantic.loading.button:after {
-  background-image: url(../images/loader-medium.gif);
+  background-image: url(../media/images/loader-medium.gif);
 }
 .ui.huge.loading.button:after,
 .ui.huge.loading.button.active:after {
-  background-image: url(../images/loader-small.gif);
+  background-image: url(../media/images/loader-small.gif);
 }
 .ui.massive.buttons .loading.button:after,
 .ui.gigantic.buttons .loading.button:after,
@@ -4351,7 +4351,7 @@ i.massive.basic.icon {
 .ui.gigantic.buttons .loading.button.active:after,
 .ui.massive.loading.button.active:after,
 .ui.gigantic.loading.button.active:after {
-  background-image: url(../images/loader-medium.gif);
+  background-image: url(../media/images/loader-medium.gif);
 }
 /*--------------
     Icon Only
@@ -5497,8 +5497,8 @@ h5.ui.header {
 *******************************/
 @font-face {
   font-family: 'Icons';
-  src: url(../fonts/icons.eot);
-  src: url(../fonts/icons.eot?#iefix) format('embedded-opentype'), url(../fonts/icons.woff) format('woff'), url(../fonts/icons.ttf) format('truetype'), url(../fonts/icons.svg#icons) format('svg');
+  src: url(../media/fonts/icons.eot);
+  src: url(../media/fonts/icons.eot?#iefix) format('embedded-opentype'), url(../media/fonts/icons.woff) format('woff'), url(../media/fonts/icons.ttf) format('truetype'), url(../media/fonts/icons.svg#icons) format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -7132,7 +7132,7 @@ img.ui.image {
         Loading
 ---------------------*/
 .ui.loading.input > .icon {
-  background: url(../images/loader-mini.gif) no-repeat 50% 50%;
+  background: url(../media/images/loader-mini.gif) no-repeat 50% 50%;
 }
 .ui.loading.input > .icon:before,
 .ui.loading.input > .icon:after {
@@ -8103,22 +8103,22 @@ a.ui.teal.label:hover:before {
 /* Tiny Size */
 .ui.dimmer .mini.ui.loader,
 .ui.inverted .mini.ui.loader {
-  background-image: url(../images/loader-mini-inverted.gif);
+  background-image: url(../media/images/loader-mini-inverted.gif);
 }
 /* Small Size */
 .ui.dimmer .small.ui.loader,
 .ui.inverted .small.ui.loader {
-  background-image: url(../images/loader-small-inverted.gif);
+  background-image: url(../media/images/loader-small-inverted.gif);
 }
 /* Standard Size */
 .ui.dimmer .ui.loader,
 .ui.inverted.loader {
-  background-image: url(../images/loader-medium-inverted.gif);
+  background-image: url(../media/images/loader-medium-inverted.gif);
 }
 /* Large Size */
 .ui.dimmer .large.ui.loader,
 .ui.inverted .large.ui.loader {
-  background-image: url(../images/loader-large-inverted.gif);
+  background-image: url(../media/images/loader-large-inverted.gif);
 }
 /*-------------------
         Sizes
@@ -8128,20 +8128,20 @@ a.ui.teal.label:hover:before {
 .ui.mini.loader {
   width: 16px;
   height: 16px;
-  background-image: url(../images/loader-mini.gif);
+  background-image: url(../media/images/loader-mini.gif);
 }
 /* Small Size */
 .ui.inverted.dimmer .ui.small.loader,
 .ui.small.loader {
   width: 24px;
   height: 24px;
-  background-image: url(../images/loader-small.gif);
+  background-image: url(../media/images/loader-small.gif);
 }
 .ui.inverted.dimmer .ui.loader,
 .ui.loader {
   width: 32px;
   height: 32px;
-  background: url(../images/loader-medium.gif) no-repeat;
+  background: url(../media/images/loader-medium.gif) no-repeat;
   background-position: 48% 0px;
 }
 /* Large Size */
@@ -8149,7 +8149,7 @@ a.ui.teal.label:hover:before {
 .ui.loader.large {
   width: 64px;
   height: 64px;
-  background-image: url(../images/loader-large.gif);
+  background-image: url(../media/images/loader-large.gif);
 }
 /*-------------------
        Inline
@@ -11570,7 +11570,7 @@ a.ui.nag {
      Loading
 ---------------*/
 .ui.search.loading .input .icon {
-  background: url(../images/loader-mini.gif) no-repeat 50% 50%;
+  background: url(../media/images/loader-mini.gif) no-repeat 50% 50%;
 }
 .ui.search.loading .input .icon:before,
 .ui.search.loading .input .icon:after {
@@ -11857,7 +11857,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 75px;
-  background: url(../images/loader-large.gif) no-repeat 0px 0px;
+  background: url(../media/images/loader-large.gif) no-repeat 0px 0px;
   visibility: visible;
 }
 

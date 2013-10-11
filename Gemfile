@@ -17,3 +17,8 @@ gem 'ruhoh', "~> 2"
 #
 # gem 'sprockets', '~> 2.8'
 # gem 'sass'
+
+
+group :development do
+  gem 'guard'
+end

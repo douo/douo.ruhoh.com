@@ -44,7 +44,7 @@
 			<div class="header item">
 				<div class="item title">
 					<i class="dropdown icon"></i>
-				<a href="/notes"><i class="home large icon"></i></a>
+					<a href="/notes" title="我的笔记" ><i class="book large icon"></i></a>
 				</div>
 				<div class="menu content">
 					<a class="item" href="/">博客</a>
@@ -85,8 +85,13 @@
 
 		<header class="segment container">
 			<h1 class="ui dividing header">{{page.title}}</h1>
-			<p>
+			<p class="segment">
 				{{page.description}}
+				<p>
+				{{# page.tags }}
+				<a class="ui label blue inverted" href="/notes/Other{{url}}">{{ name }}</a>
+				{{/ page.tags }}
+				</p>
 			</p>
 		</header>
 		<div class="container">

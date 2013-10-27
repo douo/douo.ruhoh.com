@@ -1,0 +1,70 @@
+<!ELEMENT category (id,name,category*,description?)>
+参考: http://www.freebase.com/, http://www.dmoz.org/
+
+贴合个人使用的指导: 
+0. 一切以方便自己使用为前提
+1. 层次少，建议低于等于 3
+2. 低颗粒度，往大处分类，小处以标签标记，tags is superset of category， tags 不必保证有良好的层次结构
+3. 无交叉，一个分类名只存在一次。Android 属于Programming 不是 Computer。
+4. 精确分类，模棱两可的分类，取其最接近的共同祖先
+5. 明显多个分类取其大类，比如涉及 Android 的语法问题，取 Android 而不是 Java。
+6. 类与类的关系，只取**包含**和**被包含**，其他关系，比如相关，相反，等等，直接忽略。
+7. 不要让分类的投入大于写笔记的价值
+8. 偏好首字母大写
+9. 允许分类没有 index
+   
+* Programming
+
+** Android
+
+** iOS
+
+** Java
+
+** Ruby
+
+** Lisp
+
+** Python
+
+** Javascript
+
+** CSS
+
+** CS
+
+* Computer
+
+** Mac
+
+** Linux
+
+** Windows
+
+** Game
+
+* Tools
+
+** Emacs
+
+* Music
+
+* Study
+
+** Astronomy
+
+** Math
+
+* Reading
+
+* Other
+
+
+
+
+
+
+
+
+
+

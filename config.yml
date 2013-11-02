@@ -41,11 +41,11 @@ posts:
   latest: 10
   rss:
     enable: true
-    limit: 5
+    limit: 10
     # The url to prepend to the rss.xml feed, e.g.: /posts/rss.xml
     # Defaults to: "/<resource_name>/"
     # Always start with a forward slash, as ruhoh will internally respect any base_path you set.
-    # url: "/posts/"
+    url: "/"
   paginator:
     enable: false
     # The url your paginated pages will be located: e.g /posts/index/1, /posts/index/2, /posts/index/3

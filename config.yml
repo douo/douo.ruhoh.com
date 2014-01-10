@@ -134,3 +134,8 @@ tmp :
 notes :
    paginator:
     enable: false
+   default_dir: "Other/Misc"  # 设置笔记默认路径
+   quick_title: "%Y年%m月%d日杂记" # 快捷笔记的标题，为空的时候没标题
+   quick_name: "note-%Y-%m-%d"  # 快捷笔记的文件名
+   quick_dir: "%Y/%m" # 快捷笔记按月分类的路径，归属到 default_dir
+   

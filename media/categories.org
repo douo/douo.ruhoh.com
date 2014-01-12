@@ -47,9 +47,9 @@
 
 ** Emacs
 
-* Music
-
 * Study
+
+** Music
 
 ** Astronomy
 

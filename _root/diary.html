@@ -1,13 +1,24 @@
-{{#diary.collated }}
+---
+description:
+layout: diary
+home: 1
+---
 
+{{#diary.collated_reverse }}
 <h2>{{year}}</h2>
+<div class="year">
 {{#months}}
-  <h3>{{month}}</h3>
-  <ul>
   {{#diary?to_diary}}
-    <li><a href="{{url}}">{{title}}</a></li>
+    <div class="item">
+    	<div class="title"><a href="{{url}}">{{title}}</a></div>
+    	<div class="content">{{{content}}}</div>
+    </div>
   {{/diary?to_diary}}
-  </ul>
 {{/months}}
-
-{{/diary.collated }}
+</div>
+{{/diary.collated_reverse }}
+<script>
+	$('.year').masonry({
+	  itemSelector: '.item',
+	});
+</script>

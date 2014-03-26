@@ -6,4 +6,11 @@ wp/*
 .project
 
 ########
+diary/**/*.md
 diary/*.md
+notes/**/*
+notes/*.md
+posts/**/*.md
+posts/*.md
+media/
+	

@@ -6,4 +6,4 @@ wp/*
 .project
 
 ########
-diary/*.md
+diary/**/.md

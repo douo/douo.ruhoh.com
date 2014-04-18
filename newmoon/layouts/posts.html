@@ -1,0 +1,35 @@
+---
+layout : default
+---
+<article class="post box">
+<ul class="category-label">
+{{# page.categories }}
+<li><a href="{{url}}" class="{{name}}">{{ name }}</a></li>
+{{/ page.categories }}
+</ul>
+<div class="cf"></div>
+{{> toc }}
+{{{ page.content }}}
+<div class="footer">
+  <ul class="tag_box inline">
+  {{# page.tags }}
+  <li><a href="{{url}}">{{ name }}</a></li>
+  {{/ page.tags }}
+  </ul>
+  <span class="date">
+  {{ page.date }}
+  </span>
+</div>
+</article>
+
+
+<div class="box">
+  <div class="plus">
+    {{{ widgets.gplus }}}
+    {{{ widgets.jiathis }}}
+	
+
+  </div>
+	{{! 见这里https://github.com/ruhoh/ruhoh.rb/issues/52 所以只能將 disqus hardcode 到这里}}
+    {{{ widgets.comments }}}
+ </div>

@@ -25,6 +25,9 @@ twitter :
   use : "ignore"
 
 moon :
+  use : "ignore"
+
+newmoon :
   use : "theme"
 
 _root:

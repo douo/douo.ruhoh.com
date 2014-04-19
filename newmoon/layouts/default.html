@@ -18,17 +18,10 @@
 	<![endif]-->
     
     <!-- Le styles -->
-    {{< base_css }}
-
-    <!-- script -->
-    {{< base_js }}
+    {{# stylesheets.load }}
+      screen.css
+    {{/ stylesheets.load }}
     
-    
-	{{{ widgets.lazyload }}}
-
-    {{{ widgets.fancybox }}}
-
-
     <link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -37,53 +30,31 @@
 	 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	 -->
-    {{{ widgets.analytics }}}
-    <!-- processing -->
-    {{{ widgets.processing_js }}}
   </head>
   <body>
-    <div class="container">
-      <div class="row-fluid">
-	<div class="span2 hidden-phone"></div>
-	<div class="span8">
-	  <header class="header pull-left">
-	    {{# page.home}}
-	    <h1>{{ data.title }}</h1>
-	    <blockquote>{{ data.tagline }}</blockquote>
-	    {{/ page.home}}
-	    {{^ page.home}}
-	    {{! rich_title 扩展标题，支持html tag 主要用来显示 achive 那几个页面}}
-	    {{# page.rich_title}}
-	    <h1>{{{ page.rich_title }}}</h1>
-	    {{/page.rich_title}}
-	    {{^ page.rich_title}}
-	    <h1>{{ page.title }}</h1>
-	    {{/page.rich_title}}
-	    {{/ page.home}}
-	  </header>
-  	  <button type="button" class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
-	    <span class="icon-bar"></span>
-	    <span class="icon-bar"></span>
-	    <span class="icon-bar"></span>
-	    </button>
-	</div> <!-- header -->
-
-         </div>
-      <div class="row-fluid">
-	<div class="span2 hidden-phone"></div>
-	<div class="span8 content">
-	  {{< moon_nav}}
-	      {{{ content }}}
-	      </div>  <!-- content -->
-      </div>  <!-- row -->
-      <div class="row-fluid">
-	<div class="span2 hidden-phone"></div>
-	<div class="span8">
-	  {{< footer}}
-	      </div>
+    <div id="layout" class="pure-g">
+      <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+          <hgroup>
+          <h1 class="brand-title">{{ data.title }}</h1>
+          <h2 class="brand-tagline">{{ data.tagline }}</h2>
+          </hgroup>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="pure-button" href="http://purecss.io">Pure</a>
+              </li>
+              <li class="nav-item">
+                <a class="pure-button" href="http://yuilibrary.com">YUI Library</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-	
-	{{{ widgets.gotop }}}
+      <div class="content pure-u-1 pure-u-md-3-4">
+         {{{ content }}}
+      </div>
+      {{{ widgets.gotop }}}
     </div> <!-- /container -->
     {{{ widgets.math }}}
     {{{ widgets.google_prettify }}}

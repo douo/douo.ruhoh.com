@@ -8,3 +8,6 @@ wp/*
 ########
 diary/**/.md
 diary/*.md
+
+#######
+.sass-cache

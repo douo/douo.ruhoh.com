@@ -1,0 +1,29 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+@import "pure";
+@import "grids-responsive";
+//@import "main-grid";
+//@import "blog";
+
+/* */
+
+$sm: "screen and (min-width: 35.5em)";  //  568px
+$md: "screen and (min-width: 48em)";   // 768px
+$lg: "screen and (min-width: 64em)";   // 1024px
+$xl: "screen and (min-width: 80em)";   // 1280px
+
+
+@mixin respond-to($media) {
+   @media #{$media} { @content; }
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+    @include respond-to($md){background: rgb(61, 0, 0); }
+    @include respond-to($lg){background: rgb(0, 79, 0); }
+}

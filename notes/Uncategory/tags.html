@@ -1,0 +1,19 @@
+---
+title: 笔记标签
+date: 2013-10-11
+description:
+---
+
+<p class="ui segment">
+{{# notes.tags.all }}
+  {{> notes_tags_list }}
+{{/ notes.tags.all }}
+</p>
+{{# notes.tags.all }}
+  <h3 id="{{name}}-ref">{{name}}</h3>
+ <ul id="{{name}}" class="collapse in">
+  {{# notes?to_notes }}
+  {{> posts_list }}
+  {{/ notes?to_notes }}
+ </ul>
+{{/ notes.tags.all }} 

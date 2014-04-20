@@ -1,0 +1,23 @@
+  <nav class="nav">
+    <ul class="nav-list">
+      {{# data.nav }}
+      <li class="nav-item"><a href="{{url}}" class="pure-button" rel="tooltip" data-placement="top" title="{{describe}}">{{title}}</a></li>
+      {{/ data.nav }}
+      <li  class="separate"></li>
+      {{# page.post_next }}
+      <li class="nav-item"> 
+	<a class="pure-button next" href="{{ url }}">
+	  <span>←<br></span>{{ title }}
+	</a>
+      </li>
+      {{/ page.post_next }}
+      {{# page.post_previous }}
+      <li class="nav-item">
+	<a class="pure-button previous" href="{{ url }}">
+	  {{ title }}<span><br>→</span>
+	</a>
+      </li>
+      {{/ page.post_previous }}
+    </ul>
+  </nav>
+</div>

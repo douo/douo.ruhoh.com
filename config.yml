@@ -25,10 +25,10 @@ twitter :
   use : "ignore"
 
 moon :
-  use : "theme"
+  use : "ignore"
 
 newmoon :
-  use : "ignore"
+  use : "theme"
 
 _root:
   summary_lines: 20

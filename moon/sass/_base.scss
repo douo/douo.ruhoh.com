@@ -1,0 +1,226 @@
+$color1: #33B4E5 !default;
+$color2: #FFC330 !default;
+$color3: #FF5430 !default;
+$color4: #117095 !default;
+
+/* $color1: #3D92C9 !default; */
+/* $color2: #FFCE42 !default; */
+/* $color3: #FF7342 !default; */
+/* $color4: #145783 !default; */
+
+
+$color-fg: #444 !default;
+$color-bg: #fff !default;
+$color-border: #ddd8cc !default;
+
+$horizontal-gutter: 3em !default;
+$verticle-gutter: 2em !default;
+
+// @import "compass/reset";
+@import "pure";
+@import "google_prettify/moon";
+@import "grids-responsive";
+//@import "main-grid";
+//@import "compass/utilities/links/link-colors";
+@import "compass/css3/box-sizing";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/css3/font-face";
+@import "fontello";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/border-radius";
+@import "compass/typography/links";
+@import "animation";
+@import "_moon_animate";
+
+/* base */
+
+@mixin selection {
+    ::selection {
+	@content;
+    }
+    ::-moz-selection {
+	@content;
+    }
+}
+
+$sm: "screen and (min-width: 35.5em)";  //  568px
+$md: "screen and (min-width: 48em)";   // 768px
+$lg: "screen and (min-width: 64em)";   // 1024px
+$xl: "screen and (min-width: 80em)";   // 1280px
+
+@mixin respond-to($media) {
+    @media #{$media} { @content; }
+}
+
+
+* {
+    @include box-sizing(border-box);
+}
+
+a {
+    @include link-colors($color1);
+    @include hover-link;
+}
+blockquote {
+    margin: 1.5em 0 1.5em 2em;
+    padding-left: .5em;
+    border-left: 5px solid $color-border;
+    &:hover {
+	border-left: 5px solid $color1;
+    }
+}
+
+.hide {
+    display: none !important;
+}
+
+
+.hide-md {
+    @media screen and (max-width: 48em){
+	display: none;
+    }
+}
+
+
+$post-font: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+
+/* LAYOUT CSS */
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+/* post */
+
+
+$post-line-height: 1.8em;
+$post-font-size: 1em !default; 
+
+@mixin post-font-size($size){
+    font-size: $size;
+    code {
+	font-size: $size * 0.8;
+    }
+}
+
+@mixin responsive-font-size($size,$size-sm: false,$size-md: false,$size-lg: false,$size-xl: false){
+    @include post-font-size($size);
+    @if $size-sm{
+	@include respond-to($sm){
+	    @include post-font-size($size-sm);
+	}
+    }
+    @if $size-md{
+	@include respond-to($md)
+	{
+	    @include post-font-size($size-md);
+
+	}
+    }
+    @if $size-lg{
+	@include respond-to($lg){
+	    @include post-font-size($size-lg);
+	}
+    }
+    @if $size-xl{
+	@include respond-to($xl){
+	    @include post-font-size($size-xl);
+	}
+    }
+}
+
+@mixin post($post-fg: $color-fg,
+	    $post-link: lighten($post-fg,30%),
+	    $post-link-hover: $color1,
+	    $post-title-fg: #222,
+	    $post-title-hover: $color1,
+	    $post-meta-fg: #999
+){
+    /* color */
+    a {
+	@include link-colors($post-link,$post-link-hover);
+	text-decoration: none;
+    }
+    font-family: $post-font;
+    padding-bottom: 0.5em;
+    color: $post-fg;
+    /* abc */
+    .post-title {
+	font-size: 2em;
+	color: $post-title-fg;
+	margin-bottom: 0.1em;
+	a {
+	    @include link-colors($post-title-fg,$post-title-hover);
+	    &:hover{
+		text-decoration: none;
+	    }
+	}
+    }
+    .post-description {
+	line-height: $post-line-height;
+    }
+    .post-content {
+	line-height: $post-line-height;
+    }
+    .post-meta {
+	color: $post-meta-fg;
+	margin: {
+    	    bottom: 0.2em;
+	}
+	font-size: 90%;
+    }
+    p {
+	/*  inline code */
+	code {
+	    $bg: $color-bg;  
+	    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+	    margin: 0;
+	    border: 1px solid  darken($bg,20%);
+	    background-color: darken($bg,10%);
+	    border-radius: 3px;
+	    padding: 2px 5px;
+	}
+    }
+}
+
+@mixin meta-item($item-fg: #fff,$item-bg: #999) {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: $item-fg;
+    background: $item-bg;
+    font-size: 80%;
+    a {
+	color: $item-fg;
+    }
+}
+
+/* other */
+
+/* 生成一个圆形边框按钮 */
+@mixin fontello-circle($size, $bg: white, $color: #7d8b99,$border: true) {
+    $border-width: 2px;
+    display: block;
+    width: $size;
+    height: $size;
+    color: $color;
+    font-size: $size / 2;
+    text-align: center;
+    line-height: $size - $border-width * 2;
+    background: $bg;
+    @if $border {
+	border: $border-width solid rgba(lighten($color, 25%), 0.5);
+    }
+    box-shadow: 0 0 7px 7px transparent;
+    @include border-radius(50%);
+    @include transition(color .35s, box-shadow .35s);
+    &:hover {
+	box-shadow: 0 0 0 2px transparentize($color, .85);
+    }
+}
+

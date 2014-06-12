@@ -25,10 +25,8 @@ twitter :
   use : "ignore"
 
 moon :
-  use : "ignore"
-
-newmoon :
   use : "theme"
+
 
 _root:
   summary_lines: 20
@@ -118,7 +116,7 @@ widgets :
      
   processing_js‎ : 
      enable : false
-
+  
 # ignore
 
 img :
@@ -136,9 +134,16 @@ tmp :
 
 notes :
    paginator:
-    enable: false
+     enable: false
    default_dir: "Uncategory"  # 设置笔记默认路径
    quick_title: "%Y年%m月%d日杂记" # 快捷笔记的标题，为空的时候没标题
    quick_name: "note-%Y-%m-%d"  # 快捷笔记的文件名
    quick_dir: "Quick/%Y/%m" # 快捷笔记按月分类的路径，归属到 default_dir
-   
+   order:
+       - Programming
+       - Computer
+       - Tools
+       - Study
+       - Reading
+       - Uncategory
+       - Quick

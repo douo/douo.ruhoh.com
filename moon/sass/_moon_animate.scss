@@ -1,0 +1,17 @@
+$flash: $color1;
+@include keyframes(glowheader) {
+  from,to {
+      color: inherit;
+      @include transform(translateX(0));
+  }
+  35% {
+      color: $flash;
+      @include transform(translateX(-.5em));
+  }
+}
+
+
+// smooth scolling flash effects
+.glowheader {
+   @include animation(glowheader .7s ease-out);
+}

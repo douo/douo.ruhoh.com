@@ -1,5 +1,40 @@
 ---
-layout : default
+layout : blog
 ---
-{{{content}}}
+{{# posts.latest }}
 
+<article class="post">
+<header class="post-header">
+<h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
+<div class="post-meta">
+<span class="post-date">{{date}}</span>
+{{# categories }}
+<a href="{{url}}" class="post-category {{name}}">{{ name }}</a>
+{{/ categories }}
+</div>
+</header>
+<div class="post-description">
+  {{{ summary }}}
+</div>
+<div class="more">
+  <a href="{{url}}" class="btn">更多..</a>
+</div>
+</article>
+{{/ posts.latest }}
+<div class="archives-btn">
+  <a href="/archives"> 全部文章 </a>
+</div>
+
+<div class="pure-g">
+  <div id="recentcomments" class="dsq-widget"><h3
+    class="dsq-widget-title">近期評論</h3><script type="text/javascript"
+    src="http://doousblog.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script></div>
+    <div id="blogroll">
+      <h3>友情链接</h3>
+      <ul>
+	{{# data.links}}
+	<li><a href="{{url}}" rel="friend" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','{{url}}']);">{{title}}</a></li>
+	{{/ data.links}}
+      </ul>
+  </div>
+</div>

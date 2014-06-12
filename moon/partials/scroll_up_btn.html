@@ -1,0 +1,22 @@
+<a id="scrollUp" class="icon-top" href="#" title="回到顶部"></a>
+<script>
+    var refesh = function(){
+	var pos = $(document).scrollTop();
+	if(pos > 125){
+	    $('#scrollUp').show();
+	}else{
+	    $('#scrollUp').hide();
+	}
+    };
+
+$('#scrollUp').click(function(){
+    var container = $('body,html');  
+    container.animate({scrollTop: container.offset().top}, 500);
+    return false;
+});
+$(document).scroll(function(){
+    refesh();
+});
+$(refesh);
+  
+</script>

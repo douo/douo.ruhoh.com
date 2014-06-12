@@ -1,35 +1,57 @@
 ---
-layout : default
+layout : blog
 ---
-<article class="post box">
-<ul class="category-label">
+<article class="post">
+<header class="post-header">
+<h2 class="post-title" id="post-title">{{page.title}}</h2>
+<aside class="post-meta">
+<span class="post-date">{{page.date}}</span>
 {{# page.categories }}
-<li><a href="{{url}}" class="{{name}}">{{ name }}</a></li>
+  <a href="{{url}}" class="post-category {{name}}">{{ name }}</a>
 {{/ page.categories }}
-</ul>
-<div class="cf"></div>
-{{> toc }}
-{{{ page.content }}}
-<div class="footer">
-  <ul class="tag_box inline">
-  {{# page.tags }}
-  <li><a href="{{url}}">{{ name }}</a></li>
-  {{/ page.tags }}
-  </ul>
-  <span class="date">
-  {{ page.date }}
-  </span>
-</div>
+</aside>
+</header>
+
+<aside class="post-toc hide">
+  <span class="post-toc-title">目录</span>
+</aside>
+
+<div class="post-content">{{{ page.content }}}</div>
+<aside class="post-bottom-meta">
+{{# page.tags }}
+  <a href="{{url}}" class="post-tag">{{ name }}</a>
+{{/ page.tags }}
+</aside>
+
 </article>
+
+<div class="post-navigation">
+      {{# page.post_next }}
+      <a href="{{ url }}" id="icon-left" title="{{ title }}"></a>
+    {{/ page.post_next }}
+  <a href="/archives" id="icon-archive"></a>
+    {{# page.post_previous }}
+    <a href="{{ url }}" id="icon-right" title="{{ title }}"></a>
+    {{/ page.post_previous }}
+</div>
 
 
 <div class="box">
-  <div class="plus">
-    {{{ widgets.gplus }}}
-    {{{ widgets.jiathis }}}
-	
-
+  {{! bdshare }}
+  <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <div class="gplus">
+    <g:plusone></g:plusone>
+    </div>
   </div>
-	{{! 见这里https://github.com/ruhoh/ruhoh.rb/issues/52 所以只能將 disqus hardcode 到这里}}
-    {{{ widgets.comments }}}
- </div>
+
+  {{{ widgets.comments }}}
+</div>
+
+<script>
+  $(moon.postToc());
+</script>
+{{! bdshare }}
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{},"image":{"viewList":["tsina","weixin","qzone","tqq","douban","renren","fbook"],"viewText":"分享到：","viewSize":"16"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+

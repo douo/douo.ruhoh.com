@@ -1,0 +1,171 @@
+$header-size-lg: 120px;
+$header-size-md: 80px;
+$header-size-sm: 128px;
+
+$cover: "cover.png";
+$sidebar-bg: #444;
+$sidebar-link: white;
+$sidebar-link-hover: $color1;
+
+@font-face {
+    font-family: 'Bitter';
+    src: font-url('Bitter-Bold.ttf');
+}
+
+.sidebar {
+    padding-bottom: 8px;
+    color: #fff;
+    position:relative;
+    background: image-url($cover);
+    @include respond-to($md){
+        position: fixed;
+        top: 0;
+        bottom: 0;
+	background: $sidebar-bg;
+    }
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background: image-url($cover);
+}
+
+.button-nav { 
+    color: #fff;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    background: rgba(white, 0.25);
+    display: block;
+}
+
+@mixin sidebar-link {
+    @include link-colors(rgba($sidebar-link,0.75),$sidebar-link-hover);
+    text-decoration: none;
+    &:hover,&:focus {
+	@include transition(color .2s linear);
+    }
+}
+
+@mixin header($size){
+    $title-size: $size / 3.5;
+    $text-size: $title-size / 2.3;
+    $title-padding-top: $size / 3;
+    $title-padding-bottom: $title-size / 4;
+    .header {
+	margin-top: -1 * ($title-padding-top + $title-size + $title-padding-bottom + 3);
+	hgroup {
+	    height: $size;
+	    .site-name {
+		font-size: $title-size;
+		padding-left: 1.05 * $size ;
+		padding-top: $title-padding-top;
+		padding-bottom: $title-padding-bottom;
+	    }
+	    .tagline {
+		font-size: $text-size;
+		padding-left: 1.05 * $size;
+	    }
+	}
+    }
+    .nav {
+	display: block;
+	.nav-item {
+	    a {	    
+		margin-left: 1.05 * $size - 5px + 8px;
+	    }
+	}
+    }
+    .network-list {
+	margin-left: 1.05 * $size - 5px + 8px;
+    }
+}
+.header {
+    top: auto;
+    margin: 8px;
+    margin-bottom: 0px;
+    .avatar {
+	float: left;
+    }
+    hgroup {
+	height: $header-size-sm;
+	.site-name {
+	    white-space: nowrap;
+	    font-family: 'Bitter', serif;
+	    margin: 0px;
+	    padding-left: 1.05 * $header-size-sm ;
+	    a {
+		@include sidebar-link;
+	    }
+	}
+	.tagline {
+	    white-space: nowrap;
+	    margin: 0px;
+	    padding-left: 1.05 * $header-size-sm ;
+	}
+
+    }
+}
+
+.brand-title {
+    text-transform: uppercase;
+    margin: 0;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: $tagline-fg;
+    margin: 0;
+}
+.nav {
+    display: none;
+    .nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    }
+    .nav-item {
+	zoom: 1;
+	a {	    
+	    padding-top: 1.4em;
+	    padding-left: 5px;
+	    border-bottom: 1px solid rgba(#ffffff, 0.2);
+	    margin-left: 1.05 * $header-size-sm - 5px + 8px;
+	    display: block;
+	    background: transparent;
+	    letter-spacing: 0.05em;
+	    @include sidebar-link;
+	    
+	}
+    }
+}
+
+.network-list {
+    margin: 0;
+    margin-left: 1.05 * $header-size-sm - 5px + 8px;
+    padding: 0;
+    white-space: nowrap;
+    a{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	@include sidebar-link;
+    }
+}
+
+@include respond-to($md){
+    @include header($header-size-md);
+    .cover {
+	height: 33%;
+	border-bottom: 2px solid white;
+    }
+    .button-nav {
+	display: none;
+    }
+
+}
+@include respond-to($lg){
+    @include header($header-size-lg);
+}
+
+@import "ihover/moon";

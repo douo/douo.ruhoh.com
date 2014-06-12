@@ -1,107 +1,84 @@
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
+    <meta charset="utf-8">
+    <title>{{# page.home}}{{/ page.home}}{{^ page.home}}
+      {{page.title}} | 
+    {{/ page.home}}
+    {{ data.notes.title }}
+    </title>
+    {{# page.description }}
+      <meta name="description" content="{{ . }}">
+    {{/ page.description }}
+    <meta name="author" content="{{ data.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- Le styles -->
+    {{# stylesheets.load }}
+      notes.css
+    {{/ stylesheets.load }}
+    {{# javascripts.load }}
+      jquery.min.js
+      jquery.toc.js
+      moon.js
+    {{/ javascripts.load }}
 
-		<meta charset="utf-8">
+    <script>
+      moon.navigation = {{{ notes.navigation_json }}}
+    </script>
 
-		<title>{{# page.home}}{{/ page.home}}{{^ page.home}}
-			{{page.title}} |
-			{{/ page.home}}
-			{{ data.notes.title }} </title>
+    {{{ widgets.lazyload }}}
+    {{{ widgets.fancybox }}}
 
-		{{# page.description }}
-		<meta name="description" content="{{ . }}">
-		{{/ page.description }}
-		<meta name="author" content="{{ data.author.name }}">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-		<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+    <link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+    {{{ widgets.toc }}}
+    {{{ widgets.analytics }}}
+    <!-- processing -->
+    {{{ widgets.processing_js }}}
+  </head>
+  <body>
+    <div id="layout" class="pure-g">
+      <div class="sidebar">
+        <nav id="nav" class="navigation">
+          <li class="list-h0 heading"><a href="/">我的博客</a></li>
+          </nav>
+      </div>
+      <div class="content">
+        <article class="post">
+        <header class="post-header">
+          <h2 class="post-title" id="post-title">{{page.title}}</h2>
+          <aside class="post-meta">
+            <span class="post-date">{{page.date}}</span>
+            {{# page.tags }}
+              <a href="/notes/Uncategory{{url}}" class="post-tag">{{ name }}</a>
+            {{/ page.tags }}
+          </aside>
+        </header>
+        <div class="post-content">{{{ page.content }}}</div>
+        </article>
+      </div>
+    </div> 
+    {{{ widgets.math }}}
+    {{{ widgets.google_prettify }}}
+    {{# javascripts.load }}
+      notes.js
+    {{/ javascripts.load }}
+    <script>
+      moon.buildNavigation();
+      moon.buildToc();
+    </script>
 
-		<!-- Le styles -->
-		{{< notes_css }}
-		<!-- script -->
-		{{< notes_js }}
-
-		{{{ widgets.lazyload }}}
-
-		{{{ widgets.fancybox }}}
-
-		<link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
-		<!-- Le fav and touch icons -->
-		<!-- Update these with your own images
-
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-		-->
-		{{{ widgets.analytics }}}
-	</head>
-	<body>
-		<div class="ui vertical inverted labeled sidebar menu sidebar accordion">
-			<div class="header item">
-				<div class="item title">
-					<i class="dropdown icon"></i>
-					<a href="/notes" title="我的笔记" ><i class="book large icon"></i></a>
-				</div>
-				<div class="menu content">
-					<a class="item" href="/">博客</a>
-					<a class="item" href="http://wiki.dourok.info/doku.php">Wiki</a>
-					<a class="item" href="/about">关于我</a>
-				</div>
-			</div>
-			{{# notes.navigation }}
-			{{#children}}
-			<div class="header item">
-				<div class="item title">
-					{{#has_child}}
-					<i class="dropdown icon"></i>
-					{{/has_child}}
-					{{#data}}
-					<a href="{{ url }}">{{ title }}</a>
-					{{/data}}
-					{{^data}}
-					<a>{{ name }}</a>
-					{{/data}}
-				</div>
-				{{#has_child}}
-				<div class="menu content">
-					{{#children}}
-					{{> notes_menu_node}}
-					{{/children}}
-				</div>
-				{{/has_child}}
-			</div>
-			{{/children}}
-			{{/ notes.navigation }}
-		</div>
-
-		<div class="ui black huge launch right attached button">
-			<i class="icon list layout"></i>
-			<span class="text">菜单</span>
-		</div>
-
-		<header class="segment container">
-			<h1 class="ui dividing header">{{page.title}}</h1>
-			<p class="segment">
-				{{page.description}}
-				<p>
-				{{# page.tags }}
-				<a class="ui label blue inverted" href="/notes/Uncategory{{url}}">{{ name }}</a>
-				{{/ page.tags }}
-				</p>
-			</p>
-		</header>
-		<div class="container">
-			<article>
-				{{{ page.content }}}
-			</article>
-			{{> footer}}
-		</div>
-		{{{ widgets.math }}}
-		{{{ widgets.google_prettify }}}
-	</body>
+  </body>
+  
 </html>
-

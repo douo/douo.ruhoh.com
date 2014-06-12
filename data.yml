@@ -1,7 +1,7 @@
 title : DouO's Blog
 tagline: 有時樹會倒下，某片天頃刻明亮
 author :
-  name : DouO
+  name : Tiou Lims
   email : dourokinga@gmail.com
   github : douo
   twitter : dourok
@@ -12,19 +12,22 @@ author :
 nav :
   - title: home
     url: /
-    describe: 主頁
-  - title: archives
-    url: /archives
-    describe: 文章歸檔
+    describe: 主页
   - title: notes
     url: /notes
-    describe: 我的個人筆記
-  - title: feed
-    url: /rss.xml
-    describe: 訂閱
-  - title: about
-    url: /about
-    describe: 關於我
+    describe: 笔记
+  - title: coder
+    url: /categories#coder-ref
+    describe: 编码
+  - title: life
+    url: /categories#life-ref
+    describe: 生活
+  - title: otaku
+    url: /categories#otaku-ref
+    describe: 兴趣
+  - title: archives
+    url: /archives
+    describe: 文章归档
       
 links:
   - title: MAGICALBOY
@@ -32,6 +35,64 @@ links:
   - title: 驴子博客
     url: http://www.cnlvzi.com/
 
+
+
+network :
+  - id: rss
+    url: /rss.xml
+    name: 订阅
+  - id: github
+    url: https://github.com/douo
+    name: Github
+  - id: stackoverflow
+    url: http://stackoverflow.com/users/851344/douo
+    name: StackOverflow
+  - id: gplus
+    url: https://plus.google.com/102537448648560113422
+    name: Google Plus
+  - id: instagramm
+    url: http://instagram.com/douo
+    name: Instagram
+  - id: weibo
+    url: http://weibo.com/u/2809197792
+    name: 微博
+
+
+
+network-more :
+  - id: douban
+    url: http://www.douban.com/people/douo/
+    name: 豆瓣
+  - id: bitbucket
+    url:
+    name: Bitbucket
+  - id: facebook-squared
+    url:
+    name: Facebook
+  - id: bitbucket
+    url:
+    name:
+  - id: github
+    url:
+    name: Github
+  - id: instagramm
+    url:
+    name: Instagram
+  - id: twitter
+    url:
+    name: Twitter
+  - id: gplus
+    url:
+    name: Google Plus
+  - id: googleplay
+    url:
+    name: Google Play
+  - id: quora
+    url:
+    name: Quora
+  - id: stackoverflow
+    url:
+    name: StackOverflow
 
 notes:
   title:  DouO's Note

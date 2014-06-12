@@ -1,0 +1,34 @@
+/* archives */
+
+.archives-header {
+    h3 {
+	font-size:1.3em;
+	text-transform: uppercase;
+    }
+}
+.archives-list {
+    li {
+	font-size:1.17em;
+	margin: 0.83em 0 1em;
+	text-decoration: none;
+	list-style: none;
+	border-bottom: 1px solid rgba(229, 232, 236, 0.5);
+	span {
+	    float: right;
+	    font-size: 0.8em;
+	    color: lighten($color-fg,60%);
+	}
+    }
+}
+
+.rich-title {
+    font-size: 2em;
+    margin-bottom: 0.1em;
+    a {
+	@include link-colors(lighten($color-fg,30%),$color1);
+	text-decoration: none;
+    }
+
+}
+
+@import "tagscloud";

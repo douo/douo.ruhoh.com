@@ -1,0 +1,189 @@
+
+// Variables
+// --------------------------------------------------
+$overlay_dark:                          rgba(0, 0, 0, .6);              // color of overlay background
+$overlay_dark_fallback:                 #333;                           // for IE 8 & non-tranparent
+$overlay_dark_dark:                     #111;
+
+$overlay_colored:                       rgba(26, 74, 114, .6);          // color of colored overlay background
+$overlay_colored_fallback:              #1a4a72;                        // for IE 8 & non-tranparent
+$overlay_colored_dark:                  darken($overlay_colored, 15%);
+
+
+//  Shared style
+// --------------------------------------------------
+
+
+// All item
+// -------------------------
+.ih-item {
+    position: relative;
+    @include transition( all 0.35s ease-in-out );
+    a {
+        color: #333;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// Circle item
+// -------------------------
+.ih-item.circle {
+    position: relative;
+    border-radius: 50%;
+
+    .img {
+        position: relative;
+        border-radius: 50%;
+        &:before {
+            position: absolute;
+            display: block;
+            content: '';
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            @include transition( all 0.35s ease-in-out );
+        }
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .info {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        right: 0;
+        text-align: center;
+        border-radius: 50%;
+        @include backface-visibility(hidden);
+    }
+}
+
+
+.ih-item.circle.effect13 {
+    &.colored {
+        .info {
+            background: $overlay_colored_fallback;
+            background: $overlay_colored;
+        }
+    }
+
+    .info {
+        background: $overlay_dark_fallback;
+        background: $overlay_dark;
+        opacity: 0;
+        pointer-events: none;
+        @include transition( all .35s ease-in-out );
+
+        h3 {
+            visibility: hidden;
+            color: #fff;
+            text-transform: uppercase;
+            position: relative;
+            letter-spacing: 2px;
+            text-shadow: 
+                0 0 1px #fff, 
+                0 1px 2px rgba(0,0,0,0.3);            
+            @include transition( all .35s ease-in-out );
+        }
+
+        p {
+            visibility: hidden;
+            color: #bbb;
+            font-style: italic;
+            border-top: 1px solid rgba(255,255,255,0.5);
+            @include transition( all .35s ease-in-out );
+        }
+    }
+
+    a:hover {
+        .info {
+            opacity: 1;
+        }
+
+        h3 {
+            visibility: visible;
+        }
+
+        p {
+            visibility: visible;
+        }
+    }
+}
+
+
+
+
+
+@mixin sizing($radius){
+    // Circle item
+    // -------------------------
+    .ih-item.circle {
+	width: $radius;
+	height: $radius;
+	.img {
+            width: $radius;
+            height: $radius;
+            &:before {
+		box-shadow: inset 0 0 0 $radius / 14 rgba(255,255,255,0.6);
+            }
+	}
+    }
+
+
+    .ih-item.circle.effect13 {
+	.info {
+            h3 {
+		font-size: $radius/10;
+		padding: $radius/2.5 0 0 0;
+		height: $radius/2;
+            }
+
+            p {
+		padding: $radius/22 $radius/44;
+		margin: 0 $radius/7.3;
+		font-size: $radius/10;
+            }
+	}
+    }
+}
+
+@include sizing($header-size-sm);
+@include respond-to($md){
+    @include sizing($header-size-md);
+}
+@include respond-to($lg){
+    @include sizing($header-size-lg);
+}
+
+// -------------------------
+.ih-item.circle.effect13.from_left_and_right {
+    .info {
+        h3 {
+            @include transform( translateX(-100%) );
+        }
+
+        p {
+            @include transform( translateX(100%) );
+        }
+    }
+
+    a:hover {
+        h3 {
+            @include transform( translateX(0) );
+        }
+
+        p {
+            @include transform( translateX(0) );
+        }
+    }
+}

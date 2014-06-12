@@ -1,19 +1,15 @@
 ---
-rich_title: "Categories | <a href=\"/archives\">Date</a> | <a href=\"/tags\">Tags</a>"
+rich_title: "分类 | <a href=\"/archives\">日期</a> | <a href=\"/tags\">标签</a>"
 description:
+layout: archives
 ---
 
-<ul class="tag_box inline category">
-{{# posts.categories.all }}
-  {{> categories_list }}
-{{/ posts.categories.all }}
-</ul>
-
 {{# posts.categories_sorted.all }}
-  <h3  class="achive-title show category" id="{{name}}-ref" data-toggle="collapse" data-target="#{{name}}">{{ name }} ({{ count }})<b class="caret"></b></h3>
-  <ul id="{{name}}" class="collapse in">
-    {{# posts?to_posts }}
-      {{> posts_list }}
-    {{/ posts?to_posts }}
-  </ul>
+<div class="pure-g">
+  <div class="archives-header pure-u-1 pure-u-md-1-5"><h3 id="{{name}}-ref">{{name}}<sup>{{ count }}</sup></h3></div>
+  <div class="archives-list pure-u-1 pure-u-xl-3-5 pure-u-lg-4-5 pure-u-md-4-5"><ul id="{{name}}">
+  {{# posts?to_posts }}
+    <li><a href="{{url}}">{{title}}</a><span>{{date}}</span></li>
+  {{/ posts?to_posts }}
+ </ul></div></div>
 {{/ posts.categories_sorted.all }}

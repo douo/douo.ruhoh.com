@@ -3,9 +3,10 @@ require 'pp'
 module Ruhoh::Resources::Notes
   class Node
     attr_accessor :name, :level, :data, :parent
-    attr_reader :children
+    attr_reader :children, :ruhoh
     
-    def initialize(is_leaf = false)
+    def initialize(ruhoh,is_leaf = false)
+      @ruhoh = ruhoh
       @level = 0
       @children = [] unless is_leaf
     end
@@ -55,8 +56,23 @@ module Ruhoh::Resources::Notes
       end
     end
     
+    def order (y)
+      order = @ruhoh.config['notes']["order"]
+      if order.index(name) 
+        if order.index(y.name)
+          order.index(y.name) <=> order.index(name)  
+        else
+          1
+        end
+      else
+        -1
+      end
+    end
+    
     def <=> (y)
-      if !is_leaf and y.is_leaf
+      if level == 1
+        order(y)
+      elsif !is_leaf and y.is_leaf
         1
       elsif is_leaf and !y.is_leaf
         -1
@@ -69,17 +85,33 @@ module Ruhoh::Resources::Notes
       level>1
     end
     
+    def simple_data
+      data = {'title' => @data ? @data['title'] : name}
+      data['url'] = @data['url'] if @data
+      data['children'] = @children.map{|c| c.simple_data} if @children
+      data
+    end
+
+    def to_json(*a)
+      simple_data.to_json(*a)
+    end
+    
   end
   module Tree
+
     def tree
       return @root if @root
-      @root = Node.new
+      @root = Node.new(@ruhoh)
       dictionary
       @root
     end
+    
+    def to_json
+      @root.class
+    end
 
     def tree_add(data)
-      @root ||= Node.new
+      @root ||= Node.new(@ruhoh)
       p = @root
       link = data['id'].split(File::SEPARATOR)
       link.each{|n|
@@ -87,7 +119,7 @@ module Ruhoh::Resources::Notes
           break
         end
         if !p[n]
-          node = (n == link.last ? Node.new(true) : Node.new)
+          node = (n == link.last ? Node.new(@ruhoh,true) : Node.new(@ruhoh))
           node.parent = p
           p[n] = node
         end
@@ -108,6 +140,10 @@ module Ruhoh::Resources::Notes
     
     def navigation
       tree
+    end
+    
+    def navigation_json
+      tree.to_json
     end
     
     def self.is_acting_as_pages

@@ -1,0 +1,304 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+/** color **/
+
+$tagline-fg: rgb(176, 202, 219);
+
+/** dimen **/
+$post-font-size: 1em;
+$post-font-size-md: 1.1em;
+
+
+
+@import "base";
+$link-fg: $color1;
+
+@include selection {
+    background: #8ecf6c;
+    color: #fff;
+    text-shadow: none;
+}
+
+.content {
+    padding: $verticle-gutter 1em 0;
+    @include respond-to($md){
+        padding: $verticle-gutter $horizontal-gutter 0;
+        margin-left: 25%;
+    }
+}
+
+
+$post-fg: $color-fg;
+$post-link: lighten($post-fg,30%);
+$post-link-hover: $color1;
+
+
+$category-life-bg: #5bb75b;
+$category-coder-bg: #3A87AD;
+$category-otaku-bg: #999;
+.post {
+    @include post();
+    @include responsive-font-size($size:1em,$size-md:1.1em);
+    .post-content{
+	@for $i from 3 through 6 {
+	    h#{$i} { @extend h#{$i - 1} ; }
+	}
+    }
+
+    .post-category {
+	@include meta-item;
+
+	&.life{
+	    background-color: $category-life-bg;
+	}
+	&.coder{
+	    background-color: $category-coder-bg;
+	}
+	&.otaku{
+	    background-color: $category-otaku-bg;
+	}
+    }
+    .post-date {
+	@include meta-item;
+    }
+
+
+    .post-bottom-meta {
+	margin: 0.6em 0 0;
+	float: right;
+    }
+    
+    .post-tag {
+	@include meta-item;
+    }
+    @include clearfix;
+}
+
+
+
+.archives-btn {
+    $size: 40px;
+    height: $size / 2 + 1;
+    border-bottom: 2px solid rgba(229, 232, 236, 0.5);
+    margin-bottom: 19px;
+    position: relative;
+    > a {
+	font-size: 1.2em;
+	background: white;
+	text-decoration: none;
+	left: 46.7%;
+	position: absolute;
+	line-height: $size;
+	height: $size;
+	padding-left: 6px;
+	padding-right: 6px;
+	&:hover {
+	    color: #f8ce5e;
+	}
+    }
+}
+
+#recentcomments {
+    @extend .pure-u-1;
+    @extend .pure-u-md-1-2;
+    @include respond-to($md){
+	padding-right: 4%;
+	border-right: 2px solid rgba(229, 232, 236, 0.5);
+    }
+    
+}
+#blogroll {
+    @extend .pure-u-1;
+    @extend .pure-u-md-1-2;
+    @include respond-to($md){
+	padding-left: 4%;
+
+    }
+    ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    }
+    li {
+	margin-bottom: 0.6em;
+    }
+}
+
+#icon-archive {
+    margin-left: -20px;
+
+    &:before {
+	@extend %fontello;
+	content: "\e810";
+    }
+}
+
+.post-navigation {
+    $size: 40px;
+    height: $size / 2 + 1;
+    border-bottom: 2px solid rgba(229, 232, 236, 0.5);
+    margin-bottom: 19px;
+    position: relative;
+    > a {
+	text-decoration: none;
+	left: 50%;
+	position: absolute;
+	@include fontello-circle($size);
+	&:hover {
+	    color: $link-fg;
+	}
+    }
+}
+
+#icon-left {
+    margin-left: -100px;
+    &:before {
+	@extend %fontello;
+	content: "\e811";
+    }
+}
+
+#icon-right {
+    margin-left: 60px;
+    &:before {
+	@extend %fontello;
+	content: "\e812";
+    }
+}
+
+/* toc */
+
+$toc-bg: #fafafa;
+$toc-fg: lighten($post-fg,10%); //$post-content-link;
+$toc-fg-hover: $color1;
+
+
+.post-toc {
+    width: 4.5em;
+    height: 2.1em;
+    background: transparentize($toc-bg, 0.2);
+    padding: .5em;
+    border-radius: .5em 0 0 .5em;
+    top: 5em;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    border-top: 1px solid $color-border;
+    border-left: 1px solid $color-border;
+    border-bottom: 1px solid $color-border;
+    @include transition(all .35s ease-in-out .1s);
+    &:hover { 
+	width:300px; 
+	height:100%;
+	overflow-y: scroll;
+	padding: 2em .5em;
+    } 
+    @include respond-to($md){
+	display: block;
+    }
+    display: none;
+}
+
+
+.post-toc-title {
+    color: $post-fg;
+    font-size: 1em;
+    display: block;
+}
+
+.post-toc-content {
+    margin: 0;
+    padding: 0 0 0 0;
+    line-height: 1.6;
+    .toc-li {
+	color: $link-fg;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	overflow: hidden;
+	color: $toc-fg;
+	&:before {
+	    content: "\e800";
+	    @extend %fontello;
+	    margin-right: 5px;
+	}
+	> a {
+	    color: $toc-fg;
+	}
+	> a:hover {
+	    color: $toc-fg-hover;
+	    text-decoration: none;
+	}
+    }
+    .toc-h1 {
+	font-size: 1.2em;
+	list-style: none;
+    }
+    .toc-h2 {
+	font-size: 1em;
+    }
+    .toc-h3 {
+	margin-left: 12px;
+	font-size: .9em;
+	& + .post-toc-h2 {
+	    padding-top: .25em;
+	}
+    }
+}
+
+
+/* 通用圖片樣式 */
+img.display {
+    max-width: 97.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: auto;
+    height: auto;
+    &.pull-left {
+	float: left;
+	margin-right: 0.5em;
+    }
+    &.pull-right {
+	float: right;
+	margin-left: 0.5em;
+    }
+
+}
+
+
+
+
+
+
+
+.bdsharebuttonbox {
+    position:relative;
+    float: right;
+    margin-right: -42px;
+}
+.gplus {
+    line-height: 50px;
+    display: inline;
+}
+
+
+/* end */
+
+@import "blog_archives";
+@import "blog_sidebar";
+@import "footer";
+
+@import "scroll_up_btn";
+@include scrollup-button(40px);

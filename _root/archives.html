@@ -1,8 +1,18 @@
 ---
-rich_title: "Date | <a href=\"/categories\">Categories</a> | <a href=\"/tags\">Tags</a>"
+rich_title: "日期 | <a href=\"/categories\">分类</a> | <a href=\"/tags\">标签</a>"
 description:
+layout: archives
 ---
 
 {{# posts.collated }}
-  {{> posts_collate }}
+  <div class="pure-g">
+  <div class="archives-header pure-u-1 pure-u-md-1-5"><h3 id="{{name}}-ref">{{year}}<sup>{{ count }}</sup></h3></div>
+  <div class="archives-list pure-u-1 pure-u-xl-3-5 pure-u-lg-4-5 pure-u-md-4-5"><ul
+  id="{{name}}">
+    {{#months}}
+  {{# posts?to_posts }}
+    <li><a href="{{url}}">{{title}}</a><span>{{date}}</span></li>
+  {{/ posts?to_posts }}
+    {{/months}}
+ </ul></div></div>
 {{/ posts.collated }}

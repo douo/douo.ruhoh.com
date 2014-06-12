@@ -1,0 +1,11 @@
+@mixin scrollup-button($size: 40px){
+    #scrollUp {
+	@include fontello-circle($size,rgba(#7d8b99,0.7),white,false);
+	position: fixed;
+	z-index: 2147483647;
+	bottom: 20px;
+	right: 20px;
+	text-decoration: none;
+    }
+}
+

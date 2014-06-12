@@ -1,0 +1,144 @@
+/* custom variable*/
+
+$post-font-size-md: 1em;
+$column: 16.6667%;
+$sidebar-bg: #666;
+
+@import "base";
+
+$post-fg: $color-fg;
+$post-link: lighten($post-fg,30%);
+$post-link-hover: $color1;
+$post-title-fg: #222;
+$post-description-fg: $color-fg;
+$post-meta-fg: #999;
+
+
+.sidebar {
+    background: $sidebar-bg;
+    color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    @include respond-to($md){
+	position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+    @extend .pure-u-1;
+    @extend .pure-u-md-1-6;
+}
+
+.navigation {
+    ul, li, ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	color: darken($post-link, 10%);
+    }
+
+    
+    a{
+	color: $post-link;
+	display: block;	
+	&:hover,&:focus{
+	    color: $post-link-hover;
+	    text-decoration: none;
+	}
+    }
+    
+    .actived a{
+	color: lighten($post-link-hover,10%);
+	&:hover,&:focus{
+	    color: $post-link-hover;
+	}
+    }
+
+    @for $i from 1 through 4 {
+	.list-h#{$i} {
+	    font-size: 1.1em - 0.1em * $i;
+	    padding: 5px 10px;
+	    padding-left: 8px * $i;
+	    &.heading {
+		background-color: darken($sidebar-bg, 40% - 10% * $i);
+		margin-bottom: 1px;
+		a {
+		  display: inline;
+		}
+	    }
+	}
+	.ul-h#{$i} {
+	    
+	}
+    }
+}
+
+.content {
+    padding: 0 1em 0;
+    @include respond-to($md){
+        padding: 0 $horizontal-gutter 0;
+        margin-left: $column;
+    }
+    @extend .pure-u-1;
+    @extend .pure-u-md-5-6;
+    &.with-toc {	
+	@extend .pure-u-md-2-3;
+	@include respond-to($md){
+	    padding: 0 $horizontal-gutter 0  $horizontal-gutter / 2;
+            margin-left: $column * 2;
+	}
+    }
+}
+
+
+.post {
+    @include post();
+    @include responsive-font-size($size:1em);
+
+    .post-date {
+	@include meta-item;
+    }
+    .post-tag {
+	@include meta-item;
+    }
+    
+}
+
+.toc {
+    background: white;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    margin-top: 1.5em + 0.83em * 2;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    border-right: 1px #ccc solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none;
+    @extend .pure-u-md-1-6;
+    @include respond-to($md){
+	display: block;
+	margin-left: $column;
+	position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+    ul {
+	margin: 0 inherit;
+	padding-left: 1.2em;
+    }
+    li {
+	list-style: none;
+	&.active {
+	    border-right: 2px blue solid;
+	}
+    }
+    a {
+	line-height: 1.8em;
+    }
+}
+
+@import "tagscloud";
+
+@import "scroll_up_btn";
+@include scrollup-button(40px);

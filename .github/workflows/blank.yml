@@ -12,7 +12,7 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - name: SSH connection to Actions
-#     uses: p3terx/debugger-action@master
+      uses: p3terx/debugger-action@master
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
